@@ -24,8 +24,10 @@ body{background-color: #000;margin: 0;}
 /* -------------- */
 
 .pdfmaincontent{  color: #fff; }
+.slide1 h1 span{color:#b6e600;}
 
 
+.slide1 h1{ font-size: 40px; }
 
 
 
