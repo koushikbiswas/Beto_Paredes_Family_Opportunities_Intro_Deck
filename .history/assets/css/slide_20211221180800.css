@@ -29,52 +29,12 @@ body{background-color: #000;margin: 0;}
 .pdfmaincontent h4{margin: 0;padding: 0;color:#fff;}
 
 
-/*-----------START SLIDE 21 CSS-----------*/
-.slide21 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 24px;font-weight: 600;line-height: 28px;}
-.slide21 .pdfmaincontent p span{color:#b6e600;}
-.slide21 .pdfmaincontent .pdfmaincontentinnerbottom{margin-top: 30px;display: flex;align-items: flex-start;justify-content: space-between;}
-.slide21 .pdfmaincontentinnerbottominner{width: 45%;}
-.slide21 .pdfmaincontentinnerbottominner p{padding-left: 0 !important;margin-top: 0 !important;font-size: 22px !important;line-height: 34px;}
-.slide21 .pdfmaincontentinnerbottom .pdfmainimgwrapper{background-color: #eeeeeeff;padding: 8px;width: 69%;}
-.slide21 .pdfmaincontentinnerbottom .pdfmainimgwrapper img{width:100%}
-/*-----------END SLIDE 21 CSS-----------*/
-
-/*-----------START SLIDE 22 CSS-----------*/
-.slide22 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 24px;font-weight: 600;line-height: 31px;}
-.slide22 .pdfmaincontent p span{color:#b6e600;}
-.slide22 .pdfmaincontent .pdfmaincontentinnerbottom{margin-top: 30px;display: flex;align-items: flex-start;justify-content: space-between;}
-.slide22 .pdfmaincontentinnerbottominner{width: 45%;}
-.slide22 .pdfmaincontentinnerbottominner p{padding-left: 0 !important;margin-top: 0 !important;font-size: 18px !important;line-height: 26px;}
-.slide22 .pdfmaincontentinnerbottom .pdfmainimgwrapper{background-color: #eeeeeeff;padding: 8px;width: 69%;}
-.slide22 .pdfmaincontentinnerbottom .pdfmainimgwrapper img{width:100%}
-/*-----------END SLIDE 22 CSS-----------*/
-
-/*-----------START SLIDE 23 CSS-----------*/
-.slide23 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 26px;font-weight: 600;line-height: 31px;}
-.slide23 .pdfmaincontent p span{color:#b6e600;}
-.slide23 .pdfmaincontent .pdfmaincontentinnerbottom{margin-top: 30px;display: flex;align-items: flex-start;justify-content: space-between;}
-.slide23 .pdfmaincontentinnerbottominner{width: 45%;}
-.slide23 .pdfmaincontentinnerbottominner p{padding-left: 0 !important;margin-top: 0 !important;font-size: 18px !important;line-height: 26px;}
-.slide23 .pdfmaincontentinnerbottom .pdfmainimgwrapper{background-color: #eeeeeeff;padding: 8px;width: 69%;}
-.slide23 .pdfmaincontentinnerbottom .pdfmainimgwrapper img{width:100%}
-/*-----------END SLIDE 23 CSS-----------*/
-
-/*-----------START SLIDE 24 CSS-----------*/
-.slide24 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 26px;font-weight: 600;line-height: 31px;}
-.slide24 .pdfmaincontent p span{color:#b6e600;}
-.slide24 .pdfmaincontent .pdfmaincontentinnerbottom{margin-top: 30px;display: flex;align-items: flex-start;justify-content: space-between;}
-.slide24 .pdfmaincontentinnerbottominner{width: 45%;}
-.slide24 .pdfmaincontentinnerbottominner p{padding-left: 0 !important;margin-top: 0 !important;font-size: 19px !important;line-height: 31px;}
-.slide24 .pdfmaincontentinnerbottom .pdfmainimgwrapper{background-color: #eeeeeeff;padding: 8px;width: 69%;}
-.slide24 .pdfmaincontentinnerbottom .pdfmainimgwrapper img{width:100%}
-/*-----------END SLIDE 24 CSS-----------*/
-
 /*-----------START SLIDE 25 CSS-----------*/
 .slide25 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 24px;font-weight: 600;line-height: 28px;}
 .slide25 .pdfmaincontent p span{color:#b6e600;}
 .slide25 .pdfmaincontent .pdfmaincontentinnerbottom{margin-top: 30px;display: flex;align-items: flex-start;justify-content: space-between;}
 .slide25 .pdfmaincontentinnerbottominner{width: 45%;}
-.slide25 .pdfmaincontentinnerbottominner p{padding-left: 0 !important;margin-top: 0 !important;font-size: 26px !important;line-height: 34px;}
+.slide25 .pdfmaincontentinnerbottominner p{padding-left: 0 !important;margin-top: 0 !important;font-size: 18px !important;}
 .slide25 .pdfmaincontentinnerbottom .pdfmainimgwrapper{background-color: #eeeeeeff;padding: 8px;width: 69%;}
 .slide25 .pdfmaincontentinnerbottom .pdfmainimgwrapper img{width:100%}
 /*-----------END SLIDE 25 CSS-----------*/

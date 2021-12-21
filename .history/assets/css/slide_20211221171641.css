@@ -1,0 +1,50 @@
+
+a{color:var(--links);text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}
+.clear{clear:both;overflow:hidden}
+img{border:0;outline:0}
+a img{outline:none}
+a{outline:none;cursor:pointer}
+a:active,a:focus{outline:none}
+:active,:focus{outline:none;-moz-outline-style:none}
+:link:focus,:visited:focus{outline:none}
+html{overflow-y:scroll;overflow-x:hidden;}
+html,body{height:100%;width:100%;position:relative;font-family: 'Arial', sans-serif;}
+button{cursor: pointer;word-wrap:break-word!important;white-space:unset!important;overflow-wrap:break-word;word-wrap:break-word;word-break:break-word;line-height:normal!important}
+body{background-color: #000;margin: 0;}
+
+.pdfhomepagemain{margin: 0;padding: 0;}
+.pdfmaincontainer{margin: 0 auto;padding: 0;display: block;width:892px;background-image: url(../images/common/pdfbgoverlay.png);background-repeat: no-repeat;background-position:center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;display:block;position: relative;padding-bottom: 40px;}
+.pdfheaderblock{margin: 0 auto;padding: 0;display: block;width:100%;background-image: url(../images/common/pdfheaderbg.png);background-repeat: no-repeat;background-position:left top;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;background-size: 100% auto;display:block;min-height: 106px;}
+.pdfheaderblockinner{padding:15px}
+.pdffooterblock{margin: 0 auto;padding: 0;display: block;width:100%;background-image: url(../images/common/pdffooterrbg.png);background-repeat: no-repeat;background-position:left top;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;background-size: 100% auto;display:block;min-height: 87px;position: absolute;bottom: 0;}
+.pdfmaincontent{position: relative;z-index: 9;}
+.pdfmaincontentinner{width: 90%;margin: 0 auto;padding: 0;display: block;}
+
+.pdfheaderblock .pdflogowrapper{width: 302px;display: block;}
+.pdfheaderblock .pdflogowrapper img{width:100%}
+.pdfmaincontent h2{margin: 0;padding: 0;color:#b6e600;text-transform: uppercase;}
+.pdfmaincontent h2 span{text-transform: capitalize;}
+.pdfmaincontent h1{margin: 0;padding: 0;color:#fff;text-transform: uppercase;}
+.pdfmaincontent p{margin: 0;padding: 0;color:#fff;}
+.pdfmaincontent h4{margin: 0;padding: 0;color:#fff;}
+
+
+
+
+/*-----------START SLIDE 28 CSS-----------*/
+.slide28 .pdfmaincontent p{padding-left: 40%;margin-top: -6%;font-size: 26px;font-weight: 600;}
+.slide28 .pdfmaincontent p span{color:#b6e600;}
+.parabottom{margin-top: 10px;}
+/*-----------END SLIDE 28 CSS-----------*/
+
+/*-----------START SLIDE 29 CSS-----------*/
+.slide29 .pdfmaincontent h2{padding-left: 35%;margin-top: -6%;font-size: 26px;}
+.slide29 .pdfmaincontent h1{font-size: 28px;margin-top: 20px;margin-bottom:20px}
+.slide29 .pdfmaincontent p{font-size: 18px;}
+.slide29 .pdfmaincontent p a{color:#b6e600;}
+.slide29 .pdfmaincontent h4{font-size: 28px;margin-top: 20px;margin-bottom:20px;font-weight: 500;}
+.slide29 .logolists{background-color: #fff;padding: 0px 10px;border-radius: 20px;display: flex;align-items: center;justify-content: space-around;}
+.slide29 .logolists .logoimg{flex:1}
+.slide29 .logolists .logoimg img{width:100%}
+/*-----------END SLIDE 29 CSS-----------*/
+
