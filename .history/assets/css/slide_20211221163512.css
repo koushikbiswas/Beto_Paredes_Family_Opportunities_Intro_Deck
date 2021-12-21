@@ -17,13 +17,10 @@ body{background-color: #000;margin: 0;}
 .pdfheaderblock{margin: 0 auto;padding: 0;display: block;width:100%;background-image: url(../images/common/headerbg.png);background-repeat: no-repeat;background-position:left top;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;background-size: 100% auto;display:block;min-height: 106px;}
 .pdfheaderblockinner{padding:15px}
 .pdffooterblock{margin: 0 auto;padding: 0;display: block;width:100%;background-image: url(../images/common/footerrbg.png);background-repeat: no-repeat;background-position:left top;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;background-size: 100% auto;display:block;min-height: 87px;}
-.pdfmaincontentinner{width: 90%;margin: 0 auto;padding: 0;display: block;}
 
 .pdfheaderblock .pdflogowrapper{width: 302px;display: block;}
 .pdfheaderblock .pdflogowrapper img{width:100%}
 .pdfmaincontent h2{margin: 0;padding: 0;color:#b6e600;text-transform: uppercase;}
 .pdfmaincontent h2 span{text-transform: capitalize;}
-.pdfmaincontent h1{margin: 0;padding: 0;color:#fff;text-transform: uppercase;}
 
-.slide29 .pdfmaincontent h2{padding-left: 35%;margin-top: -6%;font-size: 26px;}
-.slide29 .pdfmaincontent h1{font-size: 28px;margin-top: 10px;}
+.slide29 .pdfmaincontent h2{padding-left: 37%;margin-top: -6%;font-size: 24px;}
