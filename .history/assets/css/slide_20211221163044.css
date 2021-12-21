@@ -14,9 +14,9 @@ body{background-color: #000;margin: 0;}
 
 .pdfhomepagemain{margin: 0;padding: 0;}
 .pdfmaincontainer{margin: 0 auto;padding: 0;display: block;width:892px;background-image: url(../images/common/bgoverlay.png);background-repeat: no-repeat;background-position:center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;display:block;}
-.pdfheaderblock{margin: 0 auto;padding: 0;display: block;width:100%;background-image: url(../images/common/headerbg.png);background-repeat: no-repeat;background-position:left top;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;background-size: 100% auto;display:block;min-height: 106px;}
+.pdfheaderblock{margin: 0 auto;padding: 0;display: block;width:100%;background-image: url(../images/common/headerbg.png);background-repeat: no-repeat;background-position:left top;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;display:block;min-height: 106px;}
 .pdfheaderblockinner{padding:15px}
-.pdffooterblock{margin: 0 auto;padding: 0;display: block;width:100%;background-image: url(../images/common/footerrbg.png);background-repeat: no-repeat;background-position:left top;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;background-size: 100% auto;display:block;min-height: 87px;}
+.pdffooterblock{margin: 0 auto;padding: 0;display: block;width:100%;background-image: url(../images/common/footerrbg.png);background-repeat: no-repeat;background-position:left top;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;display:block;min-height: 87px;}
 
 .pdfheaderblock .pdflogowrapper{width: 302px;display: block;}
 .pdfheaderblock .pdflogowrapper img{width:100%}
