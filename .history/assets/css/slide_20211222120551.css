@@ -29,17 +29,6 @@ body{background-color: #000;margin: 0;}
 .pdfmaincontent h4{margin: 0;padding: 0;color:#fff;}
 .pdfmaincontent h3{margin: 0;padding: 0;color:#fff;}
 
-
-/*-----------START SLIDE 14 CSS-----------*/
-.slide14 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 33px;font-weight: 600;line-height: 34px;}
-.slide14 .pdfmaincontent p span{color:#b6e600;}
-.slide14 .pdfmaincontent .pdfmaincontentinnerbottom{margin-top: 30px;display: flex;align-items: flex-start;justify-content: space-between;}
-.slide14 .pdfmaincontentinnerbottominner{width: 45%;}
-.slide14 .pdfmaincontentinnerbottominner p{padding-left: 0 !important;margin-top: 0 !important;font-size: 25px !important;line-height: 34px;}
-.slide14 .pdfmaincontentinnerbottom .pdfmainimgwrapper{background-color: #eeeeeeff;padding: 8px;width: 70%;}
-.slide14 .pdfmaincontentinnerbottom .pdfmainimgwrapper img{width:100%}
-/*-----------END SLIDE 14 CSS-----------*/
-
 /*-----------START SLIDE 15 CSS-----------*/
 .slide15 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 33px;font-weight: 600;line-height: 34px;}
 .slide15 .pdfmaincontent p span{color:#b6e600;}
