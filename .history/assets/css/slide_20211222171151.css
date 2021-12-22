@@ -1,4 +1,4 @@
-/* Start Lession -  Beto Paredes Family Opportunities Intro Deck */
+
 .pdfhomepagemain{margin: 0;padding: 0;position:relative!important;font-family: 'Arial', sans-serif!important;}
 .pdfhomepagemain img{border:0 !important;outline:0 !important}
 .pdfhomepagemain a img{outline:none !important}
@@ -13,7 +13,7 @@
 .pdfheaderblockinner{padding:15px}
 .pdffooterblock{margin: 0 auto;padding: 0;display: block;width:100%;background-image: url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/common/pdffooterrbg.png);background-repeat: no-repeat;background-position:left top;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;background-size: 100% auto;display:block;min-height: 87px;position: absolute;bottom: 0;}
 .pdfmaincontent{position: relative;z-index: 9;}
-.pdfmaincontentinner{width: 92%;margin: 0 auto;padding: 0;display: block;}
+.pdfmaincontentinner{width: 90%;margin: 0 auto;padding: 0;display: block;}
 .pdfheaderblock .pdflogowrapper{width: 302px;display: block;}
 .pdfheaderblock .pdflogowrapper img{width:100%}
 .pdfmaincontent h2{margin: 0;padding: 0;color:#b6e600;text-transform: uppercase;}
@@ -22,12 +22,6 @@
 .pdfmaincontent p{margin: 0;padding: 0;color:#fff;line-height: 30px;}
 .pdfmaincontent h4{margin: 0;padding: 0;color:#fff;}
 .pdfmaincontent h3{margin: 0;padding: 0;color:#fff;}
-.pdfmaincontent p span{display: initial !important;padding: 0 !important;}
-.pdfmaincontent h3 span{display: initial !important;padding: 0 !important;}
-.pdfmaincontent h2 span{display: initial !important;padding: 0 !important;}
-.pdfmaincontent h1 span{display: initial !important;padding: 0 !important;}
-
-.training_center_wrapper .rowinner_block .markbtncls {margin-top: 10px;}
 
 /*-----------START SLIDE 14 CSS-----------*/
 .slide14 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 33px;font-weight: 600;line-height: 34px;}
@@ -73,15 +67,14 @@
 /*-----------START SLIDE 18 CSS-----------*/
 .slide18 .pdfmaincontent p{padding-left: 35%;margin-top: -5%;font-size: 40px;font-weight: 600;line-height: 35px;}
 .slide18 .pdfmaincontent p span{color:#b6e600;}
-.slide18 .pdfmaincontent .pdfmaincontentslide18inner{margin-top: 30px;display: flex;align-items: flex-start;}
+.slide18 .pdfmaincontent .pdfmaincontentslide19inner{margin-top: 30px;display: flex;align-items: flex-start;}
 .slide18 .pdfmaincontent h2 {text-transform: capitalize;}
 .pdfmaincontenttop{margin-top: 20px;}
 .slide18 .pdfmaincontenttop p{padding-left: 0;margin-top: 0;font-size: 17px;font-weight: 400;line-height: 25px;margin-bottom: 25px;}
 .slide18 .pdfmaincontenttop p:last-child{margin-bottom: 0;}
 .slide18 .pdfmaincontenttop h3{font-size: 20px;font-weight: 600;line-height: 26px;margin-bottom: 10px;}
 .slide18 .pdfmaincontenttop h3 span{color:#b6e600;}
-.slide18machineimage{margin-top: -5%;width: 40%;}
-.pdfmaincontentslide18innerleft{width:98%}
+.slide18machineimage{margin-top: -5%;}
 /*-----------END SLIDE 18 CSS-----------*/
 
 /*-----------START SLIDE 19 CSS-----------*/
@@ -128,7 +121,7 @@
 /*-----------END SLIDE 22 CSS-----------*/
 
 /*-----------START SLIDE 23 CSS-----------*/
-.slide23 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 24px;font-weight: 600;line-height: 31px;}
+.slide23 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 26px;font-weight: 600;line-height: 31px;}
 .slide23 .pdfmaincontent p span{color:#b6e600;}
 .slide23 .pdfmaincontent .pdfmaincontentinnerbottom{margin-top: 30px;display: flex;align-items: flex-start;justify-content: space-between;}
 .slide23 .pdfmaincontentinnerbottominner{width: 45%;}
@@ -138,7 +131,7 @@
 /*-----------END SLIDE 23 CSS-----------*/
 
 /*-----------START SLIDE 24 CSS-----------*/
-.slide24 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 24px;font-weight: 600;line-height: 31px;}
+.slide24 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 26px;font-weight: 600;line-height: 31px;}
 .slide24 .pdfmaincontent p span{color:#b6e600;}
 .slide24 .pdfmaincontent .pdfmaincontentinnerbottom{margin-top: 30px;display: flex;align-items: flex-start;justify-content: space-between;}
 .slide24 .pdfmaincontentinnerbottominner{width: 45%;}
@@ -178,7 +171,8 @@
 /*-----------END SLIDE 27 CSS-----------*/
 
 /*-----------START SLIDE 28 CSS-----------*/
-.slide28 .pdfmaincontainer{background-image: url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/common/pdfbgoverlay.png), url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/slide28-practice.png);background-repeat: no-repeat;background-position: center, left bottom !important;-webkit-background-size: cover, auto !important;-moz-background-size: cover, auto !important;-o-background-size: cover, auto !important;   background-size: cover, auto !important;}
+.slide28 .pdfmaincontainer{background-image: url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/common/pdfbgoverlay.png), url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/slide28-practice.png);background-repeat: no-repeat;background-position: center, left bottom !important;-webkit-background-size: cover, auto !important;-moz-background-size: cover, auto !important;-o-background-size: cover, auto !important;   background-size: cover, auto !important;
+}
 .slide28 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 21px;font-weight: 600;line-height: 30px;}
 .slide28 .pdfmaincontent p span{color:#b6e600;}
 .slide28 .pdfmaincontent p.parabottom{margin-top: 20px;margin-bottom: 46px;}
@@ -205,5 +199,3 @@
 .slide14 .pdfmaincontentinnerbottom .pdfmainimgwrapper {width: 100%;margin-top: 20px;}
 .slide15 .pdfmaincontent p {padding-left: 0;margin-top: 0;text-align: center;}
 }
-
-/* End Lession -  Beto Paredes Family Opportunities Intro Deck */

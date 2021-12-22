@@ -13,7 +13,7 @@
 .pdfheaderblockinner{padding:15px}
 .pdffooterblock{margin: 0 auto;padding: 0;display: block;width:100%;background-image: url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/common/pdffooterrbg.png);background-repeat: no-repeat;background-position:left top;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;background-size: 100% auto;display:block;min-height: 87px;position: absolute;bottom: 0;}
 .pdfmaincontent{position: relative;z-index: 9;}
-.pdfmaincontentinner{width: 92%;margin: 0 auto;padding: 0;display: block;}
+.pdfmaincontentinner{width: 90%;margin: 0 auto;padding: 0;display: block;}
 .pdfheaderblock .pdflogowrapper{width: 302px;display: block;}
 .pdfheaderblock .pdflogowrapper img{width:100%}
 .pdfmaincontent h2{margin: 0;padding: 0;color:#b6e600;text-transform: uppercase;}
@@ -26,8 +26,6 @@
 .pdfmaincontent h3 span{display: initial !important;padding: 0 !important;}
 .pdfmaincontent h2 span{display: initial !important;padding: 0 !important;}
 .pdfmaincontent h1 span{display: initial !important;padding: 0 !important;}
-
-.training_center_wrapper .rowinner_block .markbtncls {margin-top: 10px;}
 
 /*-----------START SLIDE 14 CSS-----------*/
 .slide14 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 33px;font-weight: 600;line-height: 34px;}
@@ -138,7 +136,7 @@
 /*-----------END SLIDE 23 CSS-----------*/
 
 /*-----------START SLIDE 24 CSS-----------*/
-.slide24 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 24px;font-weight: 600;line-height: 31px;}
+.slide24 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 26px;font-weight: 600;line-height: 31px;}
 .slide24 .pdfmaincontent p span{color:#b6e600;}
 .slide24 .pdfmaincontent .pdfmaincontentinnerbottom{margin-top: 30px;display: flex;align-items: flex-start;justify-content: space-between;}
 .slide24 .pdfmaincontentinnerbottominner{width: 45%;}
@@ -178,7 +176,8 @@
 /*-----------END SLIDE 27 CSS-----------*/
 
 /*-----------START SLIDE 28 CSS-----------*/
-.slide28 .pdfmaincontainer{background-image: url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/common/pdfbgoverlay.png), url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/slide28-practice.png);background-repeat: no-repeat;background-position: center, left bottom !important;-webkit-background-size: cover, auto !important;-moz-background-size: cover, auto !important;-o-background-size: cover, auto !important;   background-size: cover, auto !important;}
+.slide28 .pdfmaincontainer{background-image: url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/common/pdfbgoverlay.png), url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/slide28-practice.png);background-repeat: no-repeat;background-position: center, left bottom !important;-webkit-background-size: cover, auto !important;-moz-background-size: cover, auto !important;-o-background-size: cover, auto !important;   background-size: cover, auto !important;
+}
 .slide28 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 21px;font-weight: 600;line-height: 30px;}
 .slide28 .pdfmaincontent p span{color:#b6e600;}
 .slide28 .pdfmaincontent p.parabottom{margin-top: 20px;margin-bottom: 46px;}

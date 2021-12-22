@@ -1,19 +1,25 @@
-/* Start Lession -  Beto Paredes Family Opportunities Intro Deck */
-.pdfhomepagemain{margin: 0;padding: 0;position:relative!important;font-family: 'Arial', sans-serif!important;}
-.pdfhomepagemain img{border:0 !important;outline:0 !important}
-.pdfhomepagemain a img{outline:none !important}
-.pdfhomepagemain a{outline:none!important;cursor:pointer!important;text-decoration:none!important;background-color:transparent!important;-webkit-text-decoration-skip:objects!important;color:#fff !important}
-.pdfhomepagemain a:active,.pdfhomepagemain a:focus{outline:none!important}
-.pdfhomepagemain:active,.pdfhomepagemain:focus{outline:none!important;-moz-outline-style:none!important}
-.pdfhomepagemain:link:focus,.pdfhomepagemain:visited:focus{outline:none!important}
-.pdfhomepagemain button{cursor: pointer;word-wrap:break-word!important;white-space:unset!important;overflow-wrap:break-word;word-wrap:break-word;word-break:break-word;line-height:normal!important}
 
-.pdfmaincontainer{margin: 0 auto;padding: 0;display: block;width:892px;background-image: url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/common/pdfbgoverlay.png);background-color:#000;background-repeat: no-repeat;background-position:center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;display:block;position: relative;padding-bottom: 40px;}
-.pdfheaderblock{margin: 0 auto;padding: 0;display: block;width:100%;background-image: url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/common/pdfheaderbg.png);background-repeat: no-repeat;background-position:left top;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;background-size: 100% auto;display:block;min-height: 106px;}
+a{color:var(--links);text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}
+.clear{clear:both;overflow:hidden}
+.pdfhomepagemain img{border:0 !important;outline:0 !important}
+.pdfhomepagemain a img{outline:none}
+a{outline:none;cursor:pointer}
+a:active,a:focus{outline:none}
+:active,:focus{outline:none;-moz-outline-style:none}
+:link:focus,:visited:focus{outline:none}
+html{overflow-y:scroll;overflow-x:hidden;}
+html,body{height:100%;width:100%;position:relative;font-family: 'Arial', sans-serif;}
+button{cursor: pointer;word-wrap:break-word!important;white-space:unset!important;overflow-wrap:break-word;word-wrap:break-word;word-break:break-word;line-height:normal!important}
+body{background-color: #000;margin: 0;}
+
+.pdfhomepagemain{margin: 0;padding: 0;}
+.pdfmaincontainer{margin: 0 auto;padding: 0;display: block;width:892px;background-image: url(../images/common/pdfbgoverlay.png);background-repeat: no-repeat;background-position:center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;display:block;position: relative;padding-bottom: 40px;}
+.pdfheaderblock{margin: 0 auto;padding: 0;display: block;width:100%;background-image: url(../images/common/pdfheaderbg.png);background-repeat: no-repeat;background-position:left top;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;background-size: 100% auto;display:block;min-height: 106px;}
 .pdfheaderblockinner{padding:15px}
-.pdffooterblock{margin: 0 auto;padding: 0;display: block;width:100%;background-image: url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/common/pdffooterrbg.png);background-repeat: no-repeat;background-position:left top;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;background-size: 100% auto;display:block;min-height: 87px;position: absolute;bottom: 0;}
+.pdffooterblock{margin: 0 auto;padding: 0;display: block;width:100%;background-image: url(../images/common/pdffooterrbg.png);background-repeat: no-repeat;background-position:left top;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;background-size: 100% auto;display:block;min-height: 87px;position: absolute;bottom: 0;}
 .pdfmaincontent{position: relative;z-index: 9;}
-.pdfmaincontentinner{width: 92%;margin: 0 auto;padding: 0;display: block;}
+.pdfmaincontentinner{width: 90%;margin: 0 auto;padding: 0;display: block;}
+
 .pdfheaderblock .pdflogowrapper{width: 302px;display: block;}
 .pdfheaderblock .pdflogowrapper img{width:100%}
 .pdfmaincontent h2{margin: 0;padding: 0;color:#b6e600;text-transform: uppercase;}
@@ -22,12 +28,7 @@
 .pdfmaincontent p{margin: 0;padding: 0;color:#fff;line-height: 30px;}
 .pdfmaincontent h4{margin: 0;padding: 0;color:#fff;}
 .pdfmaincontent h3{margin: 0;padding: 0;color:#fff;}
-.pdfmaincontent p span{display: initial !important;padding: 0 !important;}
-.pdfmaincontent h3 span{display: initial !important;padding: 0 !important;}
-.pdfmaincontent h2 span{display: initial !important;padding: 0 !important;}
-.pdfmaincontent h1 span{display: initial !important;padding: 0 !important;}
 
-.training_center_wrapper .rowinner_block .markbtncls {margin-top: 10px;}
 
 /*-----------START SLIDE 14 CSS-----------*/
 .slide14 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 33px;font-weight: 600;line-height: 34px;}
@@ -67,21 +68,20 @@
 .slide17machineimage{width:34%;position: absolute;bottom: -44px;left: 15px;}
 .slide17machineimage img{width:100%}
 .pdfslide17wrapperright{width:100%;padding-left: 38%;}
-.pdfslide17wrapperright p{padding-left: 0 !important;margin-top:0 !important;font-size: 26px !important;font-weight: 600;line-height: 46px !important;}
+.pdfslide17wrapperright p{padding-left: 0 !important;margin-top:0 !important;font-size: 26px !important;font-weight: 600;line-height: 40px !important;}
 /*-----------END SLIDE 17 CSS-----------*/
 
 /*-----------START SLIDE 18 CSS-----------*/
 .slide18 .pdfmaincontent p{padding-left: 35%;margin-top: -5%;font-size: 40px;font-weight: 600;line-height: 35px;}
 .slide18 .pdfmaincontent p span{color:#b6e600;}
-.slide18 .pdfmaincontent .pdfmaincontentslide18inner{margin-top: 30px;display: flex;align-items: flex-start;}
+.slide18 .pdfmaincontent .pdfmaincontentslide19inner{margin-top: 30px;display: flex;align-items: flex-start;}
 .slide18 .pdfmaincontent h2 {text-transform: capitalize;}
 .pdfmaincontenttop{margin-top: 20px;}
 .slide18 .pdfmaincontenttop p{padding-left: 0;margin-top: 0;font-size: 17px;font-weight: 400;line-height: 25px;margin-bottom: 25px;}
 .slide18 .pdfmaincontenttop p:last-child{margin-bottom: 0;}
 .slide18 .pdfmaincontenttop h3{font-size: 20px;font-weight: 600;line-height: 26px;margin-bottom: 10px;}
 .slide18 .pdfmaincontenttop h3 span{color:#b6e600;}
-.slide18machineimage{margin-top: -5%;width: 40%;}
-.pdfmaincontentslide18innerleft{width:98%}
+.slide18machineimage{margin-top: -5%;}
 /*-----------END SLIDE 18 CSS-----------*/
 
 /*-----------START SLIDE 19 CSS-----------*/
@@ -104,7 +104,7 @@
 .slide20 .pdfmaincontent .pdfmaincontentlists{margin-top: 30px;}
 .slide20 .pdfmaincontent .pdfmaincontentlists ul li{padding-left: 0 !important;margin-top: 0 !important;font-size: 14px !important;line-height: 18px;color: #fff;width: 22%;padding: 0 1%; margin: 0 1% 1%;}
 .slide20 .pdfmaincontent .pdfmaincontentlists ul li::before{content: "\2022";color: #b6e600ff;display: inline-block;width: 10px;margin-left: -17px;font-size: 38px; height: 10px;position: absolute;}
-.slide20 .pdfmaincontent .pdfmaincontentlists ul{display: flex;align-items: flex-start;justify-content: flex-start;padding: 0;flex-wrap: wrap;list-style: none !important;margin: 0 -1%;padding-left: 8px;}
+.slide20 .pdfmaincontent .pdfmaincontentlists ul{display: flex;align-items: flex-start;justify-content: flex-start;padding: 0;flex-wrap: wrap;list-style: none;    margin: 0 -1%;padding-left: 8px;}
 /*-----------END SLIDE 20 CSS-----------*/
 
 /*-----------START SLIDE 21 CSS-----------*/
@@ -128,7 +128,7 @@
 /*-----------END SLIDE 22 CSS-----------*/
 
 /*-----------START SLIDE 23 CSS-----------*/
-.slide23 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 24px;font-weight: 600;line-height: 31px;}
+.slide23 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 26px;font-weight: 600;line-height: 31px;}
 .slide23 .pdfmaincontent p span{color:#b6e600;}
 .slide23 .pdfmaincontent .pdfmaincontentinnerbottom{margin-top: 30px;display: flex;align-items: flex-start;justify-content: space-between;}
 .slide23 .pdfmaincontentinnerbottominner{width: 45%;}
@@ -138,7 +138,7 @@
 /*-----------END SLIDE 23 CSS-----------*/
 
 /*-----------START SLIDE 24 CSS-----------*/
-.slide24 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 24px;font-weight: 600;line-height: 31px;}
+.slide24 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 26px;font-weight: 600;line-height: 31px;}
 .slide24 .pdfmaincontent p span{color:#b6e600;}
 .slide24 .pdfmaincontent .pdfmaincontentinnerbottom{margin-top: 30px;display: flex;align-items: flex-start;justify-content: space-between;}
 .slide24 .pdfmaincontentinnerbottominner{width: 45%;}
@@ -178,7 +178,7 @@
 /*-----------END SLIDE 27 CSS-----------*/
 
 /*-----------START SLIDE 28 CSS-----------*/
-.slide28 .pdfmaincontainer{background-image: url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/common/pdfbgoverlay.png), url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/slide28-practice.png);background-repeat: no-repeat;background-position: center, left bottom !important;-webkit-background-size: cover, auto !important;-moz-background-size: cover, auto !important;-o-background-size: cover, auto !important;   background-size: cover, auto !important;}
+.slide28 .pdfmaincontent{background-image: url(../images/slide28-practice.png);background-repeat: no-repeat;background-position:left top;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;background-size: 100% auto;}
 .slide28 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 21px;font-weight: 600;line-height: 30px;}
 .slide28 .pdfmaincontent p span{color:#b6e600;}
 .slide28 .pdfmaincontent p.parabottom{margin-top: 20px;margin-bottom: 46px;}
@@ -195,15 +195,3 @@
 .slide29 .logolists .logoimg img{width:100%}
 /*-----------END SLIDE 29 CSS-----------*/
 
-
-@media (max-width: 767px) {
-.pdfheaderblock .pdflogowrapper {margin: 0 auto;}
-.slide14 .pdfmaincontent p {padding-left: 0;margin-top: 0;text-align: center;}
-.slide14 .pdfmaincontent .pdfmaincontentinnerbottom {justify-content: center;flex-wrap: wrap;}
-.slide14 .pdfmaincontentinnerbottominner p br{display: none;}
-.slide14 .pdfmaincontentinnerbottominner {width: 100%;}
-.slide14 .pdfmaincontentinnerbottom .pdfmainimgwrapper {width: 100%;margin-top: 20px;}
-.slide15 .pdfmaincontent p {padding-left: 0;margin-top: 0;text-align: center;}
-}
-
-/* End Lession -  Beto Paredes Family Opportunities Intro Deck */

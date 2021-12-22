@@ -1,0 +1,1024 @@
+
+
+/*------------------START----KOUSHIK ADDED CSS-------------------*/
+
+@font-face {
+    font-family: 'HelveticaRegular';
+    src: url('../fonts/Helvetica.eot');
+    src: url('../fonts/Helvetica.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Helvetica.woff2') format('woff2'),
+        url('../fonts/Helvetica.woff') format('woff'),
+        url('../fonts/Helvetica.ttf') format('truetype'),
+        url('../fonts/Helvetica.svg#Helvetica') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helveticabold';
+    src: url('../fonts/Helvetica-Bold.eot');
+    src: url('../fonts/Helvetica-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Helvetica-Bold.woff2') format('woff2'),
+        url('../fonts/Helvetica-Bold.woff') format('woff'),
+        url('../fonts/Helvetica-Bold.ttf') format('truetype'),
+        url('../fonts/Helvetica-Bold.svg#Helvetica-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../fonts/Roboto-Bold.eot');
+    src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff'),
+        url('../fonts/Roboto-Bold.ttf') format('truetype'),
+        url('../fonts/Roboto-Bold.svg#Roboto-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('../fonts/Roboto-Medium.eot');
+    src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff') format('woff'),
+        url('../fonts/Roboto-Medium.ttf') format('truetype'),
+        url('../fonts/Roboto-Medium.svg#Roboto-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto-Regular.ttf') format('truetype'),
+        url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoBlack';
+    src: url('../fonts/Roboto-Black.eot');
+    src: url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Black.woff2') format('woff2'),
+        url('../fonts/Roboto-Black.woff') format('woff'),
+        url('../fonts/Roboto-Black.ttf') format('truetype'),
+        url('../fonts/Roboto-Black.svg#Roboto-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+.trainingeditor{background-color:#0d0a00}
+.trainingeditorlogo{max-width:380px;display:block;margin:0 auto;border-bottom-left-radius:10px;border-bottom-right-radius:10px;padding:18px 22px 10px;background-color:#fff}
+.trainingeditorlogo img{border:none!important;max-width:100%}
+.trainingeditorimg{max-width:482px;display:block;margin:0 auto}
+.trainingeditorimg img{border:none!important;max-width:100%}
+.trainingeditorcontent{margin-top:-17%;position:relative;background:#262626}
+.trainingeditorcontentinner{position:relative;margin:0;padding:20px 0;z-index:4}
+.trainingeditorcontentinner h2{padding:0;margin:0}
+.trainingeditorcontentinner p{padding:0;margin:0}
+.trainingeditorcontentinner ul{padding:0;margin:0}
+.trainingeditorcontentinner ul li{padding:0;margin:0}
+.trainingeditorcontentinner ul li:last-child{margin-bottom: 0 !important;}
+.trainingeditor img{border:none!important;max-width:100%}
+
+/*------ONBOARDING CSS------*/
+
+.trainingeditor.welcomeonboard .trainingeditorcontentinner ul{display:flex;justify-content:center;flex-wrap:wrap;align-items:center;max-width:96%;margin:0 auto}
+.trainingeditor.welcomeonboard .trainingeditorcontentinner ul li{text-align:center;margin:1%;padding:0;flex:1}
+.trainingeditor.welcomeonboard .trainingeditorcontentinner ul li img{width:100%}
+.trainingeditor.welcomeonboard{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_bg.jpg) center no-repeat!important;margin-bottom:0;background-size:100% 100%!important;padding:0!important;border-radius:0!important;overflow:hidden}
+.trainingeditor.welcomeonboard .trainingeditortop{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblocktop.png);background-size:100% 69px;background-repeat:no-repeat;position:absolute;display:block;z-index:1;width:100%;height: 69px;top: -68px;}
+.trainingeditor.welcomeonboard .trainingeditorbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockbottom.png);background-size:cover;background-repeat:no-repeat;position:absolute;display:block;z-index:2;width:100%;min-height:140px;bottom:0}
+.trainingeditor.welcomeonboard .trainingeditorcontentwrapper{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockgradient.png);background-size:cover;background-repeat:no-repeat;position:absolute;display:block;z-index:3;width:100%;height:430px;margin-top:-38%}
+.trainingeditor.welcomeonboard .trainingeditorcontentinner h2{display:block;font-size:37.5px;font-family:'Helveticabold';line-height:38px;text-align:center;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#cbd5da 46%,#cbd5da 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#cbd5da 46%,#cbd5da 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#cbd5da 46%,#cbd5da 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#cbd5da 46%,#cbd5da 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%}
+.trainingeditor.welcomeonboard .trainingeditorcontentinner p{display:block;font-size:21px;font-family:'OpenSansRegular';line-height:24px;text-align:center;color:#fff;position:relative;width:100%;margin-top:10px}
+.trainingeditor.welcomeonboard .trainingeditorcontentinner p a,.trainingeditor.welcomeonboard .trainingeditorcontentinner p a:hover{color:#ffed00;text-decoration:none}
+
+
+.trainingeditor.salesopertrain .trainingeditorlogo{max-width:380px;display:block;margin:0 auto 0 0;border-bottom-left-radius:0;border-top-right-radius:10px;border-bottom-right-radius:10px;padding:18px 22px 10px;}
+.trainingeditor.salesopertrain .trainingeditorinner {padding-top: 25px;}
+.trainingeditor.salesopertrain{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_sot_bg.jpg) center no-repeat!important;margin-bottom:0;background-size:100% 100%!important;padding:0!important;border-radius:0!important;overflow:hidden}
+.trainingeditor.salesopertrain .trainingeditortop{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_sot_contentblocktop.png);background-size:100% 72px;background-repeat:no-repeat;position:absolute;display:block;z-index:1;width:100%;height:72px;top:-70px}
+.trainingeditor.salesopertrain .trainingeditorbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockbottom.png);background-size:cover;background-repeat:no-repeat;position:absolute;display:block;z-index:2;width:100%;min-height:78px;bottom:0}
+.trainingeditor.salesopertrain .trainingeditorcontentwrapper{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockgradient.png);background-size:cover;background-repeat:no-repeat;position:absolute;display:block;z-index:3;width:100%;height: 106px;margin-top: -12%;}
+.trainingeditor.salesopertrain .trainingeditorcontent {margin-top: -5%;}
+.trainingeditor.salesopertrain .trainingeditortopcontent .trainingeditorleft h1{display:block;font-family: 'Helveticabold';font-size: 26px;line-height: 28px;text-align:left;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));}
+.trainingeditor.salesopertrain .trainingeditortopcontent{display:flex;justify-content:space-between;align-items:stretch;max-width:96%;margin:10px auto 0}
+.trainingeditor.salesopertrain .trainingeditorimg {width: 297px;max-width: inherit;margin-top: -14%;}
+.trainingeditor.salesopertrain .trainingeditorleft p {font-size: 17px;margin: 0;}
+.trainingeditor.salesopertrain .trainingeditorleft{max-width: 65%;}
+.trainingeditor.salesopertrain .trainingeditorcontentinner h2{display:block;font-size:29px;font-family:'Helveticabold';line-height:30px;text-align:left;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#cbd5da 46%,#cbd5da 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));}
+.trainingeditor.salesopertrain .trainingeditorcontentinner {padding: 20px;}
+
+
+.trainingeditor.OpCEOsbio .trainingeditorlogo{max-width:380px;display:block;margin:0 auto 0 0;border-bottom-left-radius:0;border-top-right-radius:10px;border-bottom-right-radius:10px;padding:18px 22px 10px;}
+.trainingeditor.OpCEOsbio .trainingeditorinner {padding-top: 25px;}
+.trainingeditor.OpCEOsbio{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_sot_bg.jpg) center no-repeat!important;margin-bottom:0;background-size:100% 100%!important;padding:0!important;border-radius:0!important;overflow:hidden}
+.trainingeditor.OpCEOsbio .trainingeditortop{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_OpCEOsbio_contentblocktop.png);background-size: 100% auto;background-repeat: no-repeat;position: absolute;display: block;z-index: 1;width: 100%;height: 76px;top: -76px;}
+.trainingeditor.OpCEOsbio .trainingeditorbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockbottom.png);    background-size: 100% 100%;
+background-repeat: no-repeat;position: absolute;display: block;z-index: 2;width: 100%;min-height: 180px;bottom: 0;}
+.trainingeditor.OpCEOsbio .trainingeditorcontentwrapper{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockgradient.png);background-size: 100% 100%;background-repeat: no-repeat;position: absolute;display: block;z-index: 3;width: 100%;height: 285px;margin-top: -32%;}
+.trainingeditor.OpCEOsbio .trainingeditorcontent {margin-top: 0;background: #191919;}
+.trainingeditor.OpCEOsbio .trainingeditortopcontent .trainingeditorleft h1{display:block;font-family: 'Helveticabold';font-size: 26px;line-height: 28px;text-align:left;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));}
+.trainingeditor.OpCEOsbio .trainingeditortopcontent{display:flex;justify-content:space-between;align-items:stretch;max-width:96%;margin:10px auto 0}
+.trainingeditor.OpCEOsbio .trainingeditorimg {width: 260px;max-width: inherit;margin-top: -13%;}
+.trainingeditor.OpCEOsbio .trainingeditorleft{max-width: 69%; }
+.trainingeditor.OpCEOsbio .trainingeditorcontentinner {padding: 20px;}
+.trainingeditor.OpCEOsbio .trainingeditorcontentinner ul li{font-family: 'HelveticaRegular';font-size: 14px;line-height: 16px;text-align: left;color: #fff;margin-bottom: 13px;border-left: 3px solid #0094ff;padding-left: 8px;list-style: none;display: inline-block;}
+.trainingeditor.OpCEOsbio .trainingeditorcontentinner ul li span{color:#ffdf00;}
+
+
+.trainingeditor.Salesopportunitiesoffer .trainingeditorcontentinner ul li img{width:100%}
+.trainingeditor.Salesopportunitiesoffer{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_salesopportunitiesoffer_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:100%!important;padding:0!important;border-radius:0!important;overflow:hidden}
+.trainingeditor.Salesopportunitiesoffer .trainingeditortop{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblocktop.png);background-size:100% auto;background-repeat:no-repeat;position:absolute;display:block;z-index:1;width:100%;height:105px;top:-70px}
+.trainingeditor.Salesopportunitiesoffer .trainingeditorbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockbottom.png);background-size:cover;background-repeat:no-repeat;position:absolute;display:block;z-index:2;width:100%;min-height:210px;bottom:0}
+.trainingeditor.Salesopportunitiesoffer .trainingeditorcontentwrapper{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockgradient.png);background-size: 100%;background-repeat: no-repeat;position: absolute;display: block;z-index: 3;width: 100%;height: 366px;
+    margin-top: -41%;}
+.trainingeditor.Salesopportunitiesoffer .trainingeditorcenter{max-width: 100%; }
+.trainingeditor.Salesopportunitiesoffer .trainingeditorcenter h1{display:block;font-size:42px;font-family:'Helveticabold';line-height:42px;text-align:center;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%}
+.trainingeditor.Salesopportunitiesoffer .trainingeditorcontent{margin-top: 3%;}
+.trainingeditorcontentinner ul li{display:flex;justify-content:space-between;align-items:stretch;max-width:96%;margin:0 auto}
+.trainingeditorcontentinner ul li ul{text-align:center;margin:1%;padding:0;flex:1;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center}
+
+
+.trainingeditor.QualifyBPFC .trainingeditorlogo{max-width:380px;display:block;margin:0 auto 0 0;border-bottom-left-radius:0;border-top-right-radius:10px;border-bottom-right-radius:10px;padding:18px 22px 10px;}
+.trainingeditor.QualifyBPFC .trainingeditorinner {padding-top: 25px;}
+.trainingeditor.QualifyBPFC{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_qualifybpfc_bg.jpg) center no-repeat!important;margin-bottom:0;background-size:100% 100%!important;padding:0!important;border-radius:0!important;overflow:hidden}
+.trainingeditor.QualifyBPFC .trainingeditortop{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_OpCEOsbio_contentblocktop.png);background-size: 100% auto;background-repeat: no-repeat;position: absolute;display: block;z-index: 1;width: 100%;height: 76px;top: -76px;}
+.trainingeditor.QualifyBPFC .trainingeditorbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockbottom.png);    background-size: 100% 100%;
+background-repeat: no-repeat;position: absolute;display: block;z-index: 2;width: 100%;min-height: 180px;bottom: 0;}
+.trainingeditor.QualifyBPFC .trainingeditorcontentwrapper{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockgradient.png);background-size: 100% 100%;background-repeat: no-repeat;position: absolute;display: block;z-index: 3;width: 100%;height: 285px;margin-top: -32%;}
+.trainingeditor.QualifyBPFC .trainingeditorcontent {margin-top: 45px;background: #191919;}
+.trainingeditor.QualifyBPFC .trainingeditortopcontent .trainingeditorleft h1{display:block;font-family: 'Helveticabold';font-size: 26px;line-height: 28px;text-align:left;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));margin: 5px 0 5px 0;}
+.trainingeditor.QualifyBPFC .trainingeditortopcontent{display:flex;justify-content:space-between;align-items:stretch;max-width:96%;margin:10px auto 0}
+.trainingeditor.QualifyBPFC .trainingeditorimg {width: 244px;max-width: inherit;position: absolute;right: 0;bottom: 0;z-index: 9999;}
+.trainingeditor.QualifyBPFC .trainingeditorleft{max-width: 69%; }
+.trainingeditor.QualifyBPFC .trainingeditorcontentinner {padding: 5px 20px 15px;}
+.trainingeditor.QualifyBPFC .trainingeditorcontentinner ul{max-width: 66%;}
+.trainingeditor.QualifyBPFC .trainingeditorcontentinner ul li{font-family: 'HelveticaRegular';font-size: 14px;line-height: 16px;text-align: left;color: #fff;margin-bottom: 13px;border-left: 3px solid #0094ff;padding-left: 8px;list-style: none;display: inline-block;width: 100%;}
+.trainingeditor.QualifyBPFC .trainingeditorcontentinner ul li span{color:#ffdf00;}
+.trainingeditor.QualifyBPFC .trainingeditorleft p {font-size: 17px;margin: 0;line-height: 20px;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));
+filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));color:#fff;font-family: 'HelveticaRegular';}
+
+
+.trainingeditor.apogeeinvent .trainingeditorlogo{max-width:380px;display:block;margin:0 auto 0 0;border-bottom-left-radius:0;border-top-right-radius:10px;border-bottom-right-radius:10px;padding:18px 22px 10px;}
+.trainingeditor.apogeeinvent .trainingeditorinner {padding-top: 25px;}
+.trainingeditor.apogeeinvent{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_apogeeinvent_bg.jpg) center no-repeat!important;margin-bottom:0;background-size:100% 100%!important;padding:0!important;border-radius:0!important;overflow:hidden}
+.trainingeditor.apogeeinvent .trainingeditortop{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_sot_contentblocktop.png);background-size:100% auto;background-repeat:no-repeat;position:absolute;display:block;z-index:1;width:100%;height:105px;top:-70px}
+.trainingeditor.apogeeinvent .trainingeditorbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockbottom.png);background-size:cover;background-repeat:no-repeat;position:absolute;display:block;z-index:2;width:100%;min-height:183px;bottom:0}
+.trainingeditor.apogeeinvent .trainingeditorcontentwrapper{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockgradient.png);background-size: 100% 100%;background-repeat: no-repeat;position: absolute;display: block;z-index: 3;width: 100%;height: 268px;margin-top: -30%;}
+.trainingeditor.apogeeinvent .trainingeditorcontent {margin-top: -7%;}
+.trainingeditor.apogeeinvent .trainingeditortopcontent{display:flex;justify-content:flex-end;align-items:stretch;max-width:96%;margin:10px auto 0}
+.trainingeditor.apogeeinvent .trainingeditorimg {width: 340px;max-width: inherit;margin-top: -40%;}
+.trainingeditor.apogeeinvent .trainingeditorcontentinner p {font-size: 17px;margin: 0;line-height: 20px;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));
+filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));color:#fff;font-family: 'HelveticaRegular';text-align: center;color: #fff;}
+.trainingeditor.apogeeinvent .trainingeditorcontentinner p span{color:#ffdf00;}
+.trainingeditor.apogeeinvent .trainingeditorcontentinner{max-width: 100%;}
+.trainingeditor.apogeeinvent .trainingeditorcontentinner h2{display:block;font-size:29px;font-family:'Helveticabold';line-height:30px;text-align:center;background:#ffed00;background-image:-webkit-linear-gradient(top,#ffed00 0%,#ffed00 45%,#ffed00 46%,#ffed00 100%);background-image:-moz-linear-gradient(top,#ffed00 0%,#ffed00 45%,#ffed00 46%,#ffed00 100%);background-image:-o-linear-gradient(top,#ffed00 0%,#ffed00 45%,#ffed00 46%,#ffed00 100%);background-image:linear-gradient(to bottom,#ffed00 0%,#ffed00 45%,#ffed00 46%,#ffed00 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));margin-top: 25px;}
+.trainingeditor.apogeeinvent .trainingeditorcontentinner h2:after{content: '';width: 35%;height: 2px;display: block;position: absolute;top: 50%;
+right: 0;background-image: linear-gradient(to right, rgba(255,237,0,1), rgba(255,237,0,0));}
+.trainingeditor.apogeeinvent .trainingeditorcontentinner h2:before{content: '';width: 35%;height: 2px;display: block;position: absolute;top: 50%;left: 0;background-image: linear-gradient(to left, rgba(255,237,0,1), rgba(255,237,0,0));}
+.trainingeditor.apogeeinvent .trainingeditorcontentinner {padding: 20px;}    
+.trainingeditor.apogeeinvent .trainingeditorcontentinner ul{max-width: 100%;text-align: center;margin-top: 5px;}
+.trainingeditor.apogeeinvent .trainingeditorcontentinner ul li{font-family: 'Helveticabold';font-size: 18px;line-height: 18px;text-align: left;color: #00b9fd;margin-bottom: 5px;list-style: none;display: inline-block;text-transform: uppercase;margin-right: 15px;}
+.trainingeditor.apogeeinvent .trainingeditorcontentinner ul li:last-child{margin-right: 0 !important;}
+.trainingeditor.apogeeinvent .trainingeditorcontentinner ul li span{color:#fff;}
+
+.trainingeditor.hps .trainingeditorlogo{max-width: 336px;display: block;margin: 0 auto 0 0;border-bottom-left-radius: 0;border-top-right-radius: 10px;    border-bottom-right-radius: 10px;padding: 10px;height: 108px;}
+.trainingeditor.hps .trainingeditorlogo img{height: 100%;width: auto;margin: 0 auto;display: block;}
+.trainingeditor.hps .trainingeditorinner {padding-top: 25px;position: relative;}
+.trainingeditor.hps{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_hps_bg.jpg) center no-repeat!important;margin-bottom:0;background-size:100% 100%!important;padding:0!important;border-radius:0!important;overflow:hidden}
+.trainingeditor.hps .trainingeditortop{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblocktop.png);background-size: 100% 105px;background-repeat: no-repeat;position: absolute;display: block;z-index: 1;width: 100%;height: 105px;top: -104px;}
+.trainingeditor.hps .trainingeditorbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockbottom.png);background-size: 100% 100%;background-repeat: no-repeat;position: absolute;display: block;z-index: 2;width: 100%;min-height: 130px;bottom: 0;}
+.trainingeditor.hps .trainingeditorcontentwrapper{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockgradient.png);background-size: 100% auto;background-repeat: no-repeat;position: absolute;display: block;z-index: 3;width: 100%;height: 308px;margin-top: -25%;}
+.trainingeditor.hps .trainingeditorcontent {margin-top: 125px;background: #262626;}
+.trainingeditor.hps .trainingeditortopcontent{display:flex;justify-content:space-between;align-items:stretch;max-width:96%;margin:10px auto 0}
+.trainingeditor.hps .trainingeditorimg {width: 500px;max-width: inherit;margin-top: 0;position: absolute;right: 0;top: 0;}
+.trainingeditor.hps .trainingeditorcontentinner {padding: 20px;}
+.trainingeditor.hps .trainingeditorcontentinner ul li{font-family: 'HelveticaRegular';font-size: 14px;line-height: 16px;text-align: left;color: #fff;margin-bottom: 13px;border-left: 3px solid #0094ff;padding-left: 8px;list-style: none;display: inline-block;}
+.trainingeditor.hps .trainingeditorcontentinner ul li span{color:#ffdf00;}
+
+
+.trainingeditor.uta .trainingeditorlogo{max-width: 336px;display: block;margin: 0 auto 0 0;border-bottom-left-radius: 0;border-top-right-radius: 10px;    border-bottom-right-radius: 10px;padding: 10px;height: 108px;}
+.trainingeditor.uta .trainingeditorlogo img{height: 100%;width: auto;margin: 0 auto;display: block;}
+.trainingeditor.uta .trainingeditorinner {padding-top: 25px;position: relative;}
+.trainingeditor.uta{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_uta_bg.jpg) center no-repeat!important;margin-bottom:0;background-size:100% 100%!important;padding:0!important;border-radius:0!important;overflow:hidden}
+.trainingeditor.uta .trainingeditortop{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblocktop.png);background-size: 100% 105px;background-repeat: no-repeat;position: absolute;display: block;z-index: 1;width: 100%;height: 105px;top: -104px;}
+.trainingeditor.uta .trainingeditorbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockbottom.png);background-size: 100% 100%;background-repeat: no-repeat;position: absolute;display: block;z-index: 2;width: 100%;min-height: 130px;bottom: 0;}
+.trainingeditor.uta .trainingeditorcontentwrapper{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockgradient.png);background-size: 100% auto;background-repeat: no-repeat;position: absolute;display: block;z-index: 3;width: 100%;height: 312px;margin-top: -35%;}
+.trainingeditor.uta .trainingeditorcontent {margin-top: 125px;background: #262626;}
+.trainingeditor.uta .trainingeditortopcontent{display:flex;justify-content:space-between;align-items:stretch;max-width:96%;margin:10px auto 0}
+.trainingeditor.uta .trainingeditorimg {width: 500px;max-width: inherit;margin-top: 0;position: absolute;right: 0;top: 0;}
+.trainingeditor.uta .trainingeditorcontentinner {padding: 20px;}
+.trainingeditor.uta .trainingeditorcontentinner ul li{font-family: 'HelveticaRegular';font-size: 14px;line-height: 16px;text-align: left;color: #fff;margin-bottom: 13px;border-left: 3px solid #0094ff;padding-left: 8px;list-style: none;display: inline-block;max-width: 92%;margin: 0;}
+.trainingeditor.uta .trainingeditorcontentinner ul li span{color:#ffdf00;}
+.trainingeditor.uta .trainingeditorcontentinner .boxlist ul{margin-top: 16px;padding-left: 3px;}
+.trainingeditor.uta .trainingeditorcontentinner .boxlist ul li{font-family: 'Helveticabold';font-size: 16px;line-height: 16px;text-align: left;color: #fff;margin-bottom: 14px !important;border: none;padding-left: 24px;list-style: none;display: block;text-transform: uppercase;background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/boxlisttype.png);background-size: 16px;display: block;background-repeat: no-repeat; background-position: left center;margin: 0;}
+
+
+.trainingeditor.medworldone .trainingeditorlogo{max-width: 336px;display: block;margin: 0 auto 0 0;border-bottom-left-radius: 0;border-top-right-radius: 10px;    border-bottom-right-radius: 10px;padding: 10px;height: 108px;}
+.trainingeditor.medworldone .trainingeditorlogo img{height: 100%;width: auto;margin: 0 auto;display: block;}
+.trainingeditor.medworldone .trainingeditorinner {padding-top: 25px;position: relative;}
+.trainingeditor.medworldone{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_medworldone_bg.jpg) center no-repeat!important;margin-bottom:0;background-size:100% 100%!important;padding:0!important;border-radius:0!important;overflow:hidden}
+.trainingeditor.medworldone .trainingeditortop{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblocktop.png);background-size: 100% 105px;background-repeat: no-repeat;position: absolute;display: block;z-index: 1;width: 100%;height: 105px;top: -104px;}
+.trainingeditor.medworldone .trainingeditorbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockbottom.png);background-size: 100% 100%;background-repeat: no-repeat;position: absolute;display: block;z-index: 2;width: 100%;min-height: 235px;bottom: 0;}
+.trainingeditor.medworldone .trainingeditorcontentwrapper{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockgradient.png);background-size: 100% auto;background-repeat: no-repeat;position: absolute;display: block;z-index: 3;width: 100%;height: 373px;margin-top: -42%;}
+.trainingeditor.medworldone .trainingeditorcontent {margin-top: 125px;background: #262626;}
+.trainingeditor.medworldone .trainingeditortopcontent{display:flex;justify-content:space-between;align-items:stretch;max-width:96%;margin:10px auto 0}
+.trainingeditor.medworldone .trainingeditorimg {width: 500px;max-width: inherit;margin-top: 0;position: absolute;right: 0;top: 0;}
+.trainingeditor.medworldone .trainingeditorcontentinner {padding: 20px;}
+.trainingeditor.medworldone .trainingeditorcontentinner ul li{font-family: 'HelveticaRegular';font-size: 14px;line-height: 16px;text-align: left;color: #fff;margin-bottom: 13px;padding-left: 8px;list-style: none;display: inline-block;max-width: 92%;margin: 0;position: relative;}
+.trainingeditor.medworldone .trainingeditorcontentinner ul li:after {content: '';position: absolute;top: 0px;left: 0;width: 3px;bottom: 60%;background-color: #0094ff;overflow: hidden;}
+.trainingeditor.medworldone .trainingeditorcontentinner ul li span{color:#ffdf00;}
+.trainingeditor.medworldone .trainingeditorcontentinner .boxlist ul{margin-top: 16px;padding-left: 3px;display: flex;justify-content: flex-start;align-items: flex-start;flex-wrap: wrap;}
+.trainingeditor.medworldone .trainingeditorcontentinner .boxlist ul li{font-family: 'HelveticaRegular';font-size: 16px;line-height: 16px;text-align: left;color: #fff;margin-bottom: 14px !important;border: none;padding-left: 24px;list-style: none;display: block;background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/boxlisttype.png);background-size: 16px;display: block;background-repeat: no-repeat; background-position: left top;margin: 0;}
+.trainingeditor.medworldone .trainingeditorcontentinner h2{display:block;font-size:24px;font-family:'Helveticabold';line-height:24px;text-align:left;background:#ffed00;background-image:-webkit-linear-gradient(top,#ffed00 0%,#ffed00 45%,#ffed00 46%,#ffed00 100%);background-image:-moz-linear-gradient(top,#ffed00 0%,#ffed00 45%,#ffed00 46%,#ffed00 100%);background-image:-o-linear-gradient(top,#ffed00 0%,#ffed00 45%,#ffed00 46%,#ffed00 100%);background-image:linear-gradient(to bottom,#ffed00 0%,#ffed00 45%,#ffed00 46%,#ffed00 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));margin-top: 15px;margin-bottom: 0px;}
+.trainingeditor.medworldone .trainingeditorcontentinner .boxlist ul li:nth-child(4n+1){flex: 1 1 28%;}
+.trainingeditor.medworldone .trainingeditorcontentinner .boxlist ul li:nth-child(4n+2){flex: 1 1 15%;}
+.trainingeditor.medworldone .trainingeditorcontentinner .boxlist ul li:nth-child(4n+3){flex: 1 1 16%;}
+.trainingeditor.medworldone .trainingeditorcontentinner .boxlist ul li:nth-child(4n+4){flex: 1 1 20%;}
+
+
+.trainingeditor.jointventureprogram .trainingeditorlogo{max-width: 336px;display: block;margin: 0 auto 0 0;border-bottom-left-radius: 0;border-top-right-radius: 10px;    border-bottom-right-radius: 10px;padding: 10px;}
+.trainingeditor.jointventureprogram .trainingeditorlogo img{height: auto;width: auto;margin: 0 auto;display: block;}
+.trainingeditor.jointventureprogram .trainingeditorinner {padding-top: 25px;position: relative;}
+.trainingeditor.jointventureprogram{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_jointventureprogram_bg.jpg) center no-repeat!important;margin-bottom:0;background-size:100% 100%!important;padding:0!important;border-radius:0!important;overflow:hidden}
+.trainingeditor.jointventureprogram .trainingeditortop{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblocktop.png);background-size: 100% 105px;background-repeat: no-repeat;position: absolute;display: block;z-index: 1;width: 100%;height: 105px;top: -104px;}
+.trainingeditor.jointventureprogram .trainingeditorbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockbottom.png);background-size: 100% 100%;background-repeat: no-repeat;position: absolute;display: block;z-index: 2;width: 100%;min-height: 235px;bottom: 0;}
+.trainingeditor.jointventureprogram .trainingeditorcontentwrapper{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockgradient.png);background-size: 100% auto;background-repeat: no-repeat;position: absolute;display: block;z-index: 3;width: 100%;height: 373px;margin-top: -40%;}
+.trainingeditor.jointventureprogram .trainingeditorcontent {margin-top: 125px;background: #262626;}
+.trainingeditor.jointventureprogram .trainingeditortopcontent{display:flex;justify-content:space-between;align-items:stretch;max-width:96%;margin:10px auto 0}
+.trainingeditor.jointventureprogram .trainingeditorimg {width: 500px;max-width: inherit;margin-top: 0;position: absolute;right: 0;top: 0;}
+.trainingeditor.jointventureprogram .trainingeditorcontentinner {padding: 20px;}
+.trainingeditor.jointventureprogram .trainingeditorcontentinner ul li{font-family: 'HelveticaRegular';font-size: 14px;line-height: 16px;text-align: left;color: #fff;margin-bottom: 13px;padding-left: 8px;list-style: none;display: inline-block;max-width: 92%;margin: 0;position: relative;}
+.trainingeditor.jointventureprogram .trainingeditorcontentinner ul li:after {content: '';position: absolute;top: 0px;left: 0;width: 3px;bottom: 40%;background-color: #0094ff;overflow: hidden;}
+.trainingeditor.jointventureprogram .trainingeditorcontentinner ul li span{color:#ffdf00;}
+.trainingeditor.jointventureprogram .trainingeditorcontentinner .boxlist ul{margin-top: 16px;padding-left: 3px;display: flex;justify-content: flex-start;align-items: flex-start;flex-wrap: wrap;}
+.trainingeditor.jointventureprogram .trainingeditorcontentinner .boxlist ul li{font-family: 'HelveticaRegular';font-size: 16px;line-height: 16px;text-align: left;color: #fff;margin-bottom: 14px !important;border: none;padding-left: 24px;list-style: none;display: block;background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/boxlisttype.png);background-size: 16px;display: block;background-repeat: no-repeat; background-position: left top;margin: 0;}
+.trainingeditor.jointventureprogram .trainingeditorcontentinner h2{display:block;font-size:24px;font-family:'Helveticabold';line-height:24px;text-align:left;background:#ffed00;background-image:-webkit-linear-gradient(top,#ffed00 0%,#ffed00 45%,#ffed00 46%,#ffed00 100%);background-image:-moz-linear-gradient(top,#ffed00 0%,#ffed00 45%,#ffed00 46%,#ffed00 100%);background-image:-o-linear-gradient(top,#ffed00 0%,#ffed00 45%,#ffed00 46%,#ffed00 100%);background-image:linear-gradient(to bottom,#ffed00 0%,#ffed00 45%,#ffed00 46%,#ffed00 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));margin-top: 15px;margin-bottom: 0px;}
+.trainingeditor.jointventureprogram .trainingeditorcontentinner .boxlist ul li{flex: 1 1 47%;}
+
+
+.trainingeditor.cosc .trainingeditorcontentinner ul li img{width: 96%;height: auto;max-height: inherit;}
+.trainingeditor.cosc{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_cosc_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:100%!important;padding:0!important;border-radius:0!important;overflow:hidden}
+.trainingeditor.cosc .trainingeditortop{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblocktop.png);background-size:100% auto;background-repeat:no-repeat;position:absolute;display:block;z-index:1;width:100%;height:105px;top:-70px}
+.trainingeditor.cosc .trainingeditorbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockbottom.png);background-size:cover;background-repeat:no-repeat;position:absolute;display:block;z-index:2;width:100%;min-height:210px;bottom:0}
+.trainingeditor.cosc .trainingeditorcontentwrapper{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockgradient.png);background-size: 100%;background-repeat: no-repeat;position: absolute;display: block;z-index: 3;width: 100%;height: 366px;
+    margin-top: -41%;}
+.trainingeditor.cosc .trainingeditorcenter{max-width: 100%; }
+.trainingeditor.cosc .trainingeditorcenter h1{display:block;font-size:42px;font-family:'Helveticabold';line-height:42px;text-align:center;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%}
+.trainingeditor.cosc .trainingeditorcontent{margin-top: 3%;}
+.trainingeditor.cosc .trainingeditorcontentinner .featurelists .singlefeature ul li{font-family: 'HelveticaRegular';font-size: 11px;line-height: 15px;text-align: left;color: #fff;margin-bottom: 13px;padding-left: 8px;list-style: none;display: inline-block;max-width: 92%;margin: 0;position: relative;}
+.trainingeditor.cosc .trainingeditorcontentinner .featurelists .singlefeature ul li:after {content: '';position: absolute;top: 0px;left: 0;width: 3px;bottom: 0;background-color: #0094ff;overflow: hidden;}
+.trainingeditor.cosc .trainingeditorcontentinner .featurelists{margin-top:0;padding-left:3px;display:flex;justify-content:flex-start;align-items:flex-start;flex-wrap:wrap;max-width:96%;margin-left:auto;margin-right:auto}
+.trainingeditor.cosc .trainingeditorcontentinner .featurelists .singlefeature{flex:1 1 22%;-moz-box-sizing:border-box;box-sizing:border-box;margin:5px}
+.trainingeditor.cosc .trainingeditorcontentinner .featurelists .singlefeature h3{font-size:17px;font-family:'Helveticabold';line-height:17px;text-align:left;background-image:-webkit-linear-gradient(left,#ffeb00,#ffcd00);background-image:-moz-linear-gradient(left,#ffeb00,#ffcd00);background-image:-ms-linear-gradient(left,#ffeb00,#ffcd00);background-image:-o-linear-gradient(left,#ffeb00,#ffcd00);background-image:linear-gradient(to right,#ffeb00,#ffcd00);white-space:normal;word-break:break-word;display:flex;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;width:100%;-webkit-filter:drop-shadow(0px 1px 1px rgba(0,0,0,0.5));filter:drop-shadow(0px 1px 1px rgba(0,0,0,0.5));margin-top:0;margin-bottom:0;color:#000;padding:7px;align-items:center;border-radius:3px;margin-bottom:5px} z
+.trainingeditor.cosc .trainingeditorcontentinner .featurelists .singlefeature:nth-child(3n+1){flex: 1 1 22%;}
+.trainingeditor.cosc .trainingeditorcontentinner .featurelists .singlefeature:nth-child(3n+2){flex: 1 1 26%;}
+.trainingeditor.cosc .trainingeditorcontentinner .featurelists .singlefeature:nth-child(3n+3){flex: 1 1 29%;}
+.trainingeditor.cosc .trainingeditorcontentinner .featurelists .singlefeature:nth-child(4){margin-top: -2%;}
+.trainingeditor.cosc .trainingeditorcontentinner .featurelists .singlefeature:nth-child(5){margin-top: -4%;}
+.trainingeditor.cosc .trainingeditorcontentinner .logowrappercls{background-color: #f6f6f6;padding:5px;border-radius: 10px;max-width: 96%;margin-left: auto;margin-right: auto;display:block;margin-top: 15px;}
+.trainingeditor.cosc .trainingeditorcontentinner .logowrappercls ul{display: flex;justify-content: flex-start;align-items: stretch;flex-wrap: wrap;}
+.trainingeditor.cosc .trainingeditorcontentinner .logowrappercls ul li{flex: 1 1 14.66%;align-items: center;margin: 1%;position: relative;height: 50px;}
+.trainingeditor.cosc .trainingeditorcontentinner .logowrappercls ul li:before {content: "";top: 0;left: -8px;position: absolute;height: 100%;width: 2px;background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(149, 149, 149, 1) 49%, rgba(255, 255, 255, 0) 100%);background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(49%, rgba(149, 149, 149, 1)), color-stop(100%, rgba(255, 255, 255, 0)));background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(149, 149, 149, 1) 49%, rgba(255, 255, 255, 0) 100%);background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(149, 149, 149, 1) 49%, rgba(255, 255, 255, 0) 100%);background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(149, 149, 149, 1) 49%, rgba(255, 255, 255, 0) 100%);background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(149, 149, 149, 1) 49%, rgba(255, 255, 255, 0) 100%);filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
+ }
+.trainingeditor.cosc .trainingeditorcontentinner .logowrappercls ul li:first-child:before{display:none;}
+
+
+.trainingeditor.closedesksupport .trainingeditorcontentinner ul li img{width: 96%;height: auto;max-height: inherit;}
+.trainingeditor.closedesksupport{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_closedesksupport_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:100% 100%!important;padding:0!important;border-radius:0!important;overflow:hidden}
+.trainingeditor.closedesksupport .trainingeditortop{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblocktop.png);background-size: 100% 70px;background-repeat: no-repeat;position: absolute;display: block;z-index: 1;width: 100%;height: 70px;top: -68px;}
+.trainingeditor.closedesksupport .trainingeditorbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockbottom.png);background-size:cover;background-repeat:no-repeat;position:absolute;display:block;z-index:2;width:100%;min-height:80px;bottom:0}
+.trainingeditor.closedesksupport .trainingeditorcontentwrapper{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockgradient.png);background-size: 100%;background-repeat: no-repeat;position: absolute;display: block;z-index: 3;width: 100%;height: 170px;
+margin-top: -20%;}
+.trainingeditor.closedesksupport .trainingeditorcenter{max-width: 100%; }
+.trainingeditor.closedesksupport .trainingeditorcenter h1{display:block;font-size:42px;font-family:'Helveticabold';line-height:42px;text-align:center;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%}
+.trainingeditor.closedesksupport .trainingeditorcontent{margin-top: 0;}
+.trainingeditor.closedesksupport .trainingeditorcenter .trainingeditorimg{max-width: 620px;display: block;margin: 0 auto;margin-top: -5%;}
+.trainingeditor.closedesksupport .trainingeditorcontentinner p {font-size: 17px;margin: 0;line-height: 20px;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));
+filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));color:#fff;font-family: 'HelveticaRegular';text-align: center;color: #fff;text-align: center;max-width: 76%;margin-left: auto;margin-right: auto;}
+
+
+.trainingeditor.trainingcenter .trainingeditorcontentinner ul li img{width: 96%;height: auto;max-height: inherit;}
+.trainingeditor.trainingcenter{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_trainingcenter_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:100% 100%!important;padding:0!important;border-radius:0!important;overflow:hidden}
+.trainingeditor.trainingcenter .trainingeditortop{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblocktop.png);background-size: 100% 70px;background-repeat: no-repeat;position: absolute;display: block;z-index: 1;width: 100%;height: 70px;top: -68px;}
+.trainingeditor.trainingcenter .trainingeditorbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockbottom.png);background-size:cover;background-repeat:no-repeat;position:absolute;display:block;z-index:2;width:100%;min-height:80px;bottom:0}
+.trainingeditor.trainingcenter .trainingeditorcontentwrapper{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockgradient.png);background-size: 100%;background-repeat: no-repeat;position: absolute;display: block;z-index: 3;width: 100%;height: 170px;
+margin-top: -20%;}
+.trainingeditor.trainingcenter .trainingeditorcenter{max-width: 100%; }
+.trainingeditor.trainingcenter .trainingeditorinner h1{display:block;font-size:30px;font-family:'Helveticabold';line-height:36px;text-align:center;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%}
+.trainingeditor.trainingcenter .trainingeditorcontent{margin-top: -13%;}
+.trainingeditor.trainingcenter .trainingeditorcenter .trainingeditorimg{max-width: 725px;display: block;margin: 0 auto;}
+.trainingeditor.trainingcenter .trainingeditorcontentinner h2{display:block;font-size:25px;font-family:'Helveticabold';line-height:25px;text-align:center;background:#ffee00;background-image:-webkit-linear-gradient(top,#ffee00 0%,#ffee00 45%,#ffee00 46%,#ffee00 100%);background-image:-moz-linear-gradient(top,#ffee00 0%,#ffee00 45%,#ffee00 46%,#ffee00 100%);background-image:-o-linear-gradient(top,#ffee00 0%,#ffee00 45%,#ffee00 46%,#ffee00 100%);background-image:linear-gradient(to bottom,#ffee00 0%,#ffee00 45%,#ffee00 46%,#ffee00 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));margin-bottom: 10px;-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%}
+.trainingeditor.trainingcenter .trainingeditorcontentinner p {font-size: 17px;margin: 0;line-height: 20px;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));
+filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));color:#fff;font-family: 'HelveticaRegular';text-align: center;color: #fff;text-align: center;max-width: 76%;margin-left: auto;margin-right: auto;}
+
+
+.trainingeditor.calenderavail .trainingeditorcontentinner ul li img{width: 96%;height: auto;max-height: inherit;}
+.trainingeditor.calenderavail{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_calenderavail_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:100% 100%!important;padding:0!important;border-radius:0!important;overflow:hidden}
+.trainingeditor.calenderavail .trainingeditortop{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblocktop.png);background-size: 100% 70px;background-repeat: no-repeat;position: absolute;display: block;z-index: 1;width: 100%;height: 70px;top: -68px;}
+.trainingeditor.calenderavail .trainingeditorbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockbottom.png);background-size:cover;background-repeat:no-repeat;position:absolute;display:block;z-index:2;width:100%;min-height:80px;bottom:0}
+.trainingeditor.calenderavail .trainingeditorcontentwrapper{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockgradient.png);background-size: 100%;background-repeat: no-repeat;position: absolute;display: block;z-index: 3;width: 100%;height: 170px;
+margin-top: -20%;}
+.trainingeditor.calenderavail .trainingeditorcenter{max-width: 100%; }
+.trainingeditor.calenderavail .trainingeditorinner h1{display:block;font-size:30px;font-family:'Helveticabold';line-height:36px;text-align:center;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%}
+.trainingeditor.calenderavail .trainingeditorcontent{margin-top: -13%;}
+.trainingeditor.calenderavail .trainingeditorcenter .trainingeditorimg{max-width: 725px;display: block;margin: 0 auto;}
+.trainingeditor.calenderavail .trainingeditorcontentinner h2{display:block;font-size:25px;font-family:'Helveticabold';line-height:25px;text-align:center;background:#ffee00;background-image:-webkit-linear-gradient(top,#ffee00 0%,#ffee00 45%,#ffee00 46%,#ffee00 100%);background-image:-moz-linear-gradient(top,#ffee00 0%,#ffee00 45%,#ffee00 46%,#ffee00 100%);background-image:-o-linear-gradient(top,#ffee00 0%,#ffee00 45%,#ffee00 46%,#ffee00 100%);background-image:linear-gradient(to bottom,#ffee00 0%,#ffee00 45%,#ffee00 46%,#ffee00 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));margin-bottom: 10px;-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%}
+.trainingeditor.calenderavail .trainingeditorcontentinner p {font-size: 17px;margin: 0;line-height: 20px;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));
+filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));color:#fff;font-family: 'HelveticaRegular';text-align: center;color: #fff;text-align: center;max-width: 76%;margin-left: auto;margin-right: auto;}
+
+
+.trainingeditor.powerpoint .trainingeditorcontentinner ul li img{width: 100%;height: auto;max-height: inherit;}
+.trainingeditor.powerpoint{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_powerpoint_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:100%!important;padding:0!important;border-radius:0!important;overflow:hidden}
+.trainingeditor.powerpoint .trainingeditortop{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblocktop.png);background-size:100% auto;background-repeat:no-repeat;position:absolute;display:block;z-index:1;width:100%;height:105px;top:-70px}
+.trainingeditor.powerpoint .trainingeditorbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockbottom.png);background-size:cover;background-repeat:no-repeat;position:absolute;display:block;z-index:2;width:100%;min-height:120px;bottom:0}
+.trainingeditor.powerpoint .trainingeditorcontentwrapper{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockgradient.png);background-size: 100%;background-repeat: no-repeat;position: absolute;display: block;z-index: 3;width: 100%;height: 207px;   margin-top: -23%;}
+.trainingeditor.powerpoint .trainingeditorcenter{max-width: 100%; }
+.trainingeditor.powerpoint .trainingeditorcenter h1{display:block;font-size:30px;font-family:'Helveticabold';line-height:32px;text-align:center;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%;margin-bottom: 0;}
+.trainingeditor.powerpoint .trainingeditorcenter h2{display:block;font-size:25px;font-family:'Helveticabold';line-height:27px;text-align:center;background:#fffc00;background-image:-webkit-linear-gradient(top,#fffc00 0%,#fffc00 45%,#fffc00 46%,#fffc00 100%);background-image:-moz-linear-gradient(top,#fffc00 0%,#fffc00 45%,#fffc00 46%,#fffc00 100%);background-image:-o-linear-gradient(top,#fffc00 0%,#fffc00 45%,#fffc00 46%,#fffc00 100%);background-image:linear-gradient(to bottom,#fffc00 0%,#fffc00 45%,#fffc00 46%,#fffc00 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%;margin-bottom: 5px;}
+.trainingeditor.powerpoint .trainingeditorcenter p {font-size: 18.7px;margin: 0;line-height: 22px;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));
+ filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));color:#fff;font-family: 'HelveticaRegular';text-align: center;color: #fff;text-align: center;max-width: 84%;margin-left: auto;margin-right: auto;}
+.trainingeditor.powerpoint .trainingeditorcontent{margin-top: 5%;}
+.trainingeditor.powerpoint .trainingeditorcontentinner .screenwrappercls{background-color: #f6f6f6;padding:5px;border-radius: 10px;max-width: 96%;margin-left: auto;margin-right: auto;display:block;margin-top: 15px;}
+.trainingeditor.powerpoint .trainingeditorcontentinner .screenwrappercls ul{display: flex;justify-content: flex-start;align-items: stretch;flex-wrap: wrap;padding: 10px 0;}
+.trainingeditor.powerpoint .trainingeditorcontentinner .screenwrappercls ul li{flex: 1 1 14.66%;align-items: center;margin: 0 1%;position: relative;height: auto;    border: 1px solid #eeeeee;}
+.trainingeditor.powerpoint .trainingeditorcontentinner .screenwrappercls .titlecls{display: flex;justify-content: flex-start;align-items: center;flex-wrap: wrap;width:100%;font-size: 18px;margin: 0;line-height: 22px;color:#000000;font-family: 'HelveticaRegular';}
+.trainingeditor.powerpoint .trainingeditorcontentinner .screenwrappercls .titlecls img{max-width: 24px;height: auto;margin: 0;margin-right: 8px;margin-left: 10px;}
+
+
+.trainingeditor.flyers .trainingeditorcontentinner ul li img{width: 100%;height: auto;max-height: inherit;}
+.trainingeditor.flyers{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_flyers_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:100%!important;padding:0!important;border-radius:0!important;overflow:hidden}
+.trainingeditor.flyers .trainingeditortop{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblocktop.png);background-size:100% auto;background-repeat:no-repeat;position:absolute;display:block;z-index:1;width:100%;height:105px;top:-70px}
+.trainingeditor.flyers .trainingeditorbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockbottom.png);background-size:cover;background-repeat:no-repeat;position:absolute;display:block;z-index:2;width:100%;min-height:120px;bottom:0}
+.trainingeditor.flyers .trainingeditorcontentwrapper{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockgradient.png);background-size: 100%;background-repeat: no-repeat;position: absolute;display: block;z-index: 3;width: 100%;height: 207px;   margin-top: -23%;}
+.trainingeditor.flyers .trainingeditorcenter{max-width: 100%; }
+.trainingeditor.flyers .trainingeditorcenter h1{display:block;font-size:30px;font-family:'Helveticabold';line-height:32px;text-align:center;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%;margin-bottom: 0;}
+.trainingeditor.flyers .trainingeditorcenter h2{display:block;font-size:25px;font-family:'Helveticabold';line-height:27px;text-align:center;background:#fffc00;background-image:-webkit-linear-gradient(top,#fffc00 0%,#fffc00 45%,#fffc00 46%,#fffc00 100%);background-image:-moz-linear-gradient(top,#fffc00 0%,#fffc00 45%,#fffc00 46%,#fffc00 100%);background-image:-o-linear-gradient(top,#fffc00 0%,#fffc00 45%,#fffc00 46%,#fffc00 100%);background-image:linear-gradient(to bottom,#fffc00 0%,#fffc00 45%,#fffc00 46%,#fffc00 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%;margin-bottom: 5px;}
+.trainingeditor.flyers .trainingeditorcenter p {font-size: 18.7px;margin: 0;line-height: 22px;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));
+filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));color:#fff;font-family: 'HelveticaRegular';text-align: center;max-width: 84%;margin-left: auto;margin-right: auto;}
+.trainingeditor.flyers .trainingeditorcontent{margin-top: 5%;}
+.trainingeditor.flyers .trainingeditorcontentinner .screenwrappercls{background-color: #f6f6f6;padding:5px;border-radius: 10px;max-width: 96%;margin-left: auto;margin-right: auto;display:block;margin-top: 15px;}
+.trainingeditor.flyers .trainingeditorcontentinner .screenwrappercls ul{display: flex;justify-content: flex-start;align-items: stretch;flex-wrap: wrap;padding: 10px 0;}
+.trainingeditor.flyers .trainingeditorcontentinner .screenwrappercls ul li{flex: 1 1 14.66%;align-items: center;margin: 0 1%;position: relative;height: auto;    border: 1px solid #eeeeee;}
+.trainingeditor.flyers .trainingeditorcontentinner .screenwrappercls .titlecls{display: flex;justify-content: flex-start;align-items: center;flex-wrap: wrap;width:100%;font-size: 18px;margin: 0;line-height: 22px;color:#000000;font-family: 'HelveticaRegular';}
+.trainingeditor.flyers .trainingeditorcontentinner .screenwrappercls .titlecls img{max-width: 24px;height: auto;margin: 0;margin-right: 8px;margin-left: 10px;}
+
+
+.trainingeditor.businesscard .trainingeditorcontentinner ul li img{width: 100%;height: auto;max-height: inherit;}
+.trainingeditor.businesscard{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_businesscard_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:100%!important;padding:0!important;border-radius:0!important;overflow:hidden}
+.trainingeditor.businesscard .trainingeditortop{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblocktop.png);background-size:100% auto;background-repeat:no-repeat;position:absolute;display:block;z-index:1;width:100%;height:105px;top:-70px}
+.trainingeditor.businesscard .trainingeditorbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockbottom.png);background-size:cover;background-repeat:no-repeat;position:absolute;display:block;z-index:2;width:100%;min-height:120px;bottom:0}
+.trainingeditor.businesscard .trainingeditorcontentwrapper{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockgradient.png);background-size: 100%;background-repeat: no-repeat;position: absolute;display: block;z-index: 3;width: 100%;height: 207px;   margin-top: -23%;}
+.trainingeditor.businesscard .trainingeditorcenter{max-width: 100%; }
+.trainingeditor.businesscard .trainingeditorcenter h1{display:block;font-size:30px;font-family:'Helveticabold';line-height:32px;text-align:center;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%;margin-bottom: 0;}
+.trainingeditor.businesscard .trainingeditorcenter h2{display:block;font-size:25px;font-family:'Helveticabold';line-height:27px;text-align:center;background:#fffc00;background-image:-webkit-linear-gradient(top,#fffc00 0%,#fffc00 45%,#fffc00 46%,#fffc00 100%);background-image:-moz-linear-gradient(top,#fffc00 0%,#fffc00 45%,#fffc00 46%,#fffc00 100%);background-image:-o-linear-gradient(top,#fffc00 0%,#fffc00 45%,#fffc00 46%,#fffc00 100%);background-image:linear-gradient(to bottom,#fffc00 0%,#fffc00 45%,#fffc00 46%,#fffc00 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%;margin-bottom: 5px;}
+.trainingeditor.businesscard .trainingeditorcenter p {font-size: 18.7px;margin: 0;line-height: 22px;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));
+filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));color:#fff;font-family: 'HelveticaRegular';text-align: center;color: #fff;text-align: center;max-width: 84%;margin-left: auto;margin-right: auto;}
+.trainingeditor.businesscard .trainingeditorcontent{margin-top: 5%;}
+.trainingeditor.businesscard .trainingeditorcontentinner .screenwrappercls{background-color: #f6f6f6;padding:5px;border-radius: 10px;max-width: 96%;margin-left: auto;margin-right: auto;display:block;margin-top: 15px;}
+.trainingeditor.businesscard .trainingeditorcontentinner .screenwrappercls ul{display: flex;justify-content: flex-start;align-items: stretch;flex-wrap: wrap;padding: 10px 0;}
+.trainingeditor.businesscard .trainingeditorcontentinner .screenwrappercls ul li{flex: 1 1 14.66%;align-items: center;margin: 0 1%;position: relative;height: auto;    border: 1px solid #eeeeee;}
+.trainingeditor.businesscard .trainingeditorcontentinner .screenwrappercls .titlecls{display: flex;justify-content: flex-start;align-items: center;flex-wrap: wrap;width:100%;font-size: 18px;margin: 0;line-height: 22px;color:#000000;font-family: 'HelveticaRegular';}
+.trainingeditor.businesscard .trainingeditorcontentinner .screenwrappercls .titlecls img{max-width: 24px;height: auto;margin: 0;margin-right: 8px;margin-left: 10px;}
+
+
+.trainingeditor.weoffer{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_weoffer_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:100% 100%!important;padding:0!important;border-radius:0!important;overflow:hidden}
+.trainingeditor.weoffer .trainingeditortop{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblocktop.png);background-size:100% auto;background-repeat:no-repeat;position:absolute;display:block;z-index:1;width:100%;height:105px;top:-70px}
+.trainingeditor.weoffer .trainingeditorbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockbottom.png);background-size:cover;background-repeat:no-repeat;position:absolute;display:block;z-index:2;width:100%;min-height:40px;bottom:0}
+.trainingeditor.weoffer .trainingeditorcontentwrapper{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/onboard_welcome_contentblockgradient.png);background-size: 100%;background-repeat: no-repeat;position: absolute;display: block;z-index: 3;width: 100%;height: 137px;   margin-top: -15%;}
+.trainingeditor.weoffer .trainingeditorcenter{max-width: 100%; }
+.trainingeditor.weoffer .trainingeditorcontent{margin-top: 8%;}
+.trainingeditor.weoffer .trainingeditorinner h1{display:block;font-size:27.89px;font-family:'Helveticabold';line-height:30px;text-align:left;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;    width: 59%;}
+.trainingeditor.weoffer .trainingeditorlogo {max-width: 316px;display: block;margin: 20px 10px 0 auto;border-radius: 10px;border-bottom-right-radius: 10px;padding: 18px 22px 10px;background-color: #fff;}
+.trainingeditor.weoffer .trainingeditortopcontent{margin-top: -12%;max-width: 94%;display: block;margin-left: auto;margin-right: auto;}
+.trainingeditor.weoffer .trainingeditorinner h2{display:block;font-size:27.89px;font-family:'Helveticabold';line-height:30px;text-align:left;background:#fff600;background-image:-webkit-linear-gradient(top,#fff600 0%,#fff600 45%,#fff600 46%,#fff600 100%);background-image:-moz-linear-gradient(top,#fff600 0%,#fff600 45%,#fff600 46%,#fff600 100%);background-image:-o-linear-gradient(top,#fff600 0%,#fff600 45%,#fff600 46%,#fff600 100%);background-image:linear-gradient(to bottom,#fff600 0%,#fff600 45%,#fff600 46%,#fff600 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;margin: 0;padding-left: 35px;}
+.trainingeditor.weoffer .trainingeditortopcontent .listsblock ul{ columns: 2;-webkit-columns: 2;-moz-columns: 2;margin-top: 10px;list-style: none;margin-left: 15px;}
+.trainingeditor.weoffer .trainingeditortopcontent .listsblock ul li ul{ columns: 1;-webkit-columns: 1;-moz-columns:1;margin-top: 0px;list-style: none;}
+.trainingeditor.weoffer .trainingeditortopcontent .listsblock ul li::before{content:"\25A0";color:#fff600;font-weight:700;display:inline-block;width:1em;margin-left:-1em;font-size:20px}
+.trainingeditor.weoffer .trainingeditortopcontent .listsblock ul li ul li::before{content:"\26AC";color:#fff600;font-weight:700;display:inline-block;width:1em;margin-left:-1em;font-size:20px}
+.trainingeditor.weoffer .trainingeditortopcontent .listsblock ul li{position: relative;height: auto;color:#fff;font-family: 'HelveticaRegular';text-align: left;font-size: 12px;line-height: 20px;}
+.trainingeditor.weoffer .trainingeditortopcontent .listsblock ul li span{color:#fff600;}
+
+/*------END ONBOARDING CSS------*/
+
+/*------UTA CSS------*/
+
+.trainingeditor.utaintroduc{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/uta_introduction_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:100% 100%!important;padding:0 0 108px 0!important;border-radius:0!important;overflow:hidden;position: relative;}
+.trainingeditorutalogo{max-width: 181px;display: block;margin: 29px 0 auto 44px;}
+.trainingeditorutalogo img{border:none!important;max-width:100%}
+.trainingeditor.utaintroduc .trainingeditorutaimg{width: 288px;height: auto;position: absolute;bottom: 0;right: 20px;}
+.trainingeditor.utaintroduc .trainingeditorutaimg img{border:none!important;max-width:100%}
+.trainingeditor.utaintroduc .linktxt{position: absolute;bottom: 3px;right: 20px;z-index:8;}
+.trainingeditor.utaintroduc .linktxt a{color:#fff;font-size: 13.56px;margin: 0;line-height:22.9px;font-family: 'RobotoRegular';text-decoration: none;}
+.trainingeditor.utaintroduc .trainingeditorutacontent{margin-left:44px}
+.trainingeditor.utaintroduc .trainingeditorutacontent h1{font-size: 34.86px;font-family: 'RobotoBold';line-height: 38.73px;text-align:left;background:#00efff;background-image:-webkit-linear-gradient(165deg,#00efff 0%,#eefeff 70%);background-image:-moz-linear-gradient(165deg,#00efff 0%,#eefeff 70%);background-image:-o-linear-gradient(165deg,#00efff 0%,#eefeff 70%);background-image:linear-gradient(165deg,#00efff 0%,#eefeff 70%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-text-fill-color:transparent;position:relative;margin: 0;max-width:62%;margin-top: 40px;}
+.trainingeditor.utaintroduc .trainingeditorutacontent p {font-size: 16.73px;margin: 0;line-height: 21.3px;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));
+filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));color:#fff;font-family: 'RobotoMedium';text-align: left;max-width: 52%;margin-top: 15px;}
+.trainingeditor.utaintroduc .trainingeditorutacontent h3{font-size: 19.37px;font-family: 'RobotoBold';line-height: 21.3px;text-align:left;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-text-fill-color:transparent;position:relative;margin: 0;max-width:48%;text-transform: uppercase;margin-top: 15px;}
+.trainingeditor.utaintroduc .trainingeditorutabottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/uta_introduction_contentblockbottom.png);background-size:cover;background-repeat:no-repeat;position:absolute;display:block;z-index:7;width:100%;min-height:111px;bottom:0}
+.trainingeditor.utaintroduc .trainingeditorutacontent h1 span{font-family: 'MontserratBold';}
+
+
+
+.trainingeditor.utaintroduc.utaaboutus .trainingeditorutacontent h3{font-size: 15.49px;font-family: 'RobotoMedium';line-height: 19.37px;max-width: 59%;}
+.trainingeditor.utaintroduc.utaaboutus .trainingeditorutacontent p{font-size: 15.49px;font-family: 'RobotoMedium';line-height: 19.37px;max-width: 65%;}
+.trainingeditor.utaintroduc.utaaboutus .trainingeditorutacontent p span{color:#1cf1ff;}
+.trainingeditor.utaintroduc.utaaboutus .trainingeditorutacontent h1{text-transform: uppercase;font-size: 27.11px;font-family: 'RobotoBold';line-height: 29.05px;    margin-top: 14px;background: #00efff;background-image: -webkit-linear-gradient(165deg,#00efff 0%,#eefeff 70%);background-image: -moz-linear-gradient(165deg,#00efff 0%,#eefeff 70%);background-image: -o-linear-gradient(165deg,#00efff 0%,#eefeff 70%);background-image: linear-gradient(135deg,#00efff 0%,#eefeff 70%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.trainingeditor.utaintroduc.utaaboutus .trainingeditorutaimg {width: 325px;right: -20px;}
+
+
+.trainingeditor.utaintroduc.worldwideweb .trainingeditorutaimg {width: 278px;right: 16px;}
+.trainingeditor.utaintroduc.worldwideweb .trainingeditorutacontent h1{text-transform: uppercase;font-size: 46.48px;font-family: 'RobotoBold';line-height: 46.48px;    margin-top: 14px;background: #00efff;background-image: -webkit-linear-gradient(135deg,#00efff 40%,#eefeff 95%);background-image: -moz-linear-gradient(135deg,#00efff 40%,#eefeff 95%);background-image: -o-linear-gradient(135deg,#00efff 40%,#eefeff 95%);background-image: linear-gradient(135deg,#00efff 40%,#eefeff 95%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-transform: uppercase;margin-top: 23px;}
+.trainingeditor.utaintroduc.worldwideweb .trainingeditorutacontent ul{columns: 1;-webkit-columns: 1;-moz-columns: 1;margin-top: 0px;list-style: none;padding: 0;}
+.trainingeditor.utaintroduc.worldwideweb .trainingeditorutacontent ul li{font-size: 15.49px;font-family: 'RobotoMedium';line-height: 19.37px;max-width: 59%;color: #fff;margin-top: 27px;background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/circlelisttype.png);background-size: 17px;display: block;background-repeat: no-repeat; background-position: left top 3px;padding-left: 24px;list-style: none;}
+.trainingeditor.utaintroduc.worldwideweb .trainingeditorutacontent ul li span{color:#00e5f4;}
+
+.trainingeditor.utaintroduc.WhoweRP {padding: 0 0 86px 0!important;}
+.trainingeditor.utaintroduc.WhoweRP .trainingeditorutaimg {width: 294px;right: 22px;bottom: 12px;}
+.trainingeditor.utaintroduc.WhoweRP .trainingeditorutacontent h1{text-transform: uppercase;font-size: 46.48px;font-family: 'RobotoBold';line-height: 42.61px;margin-top: 14px;background: #00efff;background-image: -webkit-linear-gradient(155deg,#00efff 0%,#eefeff 77%);background-image: -moz-linear-gradient(155deg,#00efff 0%,#eefeff 77%);background-image: -o-linear-gradient(155deg,#00efff 0%,#eefeff 77%);background-image: linear-gradient(155deg,#00efff 0%,#eefeff 77%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-transform: uppercase;margin-top: 10px;max-width: 68%;}
+.trainingeditor.utaintroduc.WhoweRP .trainingeditorutacontent ul{columns: 1;-webkit-columns: 1;-moz-columns: 1;margin-top: 0px;list-style: none;padding: 0;}
+.trainingeditor.utaintroduc.WhoweRP .trainingeditorutacontent ul li{font-size: 13.56px;font-family: 'RobotoMedium';line-height: 17.43px;max-width: 54%;color: #fff;margin-top: 13px;background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/circlelisttype.png);background-size: 17px;display: block;background-repeat: no-repeat; background-position: left top 0px;padding-left: 24px;list-style: none;}
+.trainingeditor.utaintroduc.WhoweRP .trainingeditorutacontent ul li span{color:#00e5f4;}
+.trainingeditor.utaintroduc.WhoweRP .trainingeditorutabottom {background-position: right -157px bottom !important;}
+.trainingeditor.utaintroduc.WhoweRP .linktxt {bottom: 12px;}
+.trainingeditor.utaintroduc.WhoweRP .trainingeditorutacontent p{max-width: 68%;}
+.trainingeditor.utaintroduc.WhoweRP .trainingeditorutacontent p span{color:#00e5f4;}
+
+
+.trainingeditor.utaintroduc.globaldemandsb .trainingeditorutaimg {width: 278px;right: 5px;}
+.trainingeditor.utaintroduc.globaldemandsb .trainingeditorutacontent h1{text-transform: uppercase;font-size: 30.99px;font-family: 'RobotoBold';line-height: 32.92px;    margin-top: 14px;background: #00efff;background-image: -webkit-linear-gradient(135deg,#00efff 0%,#eefeff 90%);background-image: -moz-linear-gradient(135deg,#00efff 0%,#eefeff 90%);background-image: -o-linear-gradient(135deg,#00efff 0%,#eefeff 90%);background-image: linear-gradient(135deg,#00efff 0%,#eefeff 90%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-transform: uppercase;margin-top: 23px;max-width: 64%;}
+.trainingeditor.utaintroduc.globaldemandsb .trainingeditorutacontent ul{columns: 1;-webkit-columns: 1;-moz-columns: 1;margin-top: 0px;list-style: none;padding: 0;}
+.trainingeditor.utaintroduc.globaldemandsb .trainingeditorutacontent ul li{font-size: 15.49px;font-family: 'RobotoMedium';line-height: 17.43px;max-width: 59%;color: #fff;margin-top: 27px;background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/circlelisttype.png);background-size: 17px;display: block;background-repeat: no-repeat; background-position: left top 3px;padding-left: 24px;list-style: none;}
+.trainingeditor.utaintroduc.globaldemandsb .trainingeditorutacontent ul li span{color:#00e5f4;}
+
+.trainingeditor.utaintroduc.currentinitiatives {padding: 0 0 60px 0!important;}
+.trainingeditor.utaintroduc.currentinitiatives .trainingeditorutaimg {width: 322px;right: -9px;bottom: 19px;}
+.trainingeditor.utaintroduc.currentinitiatives .trainingeditorutacontent h1{text-transform: uppercase;font-size: 19.37px;font-family: 'RobotoBold';line-height: 23.24px; margin-top: 5px;background: #00efff;background-image: -webkit-linear-gradient(135deg,#00efff 0%,#eefeff 90%);background-image: -moz-linear-gradient(135deg,#00efff 0%,#eefeff 90%);background-image: -o-linear-gradient(135deg,#00efff 0%,#eefeff 90%);background-image: linear-gradient(135deg,#00efff 0%,#eefeff 90%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-transform: uppercase;margin-top: 23px;max-width: 66%;}
+.trainingeditor.utaintroduc.currentinitiatives .trainingeditorutacontent ul{columns: 1;-webkit-columns: 1;-moz-columns: 1;margin-top: 0px;list-style: none;padding: 0;}
+.trainingeditor.utaintroduc.currentinitiatives .trainingeditorutacontent ul li{font-size: 13.56px;font-family: 'RobotoMedium';line-height: 17.43px;max-width: 60%;color: #fff;margin-top: 13px;background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/circlelisttype.png);background-size: 17px;display: block;background-repeat: no-repeat; background-position: left top 3px;padding-left: 24px;list-style: none;}
+.trainingeditor.utaintroduc.currentinitiatives .trainingeditorutacontent ul li span{color:#00e5f4;}
+
+
+.trainingeditor.utaintroduc.currentinitiativespageone{padding: 0 0 71px 0!important;}
+.trainingeditor.utaintroduc.currentinitiativespageone .trainingeditorutaimg {width:253px;right: 17px;bottom: 19px;}
+.trainingeditor.utaintroduc.currentinitiativespageone .trainingeditorutacontent h1{text-transform: uppercase;font-size: 34.86px;font-family: 'RobotoBold';line-height: 38.73px; margin-top: 5px;background: #00efff;background-image: -webkit-linear-gradient(135deg,#00efff 0%,#eefeff 90%);background-image: -moz-linear-gradient(135deg,#00efff 0%,#eefeff 90%);background-image: -o-linear-gradient(135deg,#00efff 0%,#eefeff 90%);background-image: linear-gradient(135deg,#00efff 0%,#eefeff 90%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-transform: uppercase;margin-top: 10px;max-width: 70%;}
+.trainingeditor.utaintroduc.currentinitiativespageone .trainingeditorutacontent ul{columns: 1;-webkit-columns: 1;-moz-columns: 1;margin-top: 0px;list-style: none;padding: 0;}
+.trainingeditor.utaintroduc.currentinitiativespageone .trainingeditorutacontent ul li{font-size: 11.62px;font-family: 'RobotoMedium';line-height: 15.49px;max-width: 60%;color: #fff;margin-top: 13px;background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/circlelisttype.png);background-size: 17px;display: block;background-repeat: no-repeat; background-position: left top 3px;padding-left: 24px;list-style: none;}
+.trainingeditor.utaintroduc.currentinitiativespageone .trainingeditorutacontent ul li span{color:#00e5f4;}
+
+
+.trainingeditor.utaintroduc.currentinitiativespagetwo{padding: 0 0 80px 0!important;}
+.trainingeditor.utaintroduc.currentinitiativespagetwo .trainingeditorutaimg {width:226px;right: 45px;bottom: 19px;}
+.trainingeditor.utaintroduc.currentinitiativespagetwo .trainingeditorutacontent h1{text-transform: uppercase;font-size: 34.86px;font-family: 'RobotoBold';line-height: 38.73px; margin-top: 5px;background: #00efff;background-image: -webkit-linear-gradient(135deg,#00efff 0%,#eefeff 90%);background-image: -moz-linear-gradient(135deg,#00efff 0%,#eefeff 90%);background-image: -o-linear-gradient(135deg,#00efff 0%,#eefeff 90%);background-image: linear-gradient(135deg,#00efff 0%,#eefeff 90%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-transform: uppercase;margin-top: 25px;max-width: 70%;}
+.trainingeditor.utaintroduc.currentinitiativespagetwo .trainingeditorutacontent ul{columns: 1;-webkit-columns: 1;-moz-columns: 1;margin-top: 0px;list-style: none;padding: 0;}
+.trainingeditor.utaintroduc.currentinitiativespagetwo .trainingeditorutacontent ul li{font-size: 11.62px;font-family: 'RobotoMedium';line-height: 15.49px;max-width: 60%;color: #fff;margin-top: 25px;background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/circlelisttype.png);background-size: 17px;display: block;background-repeat: no-repeat; background-position: left top 3px;padding-left: 24px;list-style: none;}
+.trainingeditor.utaintroduc.currentinitiativespagetwo .trainingeditorutacontent ul li span{color:#00e5f4;}
+
+
+.trainingeditor.utaintroduc.processqualification{padding: 0 0 80px 0!important;}
+.trainingeditor.utaintroduc.processqualification .trainingeditorutaimg {width:267px;right: 10px;bottom: 19px;}
+.trainingeditor.utaintroduc.processqualification .trainingeditorutacontent h1{text-transform: uppercase;font-size: 34.86px;font-family: 'RobotoBold';line-height: 38.73px; margin-top: 5px;background: #00efff;background-image: -webkit-linear-gradient(135deg,#00efff 0%,#eefeff 90%);background-image: -moz-linear-gradient(135deg,#00efff 0%,#eefeff 90%);background-image: -o-linear-gradient(135deg,#00efff 0%,#eefeff 90%);background-image: linear-gradient(135deg,#00efff 0%,#eefeff 90%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-transform: uppercase;margin-top: 15px;max-width: 70%;}
+.trainingeditor.utaintroduc.processqualification .trainingeditorutacontent ul{columns: 1;-webkit-columns: 1;-moz-columns: 1;margin-top: 0px;list-style: none;padding: 0;}
+.trainingeditor.utaintroduc.processqualification .trainingeditorutacontent ul li{font-size: 13.56px;font-family: 'RobotoMedium';line-height: 17.43px;max-width: 54%;color: #fff;margin-top: 15px;background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/circlelisttype.png);background-size: 17px;display: block;background-repeat: no-repeat; background-position: left top 3px;padding-left: 24px;list-style: none;}
+.trainingeditor.utaintroduc.processqualification .trainingeditorutacontent ul li span{color:#00e5f4;}
+
+
+.trainingeditor.utaintroduc.whatwedo{padding: 0 0 80px 0!important;}
+.trainingeditor.utaintroduc.whatwedo .trainingeditorutaimg {width:255px;right: 24px;bottom: 42px;}
+.trainingeditor.utaintroduc.whatwedo .trainingeditorutacontent h1{text-transform: uppercase;font-size: 30.99px;font-family: 'RobotoBold';line-height: 32.92px; margin-top: 5px;background: #00efff;background-image: -webkit-linear-gradient(135deg,#00efff 0%,#eefeff 90%);background-image: -moz-linear-gradient(135deg,#00efff 0%,#eefeff 90%);background-image: -o-linear-gradient(135deg,#00efff 0%,#eefeff 90%);background-image: linear-gradient(135deg,#00efff 0%,#eefeff 90%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-transform: uppercase;margin-top: 15px;max-width: 70%;}
+.trainingeditor.utaintroduc.whatwedo .trainingeditorutacontent ul{columns: 1;-webkit-columns: 1;-moz-columns: 1;margin-top: 0px;list-style: none;padding: 0;}
+.trainingeditor.utaintroduc.whatwedo .trainingeditorutacontent ul li{font-size: 13.56px;font-family: 'RobotoMedium';line-height: 17.43px;max-width: 61%;color: #fff;margin-top: 15px;background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/circlelisttype.png);background-size: 17px;display: block;background-repeat: no-repeat; background-position: left top 3px;padding-left: 24px;list-style: none;}
+.trainingeditor.utaintroduc.whatwedo .trainingeditorutacontent ul li span{color:#00e5f4;}
+.trainingeditor.utaintroduc.whatwedo .trainingeditorutabottom {background-position: bottom right -155px;}
+
+
+/*------END UTA CSS------*/
+
+/*------STRAT Med World One CSS------*/
+.trainingeditor.mwointroduc{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/mwo_introduction_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:100% 100%!important;padding:0!important;border-radius:0!important;overflow:hidden;position: relative;}
+.trainingeditor.mwointroduc .trainingeditorinner {padding: 15px 25px 25px;}
+.trainingeditortopsec{display: flex;justify-content: flex-start;align-items:center}
+.trainingeditortopsec .trainingeditormwotext h1{font-size: 30.26px;font-family: 'OpenSansBold';line-height: 38.9px;text-transform: uppercase;margin-top: 5px;background: #632423;background-image: -webkit-linear-gradient(135deg,#632423 0%,#632423 90%);background-image: -moz-linear-gradient(135deg,#632423 0%,#632423 90%);background-image: -o-linear-gradient(135deg,#632423 0%,#632423 90%);background-image: linear-gradient(135deg,#632423 0%,#632423 90%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-top: 15px;font-weight: 400;margin: 0;}
+.trainingeditortopsec .trainingeditormwotext h3{font-size: 18px;font-family: 'OpenSansBold';line-height: 19px;text-transform: uppercase;background: #953734;background-image: -webkit-linear-gradient(135deg,#953734 0%,#953734 90%);background-image: -moz-linear-gradient(135deg,#953734 0%,#953734 90%);background-image: -o-linear-gradient(135deg,#953734 0%,#953734 90%);background-image: linear-gradient(135deg,#953734 0%,#953734 90%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-weight: 400;margin: 0;max-width: 90%;margin-top: 0px;}
+.trainingeditormwologo{width: 320px;display: block;margin: 0;margin-right: 10px;}
+.trainingeditormwologo img{border:none!important;max-width:100%}
+.trainingeditor.mwointroduc .mwointroductiondesignimg{width: 346px;height: auto;position: absolute;bottom: -8px;right: 0;}
+.trainingeditor.mwointroduc .trainingeditormwoimg img{border:none!important;max-width:100%}
+.trainingeditor.mwointroduc .trainingeditormwoimg{width: 270px;height: auto;position: absolute;bottom: -6px;right: 20px;}
+.trainingeditor.mwointroduc .trainingeditormwoimg img{border:none!important;max-width:100%}
+.trainingeditormwocontent{max-width: 538px;}
+.trainingeditor.mwointroduc .trainingeditormwocontent h1{background: #141819;}
+.trainingeditor.mwointroduc .trainingeditormwocontent h1 span{font-size: 20.99px;font-family: 'OpenSansRegular';line-height: 23px;text-transform: uppercase;margin-top: 5px;background: #141819;background-image: -webkit-linear-gradient(135deg,#141819 0%,#141819 90%);background-image: -moz-linear-gradient(135deg,#141819 0%,#141819 90%);background-image: -o-linear-gradient(135deg,#141819 0%,#141819 90%);background-image: linear-gradient(135deg,#141819 0%,#141819 90%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-top: 15px;font-weight: 400;}
+.trainingeditor.mwointroduc .trainingeditormwocontent h2{margin-top: 5px;background: #2cb319;background-image: -webkit-linear-gradient(135deg,#2cb319 0%,#16523e 90%);background-image: -moz-linear-gradient(135deg,#2cb319 0%,#16523e 90%);background-image: -o-linear-gradient(135deg,#2cb319 0%,#16523e 90%);background-image: linear-gradient(135deg,#2cb319 0%,#16523e 90%);margin-top: 15px;padding: 10px 65px 10px 10px;display: inline-block;}
+.trainingeditor.mwointroduc .trainingeditormwocontent h2 span{font-size:44px;font-family: 'OpenSansBold';line-height:44px;margin-top: 5px;background: #fff;background-image: -webkit-linear-gradient(135deg,#fff 0%,#fff 90%);background-image: -moz-linear-gradient(135deg,#fff 0%,#fff 90%);background-image: -o-linear-gradient(135deg,#fff 0%,#fff 90%);background-image: linear-gradient(135deg,#fff 0%,#fff 90%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-top: 15px;font-weight: 400;}
+.trainingeditor.mwointroduc .trainingeditormwocontent p{font-size: 16.98px;font-family: 'OpenSansRegular';line-height: 19.37px;}
+.trainingeditor.mwointroduc .trainingeditormwocontent ul{margin: 0;padding: 0}
+.trainingeditor.mwointroduc .trainingeditormwocontent ul li{font-family: 'OpenSansBold';font-size: 14px;line-height: 20px;text-align: left;color: #632423;margin-bottom: 22px;border-left: 3px solid #15513e;padding-left: 6px;list-style: none;display: inline-block;}
+.trainingeditor.mwointroduc .trainingeditormwocontent ul li:last-child{margin-bottom: 0;}
+
+
+.trainingeditor.mwointroduc.missionandvision .trainingeditormwologo {flex: 0 0 270px;margin: 0;margin-right: 10px;}
+.trainingeditor.mwointroduc.missionandvision .trainingeditormwocontent {max-width: 608px;}
+.trainingeditor.mwointroduc.missionandvision .trainingeditormwocontent h2{margin-top: 5px;background: none;color: #8c1b44;font-size: 23px;padding: 10px;margin-bottom: 7px;line-height: 27px;}
+.trainingeditor.mwointroduc.missionandvision .mwointroductiondesignimg {height: auto;position: absolute;bottom: -7px;right: -104px;}
+.trainingeditor.mwointroduc.missionandvision .trainingeditormwoimg {width: 303px;height: auto;position: absolute;bottom: -6px;right: -8px;}
+.trainingeditor.mwointroduc.missionandvision .trainingeditortopsec .trainingeditormwotext h1 {font-size: 36.26px;}
+
+
+.trainingeditor.mwointroduc.globalri .trainingeditormwologo {flex: 0 0 270px;margin: 0;margin-right: 10px;}
+.trainingeditor.mwointroduc.globalri .trainingeditormwocontent {max-width: 610px;margin-top: 15px;}
+.trainingeditor.mwointroduc.globalri .trainingeditormwocontent h2{margin-top: 5px;background: none;color: #8c1b44;font-size: 23px;padding: 10px;margin-bottom: 7px;line-height: 27px;}
+.trainingeditor.mwointroduc.globalri .mwointroductiondesignimg {width: 360px;height: auto;position: absolute;bottom: -7px;right: -105px;}
+.trainingeditor.mwointroduc.globalri .trainingeditormwoimg {width: 340px;height: auto;position: absolute;bottom: -6px;right: -13px;}
+.trainingeditor.mwointroduc.globalri .trainingeditortopsec .trainingeditormwotext h1 {font-size: 36.26px;}
+
+
+.trainingeditor.mwointroduc.globusri .trainingeditormwologo {flex: 0 0 270px;margin: 0;margin-right: 10px;}
+.trainingeditor.mwointroduc.globusri .trainingeditormwocontent {max-width: 470px;margin-top: 5px;}
+.trainingeditor.mwointroduc.globusri .trainingeditormwocontent h1{margin-top: 3px;background: none;color: #8c1b44;font-size: 40px;padding: 10px;margin-bottom: 7px;line-height: 46px;}
+.trainingeditor.mwointroduc.globusri .mwointroductiondesignimg {width: 450px;height: auto;position: absolute;bottom: -7px;right: -60px;}
+.trainingeditor.mwointroduc.globusri .trainingeditormwoimg {width: 355px;height: auto;position: absolute;bottom: -50px;right: 0px;}
+.trainingeditor.mwointroduc.globusri .trainingeditortopsec .trainingeditormwotext h1 {font-size: 36.26px;}
+
+
+.trainingeditor.mwointroduc.DemandSBN .trainingeditormwologo {flex: 0 0 270px;margin: 0;margin-right: 10px;}
+.trainingeditor.mwointroduc.DemandSBN .trainingeditormwocontent {max-width: 510px;margin-top: 5px;}
+.trainingeditor.mwointroduc.DemandSBN .trainingeditormwocontent h1{margin-top: 3px;background: none;color: #632423;font-size: 28px;padding: 10px;margin-bottom: 7px;line-height: 32px;}
+.trainingeditor.mwointroduc.DemandSBN .mwointroductiondesignimg {width: 404px;height: auto;position: absolute;bottom: -7px;right: -43px;}
+.trainingeditor.mwointroduc.DemandSBN .trainingeditormwoimg {width: 340px;height: auto;position: absolute;bottom: -27px;right: -13px;}
+.trainingeditor.mwointroduc.DemandSBN .trainingeditortopsec .trainingeditormwotext h1 {font-size: 36.26px;}
+
+
+.trainingeditor.mwointroduc.listinginventory .trainingeditormwologo {flex: 0 0 270px;margin: 0;margin-right: 10px;}
+.trainingeditor.mwointroduc.listinginventory .trainingeditormwocontent {max-width: 596px;}
+.trainingeditor.mwointroduc.listinginventory .trainingeditormwocontent h2{margin-top: 5px;background: none;color: #006600;font-size: 23px;padding: 10px;margin-bottom: 7px;line-height: 27px;}
+.trainingeditor.mwointroduc.listinginventory .mwointroductiondesignimg {height: auto;position: absolute;bottom: -7px;right: -50px;width: 352px;}
+.trainingeditor.mwointroduc.listinginventory .trainingeditormwoimg {width: 450px;height: auto;position: absolute;bottom: -6px;right: -30px;}
+.trainingeditor.mwointroduc.listinginventory .trainingeditortopsec .trainingeditormwotext h1 {font-size: 27.26px;line-height: 32px;}
+.trainingeditor.mwointroduc.listinginventory .trainingeditormwocontent ul li {font-family: 'OpenSansBold';font-size: 16px;line-height: 20px;text-align: left;color: #632423;margin-bottom: 20px;border-left: 0;padding-left: 0px;list-style: disc;display: list-item;margin-left: 28px;}
+
+
+.trainingeditor.mwointroduc.FAndMa .trainingeditormwologo {flex: 0 0 270px;margin: 0;margin-right: 10px;}
+.trainingeditor.mwointroduc.FAndMa .trainingeditormwocontent {max-width: 476px;margin-top: 5px;}
+.trainingeditor.mwointroduc.FAndMa .trainingeditormwocontent h1{margin-top: 3px;background: none;color: #632423;font-size: 42px;padding: 10px 0 0;margin-bottom: 7px;line-height: 36px;}
+.trainingeditor.mwointroduc.FAndMa .trainingeditormwocontent h3{margin-top: 3px;background: none;color: #632423;font-family: 'OpenSansRegular';font-weight: 500;font-size: 28px;padding: 0 0 10px;margin-bottom: 7px;line-height: 32px;}
+.trainingeditor.mwointroduc.FAndMa .mwointroductiondesignimg {width: 404px;height: auto;position: absolute;bottom: -7px;right: -43px;}
+.trainingeditor.mwointroduc.FAndMa .trainingeditormwoimg {width: 313px;height: auto;position: absolute;top: 28px;right: 10px;}
+.trainingeditor.mwointroduc.FAndMa .trainingeditormwoimg img{max-height: inherit;height: auto;}
+.trainingeditor.mwointroduc.FAndMa .trainingeditortopsec .trainingeditormwotext h1 {font-size: 36.26px;}
+
+
+.trainingeditor.mwointroduc.specialization .trainingeditormwologo {flex: 0 0 270px;margin: 0;margin-right: 10px;}
+.trainingeditor.mwointroduc.specialization .trainingeditormwocontent {max-width: 520px;margin-top: 15px;}
+.trainingeditor.mwointroduc.specialization .trainingeditormwocontent h2{margin-top: 5px;background: none;color: #632423;font-size: 17px;padding: 10px 0 0;margin-bottom: 0;line-height: 24px;}
+.trainingeditor.mwointroduc.specialization .mwointroductiondesignimg {width: 356px;height: auto;position: absolute;bottom: -7px;right:-14px;}
+.trainingeditor.mwointroduc.specialization .trainingeditormwoimg {width: 283px;height: auto;position: absolute;bottom: -5px;right: 8px}
+.trainingeditor.mwointroduc.specialization .trainingeditortopsec .trainingeditormwotext h1 {font-size: 41.26px;}
+
+
+.trainingeditor.mwointroduc.comparisonquote .trainingeditormwologo {flex: 0 0 270px;margin: 0;margin-right: 10px;}
+.trainingeditor.mwointroduc.comparisonquote .trainingeditormwocontent {max-width: 610px;}
+.trainingeditor.mwointroduc.comparisonquote .trainingeditormwocontent h2{margin-top: 5px;font-size: 23px;padding: 8px 15px 15px;margin-bottom: 20px;line-height: 27px;}
+.trainingeditor.mwointroduc.comparisonquote .mwointroductiondesignimg {height: auto;position: absolute;bottom: -6px;right: -46px;width: 365px;}
+.trainingeditor.mwointroduc.comparisonquote .trainingeditormwoimg {width: 230px;height: auto;position: absolute;bottom: -6px;right: 16px;}
+.trainingeditor.mwointroduc.comparisonquote .trainingeditormwocontent h1 {font-size: 30.26px;line-height: 34px;background: none;color: #632423;margin: 10px 0;}
+.trainingeditor.mwointroduc.comparisonquote .trainingeditormwocontent ul li {font-family: 'OpenSansBold';font-size: 16px;line-height: 20px;text-align: left;color: #632423;margin-bottom: 20px;border-left: 0;padding-left: 0px;list-style: disc;display: list-item;margin-left: 17px;}
+.trainingeditor.mwointroduc .trainingeditormwocontent h2 span {font-size: 24px;line-height: 33px;padding-right: 20px;}
+
+
+.trainingeditor.mwointroduc.FPAHP .trainingeditormwologo {flex: 0 0 270px;margin: 0;margin-right: 10px;}
+.trainingeditor.mwointroduc.FPAHP .trainingeditormwocontent {max-width: 100%;}
+.trainingeditor.mwointroduc.FPAHP .mwointroductiondesignimg {height: auto;position: absolute;bottom: -7px;right: -50px;width: 352px;}
+.trainingeditor.mwointroduc.FPAHP .trainingeditormwoimg {width: 450px;height: auto;position: absolute;bottom: -6px;right: -30px;}
+.trainingeditor.mwointroduc.FPAHP .trainingeditortopsec .trainingeditormwotext h1 {font-size: 27.26px;line-height: 32px;}
+.trainingeditor.mwointroduc.FPAHP .trainingeditormwocontent ul {margin: 0;padding: 0;column-count: 3;column-gap: 0;margin-top: 10px;}
+.trainingeditor.mwointroduc.FPAHP .trainingeditormwocontent ul li {font-family: 'OpenSansBold';font-size: 16px;line-height: 20px;text-align: left;color: #632423;margin-bottom: 2px;border-left: 0;padding-left: 0px;list-style: none;margin-left: 0;break-inside: avoid;padding: 5px;width: 96%;}
+.trainingeditor.mwointroduc.FPAHP .trainingeditormwocontent p {margin: 0;font-size: 15.98px;font-family: 'OpenSansRegular';line-height: 21.37px;}
+.trainingeditor.mwointroduc.FPAHP .trainingeditormwocontent h2{margin-top: 5px;background: #2cb319;background-image: -webkit-linear-gradient(135deg,#2cb319 0%,#16523e 90%);background-image: -moz-linear-gradient(135deg,#2cb319 0%,#16523e 90%);background-image: -o-linear-gradient(135deg,#2cb319 0%,#16523e 90%);background-image: linear-gradient(135deg,#2cb319 0%,#16523e 90%);margin-top: 0;padding: 3px 8px 10px;display: inline-block;margin: 0 0 5px 0;width: 95%;}
+.trainingeditor.mwointroduc.FPAHP .trainingeditormwocontent span{font-size:16px;font-family: 'OpenSansBold';line-height:16px;margin-top: 0;background: #fff;background-image: -webkit-linear-gradient(135deg,#fff 0%,#fff 90%);background-image: -moz-linear-gradient(135deg,#fff 0%,#fff 90%);background-image: -o-linear-gradient(135deg,#fff 0%,#fff 90%);background-image: linear-gradient(135deg,#fff 0%,#fff 90%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-weight: 400;padding-right: 0;text-transform: capitalize;}
+.trainingeditor.mwointroduc.FPAHP .trainingeditormwocontent ul li:nth-child(3n+1) { order: 1; }
+.trainingeditor.mwointroduc.FPAHP .trainingeditormwocontent ul li:nth-child(3n+2) { order: 2; }
+.trainingeditor.mwointroduc.FPAHP .trainingeditormwocontent ul li:nth-child(3n)   { order: 3; }
+.trainingeditor.mwointroduc.FPAHP .trainingeditormwocontent ul::before,
+.trainingeditor.mwointroduc.FPAHP .trainingeditormwocontent ul::after {content: "";flex-basis: 100%;width: 0;order: 2;}
+
+
+.trainingeditor.mwointroduc.PP .trainingeditormwologo {flex: 0 0 270px;margin: 0;margin-right: 10px;}
+.trainingeditor.mwointroduc.PP .trainingeditormwocontent {max-width: 100%;}
+.trainingeditor.mwointroduc.PP .mwointroductiondesignimg {height: auto;position: absolute;bottom: -7px;right: -50px;width: 352px;}
+.trainingeditor.mwointroduc.PP .trainingeditormwoimg {width: 450px;height: auto;position: absolute;bottom: -6px;right: -30px;}
+.trainingeditor.mwointroduc.PP .trainingeditortopsec .trainingeditormwotext h1 {font-size: 27.26px;line-height: 32px;}
+.trainingeditor.mwointroduc.PP .trainingeditormwocontent ul {margin: 0;padding: 0;column-count: 3;column-gap: 0;margin-top: 10px;}
+.trainingeditor.mwointroduc.PP .trainingeditormwocontent ul li {font-family: 'OpenSansBold';font-size: 16px;line-height: 20px;text-align: left;color: #632423;margin-bottom: 2px;border-left: 0;padding-left: 0px;list-style: none;margin-left: 0;break-inside: avoid;padding: 5px;width: 96%;}
+.trainingeditor.mwointroduc.PP .trainingeditormwocontent p {margin: 0;font-size: 15.98px;font-family: 'OpenSansRegular';line-height: 21.37px;}
+.trainingeditor.mwointroduc.PP .trainingeditormwocontent h2{margin-top: 5px;background: #2cb319;background-image: -webkit-linear-gradient(135deg,#2cb319 0%,#16523e 90%);background-image: -moz-linear-gradient(135deg,#2cb319 0%,#16523e 90%);background-image: -o-linear-gradient(135deg,#2cb319 0%,#16523e 90%);background-image: linear-gradient(135deg,#2cb319 0%,#16523e 90%);margin-top: 0;padding: 3px 8px 10px;display: inline-block;margin: 0 0 5px 0;width: 95%;}
+.trainingeditor.mwointroduc.PP .trainingeditormwocontent span{font-size:16px;font-family: 'OpenSansBold';line-height:16px;margin-top: 0;background: #fff;background-image: -webkit-linear-gradient(135deg,#fff 0%,#fff 90%);background-image: -moz-linear-gradient(135deg,#fff 0%,#fff 90%);background-image: -o-linear-gradient(135deg,#fff 0%,#fff 90%);background-image: linear-gradient(135deg,#fff 0%,#fff 90%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-weight: 400;padding-right: 0;text-transform: capitalize;}
+.trainingeditor.mwointroduc.PP .trainingeditormwocontent ul li:nth-child(3n+1) { order: 1; }
+.trainingeditor.mwointroduc.PP .trainingeditormwocontent ul li:nth-child(3n+2) { order: 2; }
+.trainingeditor.mwointroduc.PP .trainingeditormwocontent ul li:nth-child(3n)   { order: 3; }
+.trainingeditor.mwointroduc.PP .trainingeditormwocontent ul::before,
+.trainingeditor.mwointroduc.PP .trainingeditormwocontent ul::after {content: "";flex-basis: 100%;width: 0;order: 2;}
+
+/*------END Med World One CSS------*/
+
+
+/*------START HPS CSS------*/
+.trainingeditor.hpsintroduc{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_main_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:cover!important;padding:0!important;border-radius:0!important;overflow:hidden;position: relative;}
+.trainingeditor.hpsintroduc .trainingeditorhpsbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_footer_img.png);background-size: cover;background-repeat: no-repeat;position: relative;display: block;z-index: 2;width: 100%;min-height: 177px;}
+.trainingeditor.hpsintroduc .trainingeditortopsec{margin: 50px 0 15px 0;}
+.trainingeditor.hpsintroduc .trainingeditortopsec h2 strong{display: inline-flex;text-transform: capitalize;}
+.trainingeditor.hpsintroduc .trainingeditortopsec h2 strong sup{font-size: 18px;margin-top: 7px !important;margin-left: 3px;}
+.trainingeditor.hpsintroduc .trainingeditorhpslogo{flex: 0 0 375px;display: block;margin-right: 25px;background-color: #000;padding: 10px 25px;position: relative;}
+.trainingeditor.hpsintroduc .trainingeditorhpslogo img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc .trainingeditorhpslogo:after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/trainingeditorhpslogo_after_divider.png);background-size: cover;background-repeat: no-repeat;width: 24px;height: 284px;position: absolute;right: -27px;top: -15px;}
+.trainingeditor.hpsintroduc .trainingeditortopsec h2{font-size:38.34px;font-family: 'RobotoBlack';line-height:auto;margin-top: 0;padding: 3px;margin: 0;text-transform: capitalize;}
+
+
+.trainingeditor.hpsintroduc.adcpd{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:cover!important;padding:0!important;border-radius:0!important;overflow:hidden;position: relative;}
+.trainingeditor.hpsintroduc.adcpd .trainingeditoradcpdbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_footer_img.png);background-size: cover;background-repeat: no-repeat;position: relative;display: block;z-index: 2;width: 100%;min-height: 177px;margin-bottom: -5%;}
+.trainingeditor.hpsintroduc.adcpd .trainingeditortopsec{margin: 0;}
+.trainingeditor.hpsintroduc.adcpd .trainingeditorhpscontent{margin-left: 245px;margin-right: 25px;}
+.trainingeditor.hpsintroduc.adcpd .headeronecls{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg.jpg) right top no-repeat!important;margin-bottom:12px;background-size:cover!important;padding:0!important;border-radius: 10px!important;position: relative;}
+.trainingeditor.hpsintroduc.adcpd .headeronecls:after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg_bottomshadow.png);background-size: 100% 24px;background-repeat: no-repeat;width: 100%;height: 24px;position: absolute;bottom: 0;top: 90%;left: 0;}
+.trainingeditor.hpsintroduc.adcpd .headeronecls h2{display:block;font-size:33.15px;font-family:'RobotoBlack';line-height:33.15px;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;    width: 100%;margin: 0;padding: 13px 16px 16px;}
+.trainingeditor.hpsintroduc.adcpd .headeronecls h2 strong{display: inline-flex;}
+.trainingeditor.hpsintroduc.adcpd .headeronecls h2 strong sup{font-size: 6px;margin-top: -1px !important;margin-left: 4px;width: 11px;height: 11px;line-height: 11px;border: 1px solid #fff;border-radius: 100px;text-align: center;}
+.trainingeditor.hpsintroduc.adcpd .headertwocls{background:transparent; margin-bottom:4px;border-radius:7px!important;overflow:hidden;position: relative;border:2px solid #fff;padding:5px;display: inline-block;max-width: 88%;}
+.trainingeditor.hpsintroduc.adcpd .headertwocls h3{display:block;background:#27a2e1;background-image:-webkit-linear-gradient(top,#27a2e1 0%,#1dbbe9 100%);background-image:-moz-linear-gradient(top,#27a2e1 0%, #1dbbe9 100%);background-image:-o-linear-gradient(top,#27a2e1 0%,#1dbbe9 100%);background-image:linear-gradient(to bottom,#27a2e1 0%, #1dbbe9 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;width:100%;margin: 0;border-radius:7px!important;padding: 4px 12px 8px;}
+.trainingeditor.hpsintroduc.adcpd .headertwocls h3 strong{font-size:25.77px;font-family:'RobotoBold';line-height:auto;color:#fff;}
+.trainingeditor.hpsintroduc.adcpd .trainingeditorhpslogo{flex: 0 0 151px;display: block;margin-right: 0;background-color: transparent;padding: 7px 10px;position: relative;z-index: 5;}
+.trainingeditor.hpsintroduc.adcpd h4{display:block;font-size:23.88px;font-family:'MontserratBold';line-height:21.88px;background:#353535;background-image:-webkit-linear-gradient(top,#353535 0%,#353535 45%,#000000 46%,#000000 100%);background-image:-moz-linear-gradient(top,#353535 0%,#353535 45%,#000000 46%,#000000 100%);background-image:-o-linear-gradient(top,#353535 0%,#353535 45%,#000000 46%,#000000 100%);background-image:linear-gradient(to bottom,#353535 0%,#353535 45%,#000000 46%,#000000 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%;margin: 0;}
+.trainingeditor.hpsintroduc.adcpd .trainingeditorhpslogo:after{display:none}
+.trainingeditor.hpsintroduc.adcpd .trainingeditorhpslogo img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.adcpd .trainingeditorhpslogobg{position: absolute;top: 0;left: 0;}
+.trainingeditor.hpsintroduc.adcpd .trainingeditoradcpdimg{width:222px;position:absolute;left:25px;bottom:-6px;}
+.trainingeditor.hpsintroduc.adcpd .trainingeditoradcpdimg img{border:none!important;max-width:100%}
+
+
+
+.trainingeditor.hpsintroduc.AWSIntro{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:cover!important;padding:0!important;border-radius:0!important;overflow:hidden;position: relative;}
+.trainingeditor.hpsintroduc.AWSIntro .trainingeditoradcpdbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_footer_img.png);background-size: cover;background-repeat: no-repeat;position: relative;display: block;z-index: 99;width: 100%;min-height: 177px;margin-bottom: -5%;}
+.trainingeditor.hpsintroduc.AWSIntro .trainingeditortopsec{margin: 0;}
+.trainingeditor.hpsintroduc.AWSIntro .trainingeditorhpscontent{margin-left: 245px;margin-right: 25px;margin-top: -8%;}
+.trainingeditor.hpsintroduc.AWSIntro .headeronecls{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg.jpg) right top no-repeat!important;margin-bottom:12px;background-size:cover!important;padding:0!important;border-radius: 7px!important;position: relative;    max-width: 94%;float: right;}
+.trainingeditor.hpsintroduc.AWSIntro .headeronecls:after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg_bottomshadow.png);background-size: 100% 24px;background-repeat: no-repeat;width: 100%;height: 24px;position: absolute;bottom: 0;top: 90%;left: 0;}
+.trainingeditor.hpsintroduc.AWSIntro .headeronecls h2{display:block;font-size:27.2px;font-family:'RobotoBlack';line-height:27.2px;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;    width: 100%;margin: 0;padding: 13px 16px 16px;}
+.trainingeditor.hpsintroduc.AWSIntro .headeronecls h2 strong{display: inline-flex;}
+.trainingeditor.hpsintroduc.AWSIntro .headertwocls{background:transparent; margin-bottom:4px;border-radius:7px!important;overflow:hidden;position: relative;border:2px solid #fff;padding:5px;display: inline-block;max-width: 100%;}
+.trainingeditor.hpsintroduc.AWSIntro .headertwocls h3{display:block;background:#03a3d0;background-image:-webkit-linear-gradient(top,#03a3d0 0%,#006796 100%);background-image:-moz-linear-gradient(top,#03a3d0 0%, #006796 100%);background-image:-o-linear-gradient(top,#03a3d0 0%,#006796 100%);background-image:linear-gradient(to bottom,#03a3d0 0%, #006796 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;width:100%;margin: 0;border-radius:7px!important;padding: 4px 12px 8px;}
+.trainingeditor.hpsintroduc.AWSIntro .headertwocls h3 strong{font-size:23.77px;font-family:'RobotoBold';line-height:auto;color:#fff;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));}
+.trainingeditor.hpsintroduc.AWSIntro .trainingeditorhpslogo{flex: 0 0 151px;display: block;margin-right: 0;background-color: transparent;padding: 7px 10px;position: relative;z-index: 9;}
+.trainingeditor.hpsintroduc.AWSIntro .headerthreecls h4{display:block;font-size:23.88px;font-family:'MontserratBold';line-height:21.88px;background:#1a2534;background-image:-webkit-linear-gradient(top,#1a2534 0%,#1a2534 100%);background-image:-moz-linear-gradient(top,#1a2534 0%,#1a2534 100%);background-image:-o-linear-gradient(top,#1a2534 0%,#1a2534 100%);background-image:linear-gradient(to bottom,#1a2534 0%,#1a2534 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width:100%;margin: 0;}
+.trainingeditor.hpsintroduc.AWSIntro .trainingeditorhpslogo:after{display:none}
+.trainingeditor.hpsintroduc.AWSIntro .trainingeditorhpslogo img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.AWSIntro .trainingeditorhpslogobg{position: absolute;top: 0;left: 0;}
+.trainingeditor.hpsintroduc.AWSIntro .trainingeditoradcpdimg{width: 312px;position: absolute;left: -23px;bottom: 26px;}
+.trainingeditor.hpsintroduc.AWSIntro .trainingeditoradcpdimg img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.AWSIntro ul{display: flex;align-items: flex-start;justify-content: space-between;margin: 0;padding: 0;flex-wrap: wrap;list-style: none;}
+.trainingeditor.hpsintroduc.AWSIntro ul li{flex: 0 0 49%;margin-bottom: 8px;position: relative;}
+.trainingeditor.hpsintroduc.AWSIntro ul li strong{clip-path: polygon(0% 0%, 92% 0, 100% 50%, 92% 100%, 0% 100%);padding: 8px 23px 8px 26px;display: block;margin-left: 18px;font-size: 14.82px;font-family: 'MontserratBold';line-height: 14.82px;color: #fff;}
+.trainingeditor.hpsintroduc.AWSIntro ul li::before{content:'';position:absolute;top:50%;transform:translateY(-50%);left:0; background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/circlelisttype_black.png);background-position:center left;background-repeat:no-repeat;background-size: 30px;z-index: 9;width: 30px;height: 30px;}
+.trainingeditor.hpsintroduc.AWSIntro ul li:nth-child(3n+1) strong{background-color: #f9364d;}
+.trainingeditor.hpsintroduc.AWSIntro ul li:nth-child(3n+2) strong{background-color: #f15e0f;}
+.trainingeditor.hpsintroduc.AWSIntro ul li:nth-child(3n) strong{background-color: #162d5b;}
+
+.trainingeditor.hpsintroduc.AWSIntro .headerthreecls{background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 0)));background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: linear-gradient(to right, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);display:block;padding: 10px 10px 6px;    margin-top: 5px;}
+.trainingeditor.hpsintroduc.AWSIntro .headerthreecls h4{display:block;font-size:15.64px;font-family:'MontserratBold';line-height:15.64px;white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;text-transform:uppercase;width:100%;margin: 0;color:#000;}
+.trainingeditor.hpsintroduc.AWSIntro h5{display:block;font-size:13.94px;font-family:'MontserratBold';line-height:15.94px;white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;text-transform:uppercase;width:100%;color:#1a2534;margin:0;padding: 0;margin-top: 10px;}
+
+
+
+
+.trainingeditor.hpsintroduc.ODC{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:cover!important;padding:0!important;border-radius:0!important;overflow:hidden;position: relative;}
+.trainingeditor.hpsintroduc.ODC .trainingeditoradcpdbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_footer_img.png);background-size: cover;background-repeat: no-repeat;position: relative;display: block;z-index: 2;width: 100%;min-height: 135px;margin-bottom: -4%;}
+.trainingeditor.hpsintroduc.ODC .trainingeditortopsec{margin: 0;}
+.trainingeditor.hpsintroduc.ODC .trainingeditorhpscontent{margin-left: 245px;margin-right: 25px;margin-top: -7%;padding-bottom: 105px;}
+.trainingeditor.hpsintroduc.ODC .headeronecls{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg.jpg) right top no-repeat!important;margin-bottom:12px;background-size:cover!important;padding:0!important;border-radius: 7px!important;position: relative;    max-width: 94%;margin-right: 0;margin-left: auto;}
+.trainingeditor.hpsintroduc.ODC .headeronecls:after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg_bottomshadow.png);background-size: 100% 24px;background-repeat: no-repeat;width: 100%;height: 24px;position: absolute;bottom: 0;top: 90%;left: 0;}
+.trainingeditor.hpsintroduc.ODC .headeronecls h2{display:block;font-size:33.84px;font-family:'RobotoBlack';line-height:27.2px;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;    width: 100%;margin: 0;padding: 13px 16px 16px;text-align:center;}
+.trainingeditor.hpsintroduc.ODC .headeronecls h2 strong{display: inline-flex;}
+.trainingeditor.hpsintroduc.ODC .headerthreecls{background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 0)));background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: linear-gradient(to right, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);display:block;padding: 16px 20px 16px;margin-top: 5px;margin-right: -4%;max-width: 85%;margin-left: auto;}
+.trainingeditor.hpsintroduc.ODC .headerthreecls h4 span{color:#fb2e01}
+.trainingeditor.hpsintroduc.ODC .headerthreecls h4{display:block;font-size:14.2px;font-family:'MontserratBold';line-height:19.64px;white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;width:100%;margin: 0;color:#000;}
+.trainingeditor.hpsintroduc.ODC .trainingeditorhpslogo{flex: 0 0 151px;display: block;margin-right: 0;background-color: transparent;padding: 7px 10px;position: relative;z-index: 9;}
+.trainingeditor.hpsintroduc.ODC .trainingeditorhpslogo:after{display:none}
+.trainingeditor.hpsintroduc.ODC .trainingeditorhpslogo img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.ODC .trainingeditorhpslogobg{position: absolute;top: 0;left: 0;}
+.trainingeditor.hpsintroduc.ODC .trainingeditorODCimg{width: 460px;position: absolute;right: 18px;bottom: -26px;}
+.trainingeditor.hpsintroduc.ODC .trainingeditorODCimg img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.ODC .trainingeditorcomputerimg{width: 360px;position: absolute;left: 38px;bottom: 58px;}
+.trainingeditor.hpsintroduc.ODC .trainingeditorcomputerimg img{border:none!important;max-width:100%}
+
+
+
+.trainingeditor.hpsintroduc.SCL{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:cover!important;padding:0!important;border-radius:0!important;overflow:hidden;position: relative;}
+.trainingeditor.hpsintroduc.SCL .trainingeditorinner{padding-bottom: 85px;}
+.trainingeditor.hpsintroduc.SCL .trainingeditoradcpdbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_footer_img.png);    background-size: cover;background-repeat: no-repeat;position: absolute;display: block;z-index: 2;width: 100%;height: 115px;bottom: 0;}
+.trainingeditor.hpsintroduc.SCL .trainingeditortopsec{margin: 0;}
+.trainingeditor.hpsintroduc.SCL .trainingeditorhpscontent{margin-left: 245px;margin-right: 25px;margin-top: -7%;padding-bottom: 12px;}
+.trainingeditor.hpsintroduc.SCL .headeronecls{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg.jpg) right top no-repeat!important;margin-bottom:12px;background-size:cover!important;padding:0!important;border-radius: 7px!important;position: relative;    max-width: 94%;margin-right: 0;margin-left: auto;}
+.trainingeditor.hpsintroduc.SCL .headeronecls:after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg_bottomshadow.png);background-size: 100% 24px;background-repeat: no-repeat;width: 100%;height: 24px;position: absolute;bottom: 0;top: 90%;left: 0;}
+.trainingeditor.hpsintroduc.SCL .headeronecls h2{display:block;font-size:30.53px;font-family:'RobotoBlack';line-height:30.53px;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;    width: 100%;margin: 0;padding: 13px 16px 16px;text-align:center;}
+.trainingeditor.hpsintroduc.SCL .headeronecls h2 strong{display: inline-flex;}
+.trainingeditor.hpsintroduc.SCL .headerthreecls{background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 0)));background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: linear-gradient(to right, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);display:block;padding: 16px 20px 16px;margin-top: 5px;margin-right: -4%;max-width: 85%;margin-left: auto;}
+.trainingeditor.hpsintroduc.SCL .headerthreecls h4 span{color:#fb2e01}
+.trainingeditor.hpsintroduc.SCL .headerthreecls h4{display:block;font-size:14.2px;font-family:'MontserratBold';line-height:19.64px;white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;width:100%;margin: 0;color:#000;}
+.trainingeditor.hpsintroduc.SCL .trainingeditorhpslogo{flex: 0 0 151px;display: block;margin-right: 0;background-color: transparent;padding: 7px 10px;position: relative;z-index: 9;}
+.trainingeditor.hpsintroduc.SCL .trainingeditorhpslogo:after{display:none}
+.trainingeditor.hpsintroduc.SCL .trainingeditorhpslogo img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.SCL .trainingeditorhpslogobg{position: absolute;top: 0;left: 0;}
+.trainingeditor.hpsintroduc.SCL .trainingeditorSCLimg{width: 460px;position: absolute;right: 18px;bottom: -26px;}
+.trainingeditor.hpsintroduc.SCL .trainingeditorSCLimg img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.SCL .trainingeditorbottomheadercls{left: 45px;bottom: 50px;position: absolute;z-index: 7;}
+.trainingeditor.hpsintroduc.SCL .trainingeditorbottomheadercls h3{clip-path: polygon(0% 0%, 94% 0, 100% 50%, 94% 100%, 0% 100%);padding: 10px 24px;font-size: 15.82px;font-family: 'MontserratBold';line-height: auto;color: #fff;background-color: #f9364d;margin-top: 0;margin-bottom: 0;max-width: 80%;margin: 0 auto;}
+.trainingeditor.hpsintroduc.SCL ol {clear: both;list-style: none;list-style-type: none;column-count: 2;list-style-type: none;margin: 0 auto;display: block;padding: 0;max-width: 90%;}
+.trainingeditor.hpsintroduc.SCL ol li {margin: 0 0 20px 0;padding-top: 20px;display: block;position: relative;counter-increment: inst;width: 72%;float:left;}
+.trainingeditor.hpsintroduc.SCL ol li::before {content: counter(inst);background: #dddddd;background-image: -webkit-linear-gradient(156deg,#dddddd 40%, #f9f8f1 100%);
+background-image: -moz-linear-gradient(156deg,#dddddd 40%, #f9f8f1 100%);background-image: -o-linear-gradient(156deg,#dddddd 40%, #f9f8f1 100%);background-image: linear-gradient(156deg,#dddddd 40%, #f9f8f1 100%);color: #939393;font-weight: 700;font-style: italic;border-radius: 0 0.675em 0.675em 0;text-align: center;padding-top: 0;padding-left: 2.25%;left: -5%;top: -0.65em;position: absolute;transition: all 0.2s ease-in-out;z-index: 5;}
+.trainingeditor.hpsintroduc.SCL ol li .imgwrapper{clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);width:72px;height:72px;background-color: #e8e7e5;display: flex;align-items: center;justify-content: center;position: absolute;right: -10px;top: 63%;transform: translateY(-50%);z-index: 6;}
+.trainingeditor.hpsintroduc.SCL ol li .imgwrapper .imgwrapperinner{clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);width:53px;height:53px;background-color: #166bfb;display: flex;align-items: center;justify-content: center;}
+.trainingeditor.hpsintroduc.SCL ol li .imgwrapper .imgwrapperinner2{clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);width:51px;height:51px;background-color: #28f9e1;display: flex;align-items: center;justify-content: center;}
+.trainingeditor.hpsintroduc.SCL ol li .imgwrapper .imgwrapperinner2 img{width: 100%;height: 100%;object-fit: cover;}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(n+5) {float:right}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(n+5) .imgwrapper{right: inherit;left: -30px;}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(n+5):before{right: 20px;left: inherit;}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(n+5) .bgcolor{padding: 12px 30px 15px 62px;}
+@media (min-width: 33em) {
+.trainingeditor.hpsintroduc.SCL ol li:before {border-radius: 50%;font-size: 20px;height: 30px;margin-left: 2.5%;padding-left: 0;padding-top: 0;top: 8px;width: 30px;   z-index: 9;line-height: 30px;border: 1px solid #fff;}
+}
+.trainingeditor.hpsintroduc.SCL .middledesign{display:flex;justify-content:center;align-items: center;margin-bottom: 35px;}
+.trainingeditor.hpsintroduc.SCL .middledesigncarecter{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 170px}
+.trainingeditor.hpsintroduc.SCL ol li .bgcolor{background: #295587;background-image: -webkit-linear-gradient(left,#295587 40%,#223d5d 100%);background-image: -moz-linear-gradient(left,#295587 40%, #223d5d 100%);background-image: -o-linear-gradient(left,#295587 40%,#223d5d 100%);background-image: linear-gradient(to right,#295587 40%, #223d5d 100%);border: 1px solid #7b8c94;white-space: normal;word-break: break-word;display: inline-block;word-wrap: normal;resize: none;box-sizing: border-box;position: relative;width: 88%;margin: 0;border-radius: 7px!important;padding: 12px 51px 15px;font-size: 12.09px;font-family: 'Helveticabold';line-height: 14px;
+color: #fff;}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(1){position: relative;}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(1)::after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/line-design1.png);background-size: 107px 37px;background-repeat: no-repeat;width: 107px;height: 37px;position: absolute;bottom: 0;top: 70%;left: 100%;z-index: 5;}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(2){position: relative;}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(2)::after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/line-design2.png);background-size: 102px 10px;background-repeat: no-repeat;width: 102px;height: 10px;position: absolute;bottom: 0;top: 60%;left: 100%;z-index:5;}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(3){position: relative;}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(3)::after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/line-design3.png);background-size: 108px 45px;background-repeat: no-repeat;width: 108px;height: 45px;position: absolute;bottom: 0;top: 11%;left: 100%;z-index:5;}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(4){position: relative;}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(4)::after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/line-design4.png);background-size: 97px 17px;background-repeat: no-repeat;width: 97px;height: 17px;position: absolute;bottom: 0;top: 50%;left: 100%;z-index: 5;}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(5){position: relative;}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(5)::after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/line-design5.png);background-size: 82px 17px;background-repeat: no-repeat;width: 82px;height: 17px;position: absolute;bottom: 0;top: 72%;right: 100%;z-index: 5;}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(6){position: relative;}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(6)::after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/line-design6.png);background-size: 96px 33px;background-repeat: no-repeat;width: 96px;height: 33px;position: absolute;bottom: 0;top: 26%;right: 100%;z-index: 5;}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(7){position: relative;}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(7)::after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/line-design7.png);background-size: 86px 6px;background-repeat: no-repeat;width: 86px;height: 6px;position: absolute;bottom: 0;top: 65%;right: 100%;z-index: 5;}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(8){position: relative;}
+.trainingeditor.hpsintroduc.SCL ol li:nth-child(8)::after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/line-design8.png);background-size: 84px 27px;background-repeat: no-repeat;width: 84px;height: 27px;position: absolute;bottom: 0;top: 30%;right: 100%;z-index: 5;}
+
+
+
+.trainingeditor.hpsintroduc.EarlyDetection{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_bg.jpg) right top no-repeat!important;margin-bottom: 0;background-size: cover!important;padding: 0!important;border-radius: 0!important;overflow: hidden;position: relative;}
+.trainingeditor.hpsintroduc.EarlyDetection .trainingeditorinner{padding-bottom: 68px !important;}
+
+
+.trainingeditor.hpsintroduc.EarlyDetection .trainingeditoradcpdbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_footer_img.png);background-size: cover;background-repeat: no-repeat;position: absolute;display: block;z-index: 2;width: 100%;min-height: 88px;bottom: 0;}
+.trainingeditor.hpsintroduc.EarlyDetection .trainingeditortopsec{margin: 0;}
+.trainingeditor.hpsintroduc.EarlyDetection .trainingeditorhpscontent{margin-left: 210px;margin-right: 25px;margin-top: -8%;}
+.trainingeditor.hpsintroduc.EarlyDetection .headeronecls{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg.jpg) right top no-repeat!important;margin-bottom:12px;background-size:cover!important;padding:0!important;border-radius: 7px!important;position: relative;    max-width: 94%;float: right;}
+.trainingeditor.hpsintroduc.EarlyDetection .headeronecls:after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg_bottomshadow.png);background-size: 100% 24px;background-repeat: no-repeat;width: 100%;height: 24px;position: absolute;bottom: 0;top: 90%;left: 0;}
+.trainingeditor.hpsintroduc.EarlyDetection .headeronecls h2{display:block;font-size:27.2px;font-family:'RobotoBlack';line-height:27.2px;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;    width: 100%;margin: 0;padding: 13px 16px 16px;}
+.trainingeditor.hpsintroduc.EarlyDetection .headeronecls h2 strong{display: inline-flex;}
+.trainingeditor.hpsintroduc.EarlyDetection .headertwocls{background:transparent; margin-bottom:4px;border-radius:7px!important;overflow:hidden;position: relative;border:2px solid #fff;padding:5px;display: inline-block;max-width: 100%;}
+.trainingeditor.hpsintroduc.EarlyDetection .headertwocls h3{display:block;background:#03a3d0;background-image:-webkit-linear-gradient(top,#03a3d0 0%,#006796 100%);background-image:-moz-linear-gradient(top,#03a3d0 0%, #006796 100%);background-image:-o-linear-gradient(top,#03a3d0 0%,#006796 100%);background-image:linear-gradient(to bottom,#03a3d0 0%, #006796 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;width:100%;margin: 0;border-radius:7px!important;padding: 8px 12px 8px;}
+.trainingeditor.hpsintroduc.EarlyDetection .headertwocls h3 strong{font-size: 13.46px;font-family: 'Helveticabold';line-height: 18px;color: #fff;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));margin: 0;padding: 0;display: inline-block;text-transform: uppercase;}
+.trainingeditor.hpsintroduc.EarlyDetection .headertwocls h3 strong span{color:#ffc700}
+.trainingeditor.hpsintroduc.EarlyDetection .trainingeditorhpslogo{flex: 0 0 151px;display: block;margin-right: 0;background-color: transparent;padding: 7px 10px;position: relative;z-index: 9;}
+.trainingeditor.hpsintroduc.EarlyDetection .trainingeditorhpslogo:after{display:none}
+.trainingeditor.hpsintroduc.EarlyDetection .trainingeditorhpslogo img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.EarlyDetection .trainingeditorhpslogobg{position: absolute;top: 0;left: 0;}
+.trainingeditor.hpsintroduc.EarlyDetection .listsclswrapper{background: transparent;margin-bottom: 4px;border-radius: 7px!important;overflow: hidden;position: relative;border: 2px solid #fff;padding: 2px;display: inline-block;margin-left: 25px;margin-right: 25px;}
+.trainingeditor.hpsintroduc.EarlyDetection .listsclswrapper .listscls{background: #ffffff;background-image: -webkit-linear-gradient(top,#ffffff 0%,#c4d7de 100%);background-image: -moz-linear-gradient(top,#ffffff 0%, #c4d7de 100%);background-image: -o-linear-gradient(top,#ffffff 0%,#c4d7de 100%);background-image: linear-gradient(to bottom,#ffffff 0%, #c4d7de 100%);white-space: normal;word-break: break-word;display: inline-block;word-wrap: normal;resize: none; box-sizing: border-box;position: relative;width: 100%;margin: 0;border-radius: 7px!important;padding: 10px 12px 10px;}
+.trainingeditor.hpsintroduc.EarlyDetection .listsclswrapper .listscls strong{font-size: 11.96px;font-family: 'Helveticabold';line-height: 14px;color: #1a1a1a;margin-left: 27px;display: inline-block;}
+.trainingeditor.hpsintroduc.EarlyDetection ul{display: flex;align-items: flex-start;justify-content: space-between;margin: 0;padding: 0;flex-wrap: wrap;list-style: none;}
+.trainingeditor.hpsintroduc.EarlyDetection ul li{flex: 0 0 32.33%;margin-bottom: 8px;position: relative;}
+.trainingeditor.hpsintroduc.EarlyDetection ul li::before{content:'';position:absolute;top:3px;left:0; background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/circlelisttype_black1.png);background-position:center left;background-repeat:no-repeat;background-size: 21px;z-index: 5;width: 21px;height: 21px;}
+.trainingeditor.hpsintroduc.EarlyDetection .headerthreecls{background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 0)));background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: linear-gradient(to right, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);display:block;padding: 10px 10px 6px;    margin-top: 5px;}
+.trainingeditor.hpsintroduc.EarlyDetection .headerthreecls h4{display:block;font-size:15.64px;font-family:'MontserratBold';line-height:15.64px;white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;text-transform:uppercase;width:100%;margin: 0;color:#000;}
+.trainingeditor.hpsintroduc.EarlyDetection h5{display:block;font-size:13.94px;font-family:'MontserratBold';line-height:15.94px;white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;text-transform:uppercase;width:100%;color:#1a2534;margin:0;padding: 0;margin-top: 10px;}
+
+
+
+.trainingeditor.hpsintroduc.MajorRiskFactors{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:cover!important;padding:0!important;border-radius:0!important;overflow:hidden;position: relative;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .trainingeditorinner{padding-bottom: 90px;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .trainingeditoradcpdbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_footer_img.png);background-size: cover;background-repeat: no-repeat;position: absolute;display: block;z-index: 2;width: 100%;min-height: 130px;bottom: 0;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .trainingeditortopsec{margin: 0;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .trainingeditorhpscontent{margin-left: 210px;margin-right: 25px;margin-top: -8%;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .headeronecls{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg.jpg) right top no-repeat!important;margin-bottom:12px;background-size:cover!important;padding:0!important;border-radius: 7px!important;position: relative;    max-width: 94%;float: right;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .headeronecls:after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg_bottomshadow.png);background-size: 100% 24px;background-repeat: no-repeat;width: 100%;height: 24px;position: absolute;bottom: 0;top: 88%;left: 0;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .headeronecls h2{display:block;font-size:22.28px;font-family:'RobotoBlack';line-height:22.28px;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;    width: 100%;margin: 0;padding: 13px 16px 16px;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .headeronecls h2 strong{display: inline-flex;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .headertwocls{background:transparent; margin-bottom:4px;border-radius:7px!important;overflow:hidden;position: relative;border:2px solid #fff;padding:5px;display: inline-block;max-width: 100%;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .headertwocls h3{display:block;background:#03a3d0;background-image:-webkit-linear-gradient(top,#03a3d0 0%,#006796 100%);background-image:-moz-linear-gradient(top,#03a3d0 0%, #006796 100%);background-image:-o-linear-gradient(top,#03a3d0 0%,#006796 100%);background-image:linear-gradient(to bottom,#03a3d0 0%, #006796 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;width:100%;margin: 0;border-radius:7px!important;padding: 4px 12px 8px;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .headertwocls h3 strong{font-size: 32.43px;font-family: 'Helveticabold';line-height: 32px;color: #fff;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));margin: 0;padding: 0;display: inline-block;text-transform: uppercase;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .headertwocls h3 strong span{color:#ffc700}
+.trainingeditor.hpsintroduc.MajorRiskFactors .trainingeditorhpslogo{flex: 0 0 151px;display: block;margin-right: 0;background-color: transparent;padding: 7px 10px;position: relative;z-index: 9;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .trainingeditorhpslogo:after{display:none}
+.trainingeditor.hpsintroduc.MajorRiskFactors .trainingeditorhpslogo img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.MajorRiskFactors .trainingeditorhpslogobg{position: absolute;top: 0;left: 0;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .listsclswrapper{background: transparent;margin-bottom: 4px;border-radius: 7px!important;overflow: hidden;position: relative;border: 2px solid #fff;padding: 2px;display: inline-block;margin-left: 210px;margin-right: 25px;z-index: 8;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .listsclswrapper .listscls{background: #ffffff;background-image: -webkit-linear-gradient(top,#ffffff 0%,#c4d7de 100%);background-image: -moz-linear-gradient(top,#ffffff 0%, #c4d7de 100%);background-image: -o-linear-gradient(top,#ffffff 0%,#c4d7de 100%);background-image: linear-gradient(to bottom,#ffffff 0%, #c4d7de 100%);white-space: normal;word-break: break-word;display: inline-block;word-wrap: normal;resize: none; box-sizing: border-box;position: relative;width: 100%;margin: 0;border-radius: 7px!important;padding: 10px 12px 10px;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .listsclswrapper .listscls strong{font-size: 11.96px;font-family: 'Helveticabold';line-height: 14px;color: #1a1a1a;margin-left: 27px;display: inline-block;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .listsclswrapper .listscls ul li:first-child::before{display:none}
+.trainingeditor.hpsintroduc.MajorRiskFactors .listsclswrapper .listscls ul li:first-child span{font-size: 13.6px;font-family: 'Helveticabold';color: #000;}
+.trainingeditor.hpsintroduc.MajorRiskFactors ul{display: flex;align-items: flex-start;justify-content: space-between;margin: 0;padding: 0;flex-wrap: wrap;list-style: none;}
+.trainingeditor.hpsintroduc.MajorRiskFactors ul li{flex: 0 0 32.33%;margin-bottom: 4px;position: relative;}
+.trainingeditor.hpsintroduc.MajorRiskFactors ul li::before{content:'';position:absolute;top:3px;left:0; background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/circlelisttype_black1.png);background-position:center left;background-repeat:no-repeat;background-size: 21px;z-index: 5;width: 21px;height: 21px;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .headerthreecls{background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 0)));background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: linear-gradient(to right, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);display:block;padding: 10px 10px 6px;    margin-top: 5px;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .headerthreecls h4{display:block;font-size:15.64px;font-family:'MontserratBold';line-height:15.64px;white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;text-transform:uppercase;width:100%;margin: 0;color:#000;}
+.trainingeditor.hpsintroduc.MajorRiskFactors h5{display:block;font-size:13.94px;font-family:'MontserratBold';line-height:15.94px;white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;text-transform:uppercase;width:100%;color:#1a2534;margin:0;padding: 0;margin-top: 10px;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .trainingeditoradcpdimg{width: 214px;position: absolute;left: 12px;bottom: 70px;}
+.trainingeditor.hpsintroduc.MajorRiskFactors .trainingeditoradcpdimg img{border:none!important;max-width:100%}
+
+
+
+.trainingeditor.hpsintroduc.HRFD{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:cover!important;padding:0!important;border-radius:0!important;overflow:hidden;position: relative;}
+.trainingeditor.hpsintroduc.HRFD .trainingeditorinner{padding-bottom: 18px;}
+.trainingeditor.hpsintroduc.HRFD .trainingeditoradcpdbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_footer_img.png);    background-size: cover;background-repeat: no-repeat;position: absolute;display: block;z-index: 2;width: 100%;height: 88px;bottom: 0px;}
+.trainingeditor.hpsintroduc.HRFD .trainingeditortopsec{margin: 0;}
+.trainingeditor.hpsintroduc.HRFD .trainingeditorhpscontent{margin-left: 210px;margin-right: 25px;margin-top: -8%;}
+.trainingeditor.hpsintroduc.HRFD .headeronecls{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg.jpg) right top no-repeat!important;margin-bottom:12px;background-size:cover!important;padding:0!important;border-radius: 7px!important;position: relative;    max-width: 94%;float: right;}
+.trainingeditor.hpsintroduc.HRFD .headeronecls:after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg_bottomshadow.png);background-size: 100% 24px;background-repeat: no-repeat;width: 100%;height: 24px;position: absolute;bottom: 0;top: 90%;left: 0;}
+.trainingeditor.hpsintroduc.HRFD .headeronecls h2{display:block;font-size:25.14px;font-family:'RobotoBlack';line-height:25.14px;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;    width: 100%;margin: 0;padding: 13px 16px 16px;}
+.trainingeditor.hpsintroduc.HRFD .headeronecls h2 strong{display: inline-flex;}
+.trainingeditor.hpsintroduc.HRFD .headertwocls{background:transparent; margin-bottom:4px;border-radius:7px!important;overflow:hidden;position: relative;border:2px solid #fff;padding:5px;display: inline-block;max-width: 100%;float: right;}
+.trainingeditor.hpsintroduc.HRFD .headertwocls h3{display:block;background:#03a3d0;background-image:-webkit-linear-gradient(top,#03a3d0 0%,#006796 100%);background-image:-moz-linear-gradient(top,#03a3d0 0%, #006796 100%);background-image:-o-linear-gradient(top,#03a3d0 0%,#006796 100%);background-image:linear-gradient(to bottom,#03a3d0 0%, #006796 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;width:100%;margin: 0;border-radius:7px!important;padding: 8px 10px 14px;}
+.trainingeditor.hpsintroduc.HRFD .headertwocls h3 strong{font-size: 22.88px;font-family: 'Helveticabold';line-height: 24px;color: #fff;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));margin: 0;padding: 0;display: inline-block;text-transform: inherit;}
+.trainingeditor.hpsintroduc.HRFD .headertwocls h3 strong span{color:#ffc700}
+.trainingeditor.hpsintroduc.HRFD .trainingeditorhpslogo{flex: 0 0 151px;display: block;margin-right: 0;background-color: transparent;padding: 7px 10px;position: relative;z-index: 9;}
+.trainingeditor.hpsintroduc.HRFD .trainingeditorhpslogo:after{display:none}
+.trainingeditor.hpsintroduc.HRFD .trainingeditorhpslogo img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.HRFD .trainingeditorhpslogobg{position: absolute;top: 0;left: 0;}
+.trainingeditor.hpsintroduc.HRFD .listsclswrapper{background: transparent;margin-bottom: 4px;border-radius: 7px!important;overflow: hidden;position: relative;border: 2px solid #fff;padding: 2px;display: inline-block;margin-left: 25px;margin-right: 25px;z-index: 3;}
+.trainingeditor.hpsintroduc.HRFD .listsclswrapper .listscls{background: #ffffff;background-image: -webkit-linear-gradient(top,#ffffff 0%,#c4d7de 100%);background-image: -moz-linear-gradient(top,#ffffff 0%, #c4d7de 100%);background-image: -o-linear-gradient(top,#ffffff 0%,#c4d7de 100%);background-image: linear-gradient(to bottom,#ffffff 0%, #c4d7de 100%);white-space: normal;word-break: break-word;display: inline-block;word-wrap: normal;resize: none; box-sizing: border-box;position: relative;width: 100%;margin: 0;border-radius: 7px!important;padding: 10px 12px 10px;}
+.trainingeditor.hpsintroduc.HRFD .listsclswrapper .listscls strong{font-size: 11.96px;font-family: 'Helveticabold';line-height: 14px;color: #1a1a1a;margin-left: 27px;display: inline-block;}
+.trainingeditor.hpsintroduc.HRFD .listsclswrapper .listscls ul li:first-child::before{display:none}
+.trainingeditor.hpsintroduc.HRFD .listsclswrapper .listscls ul li:first-child span{font-size: 22.6px;font-family: 'Helveticabold';color: #000;}
+.trainingeditor.hpsintroduc.HRFD ul{display: flex;align-items: flex-start;justify-content: space-between;margin: 0;padding: 0;flex-wrap: wrap;list-style: none;}
+.trainingeditor.hpsintroduc.HRFD ul li{flex: 0 0 24%;margin-bottom: 8px;position: relative;}
+.trainingeditor.hpsintroduc.HRFD ul li::before{content:'';position:absolute;top:3px;left:0; background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/circlelisttype_black1.png);background-position:center left;background-repeat:no-repeat;background-size: 21px;z-index: 5;width: 21px;height: 21px;}
+.trainingeditor.hpsintroduc.HRFD .headerthreecls{background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 0)));background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: linear-gradient(to right, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);display:block;padding: 10px 10px 6px;    margin-top: 5px;}
+.trainingeditor.hpsintroduc.HRFD .headerthreecls h4{display:block;font-size:15.64px;font-family:'MontserratBold';line-height:15.64px;white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;text-transform:uppercase;width:100%;margin: 0;color:#000;}
+.trainingeditor.hpsintroduc.HRFD h5{display:block;font-size:13.94px;font-family:'MontserratBold';line-height:15.94px;white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;text-transform:uppercase;width:100%;color:#1a2534;margin:0;padding: 0;margin-top: 10px;}
+.trainingeditor.hpsintroduc.HRFD .listsclsheader{display: inline-block;margin-left: 25px;margin-right: 25px;}
+.trainingeditor.hpsintroduc.HRFD .listsclsheader h3{font-size:13.74px;font-family:'MontserratBold';line-height:13.74px;background:#353535;background-image:-webkit-linear-gradient(top,#353535 0%,#353535 45%,#000000 46%,#000000 100%);background-image:-moz-linear-gradient(top,#353535 0%,#353535 45%,#000000 46%,#000000 100%);background-image:-o-linear-gradient(top,#353535 0%,#353535 45%,#000000 46%,#000000 100%);background-image:linear-gradient(to bottom,#353535 0%,#353535 45%,#000000 46%,#000000 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;width: 100%;margin: 0;margin-bottom: 10px;}
+
+
+
+.trainingeditor.hpsintroduc.OVP{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:cover!important;padding:0!important;border-radius:0!important;overflow:hidden;position: relative;}
+.trainingeditor.hpsintroduc.OVP .trainingeditoradcpdbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_footer2_img.png);background-size: 300px 45px;background-repeat: no-repeat;position: relative;display: block;z-index: 2;width: 100%;min-height: 45px;background-position: bottom left;}
+.trainingeditor.hpsintroduc.OVP .trainingeditortopsec{margin: 0;}
+.trainingeditor.hpsintroduc.OVP .trainingeditorhpscontent{margin-left: 210px;margin-right: 25px;margin-top: -8%;}
+.trainingeditor.hpsintroduc.OVP .headeronecls{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg.jpg) right top no-repeat!important;margin-bottom:12px;background-size:cover!important;padding:0!important;border-radius: 7px!important;position: relative;    max-width: 94%;float: right;}
+.trainingeditor.hpsintroduc.OVP .headeronecls:after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg_bottomshadow.png);background-size: 100% 24px;background-repeat: no-repeat;width: 100%;height: 24px;position: absolute;bottom: 0;top: 90%;left: 0;}
+.trainingeditor.hpsintroduc.OVP .headeronecls h2{display:block;font-size:32.6px;font-family:'RobotoBlack';line-height:32.6px;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;    width: 100%;margin: 0;padding: 13px 16px 16px;}
+.trainingeditor.hpsintroduc.OVP .headeronecls h2 strong{display: inline-flex;}
+.trainingeditor.hpsintroduc.OVP .headertwocls{background:transparent; margin-bottom:4px;border-radius:7px!important;overflow:hidden;position: relative;border:2px solid #fff;padding:5px;display: inline-block;max-width: 100%;}
+.trainingeditor.hpsintroduc.OVP .headertwocls h3{display:block;background:#03a3d0;background-image:-webkit-linear-gradient(top,#03a3d0 0%,#006796 100%);background-image:-moz-linear-gradient(top,#03a3d0 0%, #006796 100%);background-image:-o-linear-gradient(top,#03a3d0 0%,#006796 100%);background-image:linear-gradient(to bottom,#03a3d0 0%, #006796 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;width:100%;margin: 0;border-radius:7px!important;padding: 8px 12px 8px;}
+.trainingeditor.hpsintroduc.OVP .headertwocls h3 strong{font-size: 22.88px;font-family: 'Helveticabold';line-height: 26.88px;color: #fff;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));margin: 0;padding: 0;display: inline-block;}
+.trainingeditor.hpsintroduc.OVP .headertwocls h3 strong span{color:#ffc700}
+.trainingeditor.hpsintroduc.OVP .trainingeditorhpslogo{flex: 0 0 151px;display: block;margin-right: 0;background-color: transparent;padding: 7px 10px;position: relative;z-index: 9;}
+.trainingeditor.hpsintroduc.OVP .trainingeditorhpslogo:after{display:none}
+.trainingeditor.hpsintroduc.OVP .trainingeditorhpslogo img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.OVP .trainingeditorhpslogobg{position: absolute;top: 0;left: 0;}
+.trainingeditor.hpsintroduc.OVP .listsclswrapper{background: transparent;margin-bottom: 4px;border-radius: 7px!important;overflow: hidden;position: relative;border: 2px solid #fff;padding: 2px;display: inline-block;margin-left: 355px;margin-right: 25px;z-index: 8;}
+.trainingeditor.hpsintroduc.OVP .listsclswrapper .listscls{background: #ffffff;background-image: -webkit-linear-gradient(top,#ffffff 0%,#c4d7de 100%);background-image: -moz-linear-gradient(top,#ffffff 0%, #c4d7de 100%);background-image: -o-linear-gradient(top,#ffffff 0%,#c4d7de 100%);background-image: linear-gradient(to bottom,#ffffff 0%, #c4d7de 100%);white-space: normal;word-break: break-word;display: inline-block;word-wrap: normal;resize: none; box-sizing: border-box;position: relative;width: 100%;margin: 0;border-radius: 7px!important;padding: 10px 12px 10px;}
+.trainingeditor.hpsintroduc.OVP .listsclswrapper .listscls strong{font-size: 11.96px;font-family: 'Helveticabold';line-height: 14px;color: #1a1a1a;margin-left: 27px;display: inline-block;}
+.trainingeditor.hpsintroduc.OVP ul{display: flex;align-items: flex-start;justify-content: space-between;margin: 0;padding: 0;flex-wrap: wrap;list-style: none;}
+.trainingeditor.hpsintroduc.OVP ul li{flex: 0 0 32.33%;margin-bottom: 4px;position: relative;}
+.trainingeditor.hpsintroduc.OVP ul li::before{content:'';position:absolute;top:3px;left:0; background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/circlelisttype_black1.png);background-position:center left;background-repeat:no-repeat;background-size: 21px;z-index: 5;width: 21px;height: 21px;}
+.trainingeditor.hpsintroduc.OVP .headerthreecls{background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 0)));background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: linear-gradient(to right, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);display:block;padding: 10px 10px 6px;    margin-top: 5px;}
+.trainingeditor.hpsintroduc.OVP .headerthreecls h4{display:block;font-size:15.64px;font-family:'MontserratBold';line-height:15.64px;white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;text-transform:uppercase;width:100%;margin: 0;color:#000;}
+.trainingeditor.hpsintroduc.OVP h5{display:block;font-size:13.94px;font-family:'MontserratBold';line-height:15.94px;white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;text-transform:uppercase;width:100%;color:#1a2534;margin:0;padding: 0;margin-top: 10px;}
+.trainingeditor.hpsintroduc.OVP .trainingeditoradcpdimg{width: 446px;position: absolute;left: -80px;bottom: -15px;}
+.trainingeditor.hpsintroduc.OVP .trainingeditoradcpdimg img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.OVP .orangeboxcls{background-color: #ef5d0f;position: relative;padding: 12px;display: inline-block;margin-left: 355px;margin-right: 25px;z-index: 8;box-shadow: 0px 2px 6px 1px rgb(0 0 0 / 20%);}
+.trainingeditor.hpsintroduc.OVP .orangeboxcls p{font-size: 13.74px;font-family: 'MontserratBold';line-height: 16.74px;color: #fff;white-space:normal;word-break:break-word;margin: 0;}
+
+
+
+.trainingeditor.hpsintroduc.OVPC{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:cover!important;padding:0!important;border-radius:0!important;overflow:hidden;position: relative;}
+.trainingeditor.hpsintroduc.OVPC .trainingeditoradcpdbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_footer2_img.png);background-size: 301px 59px;background-repeat: no-repeat;position: relative;display: block;z-index: 2;width: 100%;min-height: 59px;background-position: bottom left;}
+.trainingeditor.hpsintroduc.OVPC .trainingeditortopsec{margin: 0;}
+.trainingeditor.hpsintroduc.OVPC .trainingeditorhpscontent{margin-left: 250px;margin-right: 25px;margin-top: -8%;z-index: 8;position: relative;}
+.trainingeditor.hpsintroduc.OVPC .headeronecls{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg.jpg) right top no-repeat!important;margin-bottom:12px;background-size:cover!important;padding:0!important;border-radius: 7px!important;position: relative;    max-width: 94%;float: right;}
+.trainingeditor.hpsintroduc.OVPC .headeronecls:after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg_bottomshadow.png);background-size: 100% 24px;background-repeat: no-repeat;width: 100%;height: 24px;position: absolute;bottom: 0;top: 90%;left: 0;}
+.trainingeditor.hpsintroduc.OVPC .headeronecls h2{display:block;font-size:19.47px;font-family:'RobotoBlack';line-height:22.47px;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;    width: 100%;margin: 0;padding: 13px 16px 16px;}
+.trainingeditor.hpsintroduc.OVPC .headeronecls h2 strong{display: inline-flex;}
+.trainingeditor.hpsintroduc.OVPC .headertwocls{background:transparent; margin-bottom:4px;border-radius:7px!important;overflow:hidden;position: relative;border:2px solid #fff;padding:5px;display: inline-block;max-width: 100%;}
+.trainingeditor.hpsintroduc.OVPC .headertwocls h3{display:block;background:#03a3d0;background-image:-webkit-linear-gradient(top,#03a3d0 0%,#006796 100%);background-image:-moz-linear-gradient(top,#03a3d0 0%, #006796 100%);background-image:-o-linear-gradient(top,#03a3d0 0%,#006796 100%);background-image:linear-gradient(to bottom,#03a3d0 0%, #006796 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;width:100%;margin: 0;border-radius:7px!important;padding: 8px 12px 8px;}
+.trainingeditor.hpsintroduc.OVPC .headertwocls h3 strong{font-size: 22.88px;font-family: 'Helveticabold';line-height: 26.88px;color: #fff;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));margin: 0;padding: 0;display: inline-block;}
+.trainingeditor.hpsintroduc.OVPC .headertwocls h3 strong span{color:#ffc700}
+.trainingeditor.hpsintroduc.OVPC .trainingeditorhpslogo{flex: 0 0 151px;display: block;margin-right: 0;background-color: transparent;padding: 7px 10px;position: relative;z-index: 9;}
+.trainingeditor.hpsintroduc.OVPC .trainingeditorhpslogo:after{display:none}
+.trainingeditor.hpsintroduc.OVPC .trainingeditorhpslogo img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.OVPC .trainingeditorhpslogobg{position: absolute;top: 0;left: 0;}
+.trainingeditor.hpsintroduc.OVPC .listsclswrapper{background: transparent;margin-bottom: 4px;border-radius: 7px!important;overflow: hidden;position: relative;border: 2px solid #fff;padding: 2px;display: inline-block;margin-right: 285px;margin-left: 25px;z-index: 8;}
+.trainingeditor.hpsintroduc.OVPC .listsclswrapper .listscls{background: #ffffff;background-image: -webkit-linear-gradient(top,#ffffff 0%,#c4d7de 100%);background-image: -moz-linear-gradient(top,#ffffff 0%, #c4d7de 100%);background-image: -o-linear-gradient(top,#ffffff 0%,#c4d7de 100%);background-image: linear-gradient(to bottom,#ffffff 0%, #c4d7de 100%);white-space: normal;word-break: break-word;display: inline-block;word-wrap: normal;resize: none; box-sizing: border-box;position: relative;width: 100%;margin: 0;border-radius: 7px!important;padding: 10px 12px 10px;}
+.trainingeditor.hpsintroduc.OVPC .listsclswrapper .listscls strong{font-size: 13.10px;font-family: 'Helveticabold';line-height: 14px;color: #1a1a1a;margin-left: 30px;display: inline-block;}
+.trainingeditor.hpsintroduc.OVPC ul{display: flex;align-items: flex-start;justify-content: space-between;margin: 0;padding: 0;flex-wrap: wrap;list-style: none;}
+.trainingeditor.hpsintroduc.OVPC ul li{flex: 0 0 100%;margin-bottom: 4px;position: relative;}
+.trainingeditor.hpsintroduc.OVPC ul li::before{content:'';position:absolute;top:3px;left:0; background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/circlelisttype_black1.png);background-position:center left;background-repeat:no-repeat;background-size: 21px;z-index: 5;width: 21px;height: 21px;}
+.trainingeditor.hpsintroduc.OVPC .listsclswrapper .listscls ul li:first-child::before{display:none}
+.trainingeditor.hpsintroduc.OVPC .listsclswrapper .listscls ul li:first-child span{font-size: 19.07px;font-family: 'Helveticabold';color: #000;}
+.trainingeditor.hpsintroduc.OVPC .listsclswrapper .listscls ul li:first-child span{margin-left: 0;}
+.trainingeditor.hpsintroduc.OVPC .headerthreecls{background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 0)));background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);background: linear-gradient(to right, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);display:block;padding: 10px 10px 6px;    margin-top: 5px;}
+.trainingeditor.hpsintroduc.OVPC .headerthreecls h4{display:block;font-size:15.64px;font-family:'MontserratBold';line-height:15.64px;white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;text-transform:uppercase;width:100%;margin: 0;color:#000;}
+.trainingeditor.hpsintroduc.OVPC h5{display:block;font-size:13.94px;font-family:'MontserratBold';line-height:15.94px;white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;text-transform:uppercase;width:100%;color:#1a2534;margin:0;padding: 0;margin-top: 10px;}
+.trainingeditor.hpsintroduc.OVPC .trainingeditoradcpdimg{width: 390px;position: absolute;right: -22px;bottom: -5px;z-index: 2;}
+.trainingeditor.hpsintroduc.OVPC .trainingeditoradcpdimg img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.OVPC .orangeboxcls{background-color: #ef5d0f;position: relative;padding: 12px;display: inline-block;margin-left: 355px;margin-right: 25px;z-index: 8;box-shadow: 0px 2px 6px 1px rgb(0 0 0 / 20%);}
+.trainingeditor.hpsintroduc.OVPC .orangeboxcls p{font-size: 13.74px;font-family: 'MontserratBold';line-height: 16.74px;color: #fff;white-space:normal;word-break:break-word;margin: 0;}
+.trainingeditor.hpsintroduc.OVPC .pinkboxcls{background:#fe4b9a;background-image:-webkit-linear-gradient(top,#fe4b9a 0%,#ac2da8 100%);background-image:-moz-linear-gradient(top,#fe4b9a 0%,#ac2da8 100%);background-image:-o-linear-gradient(top,#fe4b9a 0%,#ac2da8 100%);background-image:linear-gradient(to bottom,#fe4b9a 0%,#ac2da8 100%);position: relative;padding: 12px;display: inline-block;margin-left: 25px;margin-right: 285px;z-index: 8;box-shadow: 0px 2px 6px 1px rgb(0 0 0 / 20%);border: 5px solid #ffff;}
+.trainingeditor.hpsintroduc.OVPC .pinkboxcls p{font-size: 11.24px;font-family: 'MontserratBold';line-height: 16.74px;color: #fff;white-space:normal;word-break:break-word;margin: 0;}
+.trainingeditor.hpsintroduc.OVPC .blueboxcls{background:#0080ba;background-image:-webkit-linear-gradient(top,#0080ba 0%,#03a5ef 100%);background-image:-moz-linear-gradient(top,#0080ba 0%,#03a5ef 100%);background-image:-o-linear-gradient(top,#0080ba 0%,#03a5ef 100%);background-image:linear-gradient(to bottom,#0080ba 0%,#03a5ef 100%);position: relative;padding: 12px;display: inline-block;margin-left: 25px;margin-right: 285px;z-index: 8;box-shadow: 0px 2px 6px 1px rgb(0 0 0 / 20%);border: 5px solid #ffff;margin-top: 10px;}
+.trainingeditor.hpsintroduc.OVPC .blueboxcls p{font-size: 11.24px;font-family: 'MontserratBold';line-height: 16.74px;color: #fff;white-space:normal;word-break:break-word;margin: 0;}
+
+
+
+.trainingeditor.hpsintroduc.AVIOP{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:cover!important;padding:0!important;border-radius:0!important;overflow:hidden;position: relative;padding-bottom: 8px !important;}
+.trainingeditor.hpsintroduc.AVIOP .trainingeditoradcpdbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_footer2_img.png);    background-size: 301px 59px;background-repeat: no-repeat;position: absolute;display: block;z-index: 2;width: 100%;min-height: 59px;bottom: 0px;}
+.trainingeditor.hpsintroduc.AVIOP .trainingeditortopsec{margin: 0;}
+.trainingeditor.hpsintroduc.AVIOP .trainingeditorhpscontent{margin-left: 210px;margin-right: 25px;margin-top: -8%;}
+.trainingeditor.hpsintroduc.AVIOP .headeronecls{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg.jpg) right top no-repeat!important;margin-bottom:12px;background-size:cover!important;padding:0!important;border-radius: 7px!important;position: relative;    max-width: 94%;float: right;}
+.trainingeditor.hpsintroduc.AVIOP .headeronecls:after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg_bottomshadow.png);background-size: cover;background-repeat: no-repeat;width: 100%;height: 24px;position: absolute;bottom: 0;top: 90%;left: 0;}
+.trainingeditor.hpsintroduc.AVIOP .headeronecls h2{display:block;font-size:25.17px;font-family:'RobotoBlack';line-height:25.17px;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;    width: 100%;margin: 0;padding: 13px 16px 16px;}
+.trainingeditor.hpsintroduc.AVIOP .headeronecls h2 strong{display: inline-flex;}
+.trainingeditor.hpsintroduc.AVIOP .headertwocls{background:transparent; margin-bottom:4px;border-radius:7px!important;overflow:hidden;position: relative;border:2px solid #fff;padding:5px;display: inline-block;max-width: 100%;}
+.trainingeditor.hpsintroduc.AVIOP .trainingeditorhpslogo{flex: 0 0 151px;display: block;margin-right: 0;background-color: transparent;padding: 7px 10px;position: relative;z-index: 9;}
+.trainingeditor.hpsintroduc.AVIOP .trainingeditorhpslogo:after{display:none}
+.trainingeditor.hpsintroduc.AVIOP .trainingeditorhpslogo img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.AVIOP .trainingeditorhpslogobg{position: absolute;top: 0;left: 0;}
+.trainingeditor.hpsintroduc.AVIOP .purpleboxcls{background:#6f65d2;background-image:-webkit-linear-gradient(top,#6f65d2 0%,#4d43ab 100%);background-image:-moz-linear-gradient(top,#6f65d2 0%,#4d43ab 100%);background-image:-o-linear-gradient(top,#6f65d2 0%,#4d43ab 100%);background-image:linear-gradient(to bottom,#6f65d2 0%,#4d43ab 100%);position: relative;padding: 12px;display: inline-block;margin-left: 234px;margin-right: 25px;z-index: 8;box-shadow: 0px 2px 6px 1px rgb(0 0 0 / 20%);margin-top: 2px;}
+.trainingeditor.hpsintroduc.AVIOP .purpleboxcls p{font-size: 14.65px;font-family: 'MontserratBold';line-height: 16.74px;color: #fff;white-space:normal;word-break:break-word;margin: 0;}
+.trainingeditor.hpsintroduc.AVIOP .trainingeditorcomputerimg{width: 563px;float: right;position: relative;z-index: 3;}
+.trainingeditor.hpsintroduc.AVIOP .trainingeditorcomputerimg img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.AVIOP .trainingeditoradcpdimg{width: 360px;position: absolute;left: 0px;bottom: -6px;z-index: 1;}
+.trainingeditor.hpsintroduc.AVIOP .trainingeditoradcpdimg img{border:none!important;max-width:100%}
+
+
+
+.trainingeditor.hpsintroduc.WWH{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:cover!important;padding:0!important;border-radius:0!important;overflow:hidden;position: relative;padding-bottom: 8px !important;}
+.trainingeditor.hpsintroduc.WWH .trainingeditoradcpdbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_footer2_img.png);    background-size: 301px 59px;background-repeat: no-repeat;position: absolute;display: block;z-index: 2;width: 100%;min-height: 59px;bottom: 0px;}
+.trainingeditor.hpsintroduc.WWH .trainingeditortopsec{margin: 0;}
+.trainingeditor.hpsintroduc.WWH .trainingeditorhpscontent{margin-left: 210px;margin-right: 25px;margin-top: -8%;}
+.trainingeditor.hpsintroduc.WWH .headeronecls{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg.jpg) right top no-repeat!important;margin-bottom:12px;background-size:cover!important;padding:0!important;border-radius: 7px!important;position: relative;    max-width: 94%;float: right;}
+.trainingeditor.hpsintroduc.WWH .headeronecls:after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg_bottomshadow.png);background-size: cover;background-repeat: no-repeat;width: 100%;height: 24px;position: absolute;bottom: 0;top: 90%;left: 0;}
+.trainingeditor.hpsintroduc.WWH .headeronecls h2{display:block;font-size:23.52px;font-family:'RobotoBlack';line-height:25.17px;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;    width: 100%;margin: 0;padding: 13px 16px 16px;}
+.trainingeditor.hpsintroduc.WWH .headeronecls h2 strong{display: inline-flex;}
+.trainingeditor.hpsintroduc.WWH .headertwocls{background:transparent; margin-bottom:4px;border-radius:7px!important;overflow:hidden;position: relative;border:2px solid #fff;padding:5px;display: inline-block;max-width: 100%;}
+.trainingeditor.hpsintroduc.WWH .trainingeditorhpslogo{flex: 0 0 151px;display: block;margin-right: 0;background-color: transparent;padding: 7px 10px;position: relative;z-index: 9;}
+.trainingeditor.hpsintroduc.WWH .trainingeditorhpslogo:after{display:none}
+.trainingeditor.hpsintroduc.WWH .trainingeditorhpslogo img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.WWH .trainingeditorhpslogobg{position: absolute;top: 0;left: 0;}
+.trainingeditor.hpsintroduc.WWH .greenboxcls{background:#78dc00;background-image:-webkit-linear-gradient(top,#78dc00 0%,#058006 100%);background-image:-moz-linear-gradient(top,#78dc00 0%,#058006 100%);background-image:-o-linear-gradient(top,#78dc00 0%,#058006 100%);background-image:linear-gradient(to bottom,#78dc00 0%,#058006 100%);position: relative;padding: 12px;display: inline-block;margin-left: 234px;margin-right: 25px;z-index: 8;box-shadow: 0px 2px 6px 1px rgb(0 0 0 / 20%);margin-top: 2px;}
+.trainingeditor.hpsintroduc.WWH .greenboxcls p{font-size: 14.65px;font-family: 'MontserratBold';line-height: 16.74px;color: #fff;white-space:normal;word-break:break-word;margin: 0;}
+.trainingeditor.hpsintroduc.WWH .trainingeditorcomputerimg{width: 563px;float: right;position: relative;z-index: 3;}
+.trainingeditor.hpsintroduc.WWH .trainingeditorcomputerimg img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.WWH .trainingeditoradcpdimg{width: 253px;position: absolute;left: 14px;bottom: -1px;z-index: 1;}
+.trainingeditor.hpsintroduc.WWH .trainingeditoradcpdimg img{border:none!important;max-width:100%}
+
+
+
+.trainingeditor.hpsintroduc.PhyTax{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_bg.jpg) right top no-repeat!important;margin-bottom:0;background-size:cover!important;padding:0!important;border-radius:0!important;overflow:hidden;position: relative;padding-bottom: 5px !important;}
+.trainingeditor.hpsintroduc.PhyTax .trainingeditoradcpdbottom{background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_footer_img.png);background-size: cover;background-repeat: no-repeat;position: relative;display: block;z-index: 2;width: 100%;min-height: 177px;margin-bottom: -5%;}
+.trainingeditor.hpsintroduc.PhyTax .trainingeditortopsec{margin: 0;}
+.trainingeditor.hpsintroduc.PhyTax .trainingeditorhpscontent{margin-left: 270px;margin-right: 25px;margin-top: -10%;}
+.trainingeditor.hpsintroduc.PhyTax .headeronecls{background:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg.jpg) right top no-repeat!important;margin-bottom:12px;background-size:cover!important;padding:0!important;border-radius: 7px!important;position: relative;    max-width: 94%;float: right;}
+.trainingeditor.hpsintroduc.PhyTax .headeronecls:after{content: '';background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/hps_adcpd_headerone_bg_bottomshadow.png);background-size: 100% 24px;background-repeat: no-repeat;width: 100%;height: 24px;position: absolute;bottom: 0;top: 90%;left: 0;}
+.trainingeditor.hpsintroduc.PhyTax .headeronecls h2{display:block;font-size:27.2px;font-family:'RobotoBlack';line-height:27.2px;background:#fff;background-image:-webkit-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-moz-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:-o-linear-gradient(top,#fff 0%,#fff 45%,#fff 46%,#fff 100%);background-image:linear-gradient(to bottom,#fff 0%,#fff 45%,#fff 46%,#fff 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;-webkit-background-clip:text;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));-webkit-text-fill-color:transparent;position:relative;text-transform:uppercase;    width: 100%;margin: 0;padding: 13px 16px 16px;}
+.trainingeditor.hpsintroduc.PhyTax .headeronecls h2 strong{display: inline-flex;}
+.trainingeditor.hpsintroduc.PhyTax .headertwocls{margin: 0;margin-left: 150px;margin-right: 23px;}
+.trainingeditor.hpsintroduc.PhyTax .headertwocls h3{display:block;background:#03a3d0;background-image:-webkit-linear-gradient(top,#03a3d0 0%,#006796 100%);background-image:-moz-linear-gradient(top,#03a3d0 0%, #006796 100%);background-image:-o-linear-gradient(top,#03a3d0 0%,#006796 100%);background-image:linear-gradient(to bottom,#03a3d0 0%, #006796 100%);white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;width:100%;margin: 0;border-radius:7px!important;padding: 4px 12px 8px;}
+.trainingeditor.hpsintroduc.PhyTax .headertwocls h3 strong{font-size:22.77px;font-family:'RobotoBold';line-height:auto;color:#fff;-webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));}
+.trainingeditor.hpsintroduc.PhyTax .trainingeditorhpslogo{flex: 0 0 151px;display: block;margin-right: 0;background-color: transparent;padding: 7px 10px;position: relative;z-index: 9;}
+.trainingeditor.hpsintroduc.PhyTax .trainingeditorhpslogo img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.PhyTax .trainingeditorhpslogobg{position: absolute;top: 0;left: 0;}
+.trainingeditor.hpsintroduc.PhyTax .trainingeditorhpslogo:after{display:none}
+.trainingeditor.hpsintroduc.PhyTax .trainingeditoradcpdimg{width: 312px;position: absolute;left: -23px;bottom: 26px;}
+.trainingeditor.hpsintroduc.PhyTax .trainingeditoradcpdimg img{border:none!important;max-width:100%}
+.trainingeditor.hpsintroduc.PhyTax ul{display: flex;align-items: flex-start;justify-content: space-between;margin: 0;padding: 0;flex-wrap: wrap;list-style: none;margin-left: 90px;margin-right: 25px;margin-top: 10px;}
+.trainingeditor.hpsintroduc.PhyTax ul li{flex: 0 0 100%;margin-bottom: 8px;position: relative;}
+.trainingeditor.hpsintroduc.PhyTax ul li strong{clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);padding: 10px 23px 10px 26px;display: block;margin-left: 18px;font-size: 12.16px;font-family: 'MontserratBold';line-height: normal;color: #fff;}
+.trainingeditor.hpsintroduc.PhyTax ul li::before{content:'';position:absolute;top:50%;transform:translateY(-50%);left:0; background-image:url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/circlelisttype_black.png);background-position:center left;background-repeat:no-repeat;background-size: 30px;z-index: 9;width: 30px;height: 30px;}
+.trainingeditor.hpsintroduc.PhyTax ul li strong{background:#02baf1;background-image:-webkit-linear-gradient(top,#02baf1 0%,#0276a3 100%);background-image:-moz-linear-gradient(top,#02baf1 0%, #0276a3 100%);background-image:-o-linear-gradient(top,#02baf1 0%,#0276a3 100%);background-image:linear-gradient(to bottom,#02baf1 0%, #0276a3 100%);white-space:normal;word-break:break-word;}
+.trainingeditor.hpsintroduc.PhyTax .headerthreecls{background: -moz-linear-gradient(left, rgba(36, 71, 110, 1) 75%, rgba(255, 255, 255, 0) 100%);background: -webkit-gradient(linear, left top, right top, color-stop(75%, rgba(36, 71, 110, 1)), color-stop(100%, rgba(255, 255, 255, 0)));background: -webkit-linear-gradient(left, rgba(36, 71, 110, 1) 75%, rgba(255, 255, 255, 0) 100%);background: -o-linear-gradient(left, rgba(36, 71, 110, 1) 75%, rgba(255, 255, 255, 0) 100%);background: -ms-linear-gradient(left, rgba(36, 71, 110, 1) 75%, rgba(255, 255, 255, 0) 100%);background: linear-gradient(to right, rgba(36, 71, 110, 1) 75%, rgba(255, 255, 255, 0) 100%);filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);display:block;padding: 8px 10px 9px;margin-top: 8px;margin-left: 60px;margin-right: 25px;position: relative;}
+.trainingeditor.hpsintroduc.PhyTax .headerthreecls h4{display:block;font-size:22px;font-family:'MontserratBold';line-height:23px;white-space:normal;word-break:break-word;display:inline-block;word-wrap:normal;resize:none;box-sizing:border-box;position:relative;text-transform:inherit;width:100%;margin: 0;color:#fff;}
+.trainingeditor.hpsintroduc.PhyTax .headerthreecls::before {content: '';position: absolute;top: 50%;transform: translateY(-50%);left: -35px;background-image: url(https://s3.amazonaws.com/backoffice.betoparedes.com/assets/images/training/circlelisttype_black.png);background-position: center left;background-repeat: no-repeat;background-size: 30px;z-index: 9;width: 30px;height: 30px;}
+
+/*------END HPS CSS------*/
+
+
+.lessoncontent{cursor:auto}
+
+/*------------------END--KOUSHIK ADDED CSS-------------------*/
