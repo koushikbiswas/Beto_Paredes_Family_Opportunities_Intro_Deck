@@ -1,3 +1,4 @@
+
 /* Start Lession -  Beto Paredes Family Opportunities Intro Deck */
 .pdfhomepagemain{margin: 0;padding: 0;position:relative!important;font-family: 'Arial', sans-serif!important;}
 .pdfhomepagemain img{border:0 !important;outline:0 !important}
@@ -8,10 +9,10 @@
 .pdfhomepagemain:link:focus,.pdfhomepagemain:visited:focus{outline:none!important}
 .pdfhomepagemain button{cursor: pointer;word-wrap:break-word!important;white-space:unset!important;overflow-wrap:break-word;word-wrap:break-word;word-break:break-word;line-height:normal!important}
 
-.pdfmaincontainer{margin: 0 auto;padding: 0;display: block;width:100%;background-image: url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/common/pdfbgoverlay.png);background-color:#000;background-repeat: no-repeat;background-position:center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;display:block;position: relative;padding-bottom: 40px;}
+.pdfmaincontainer{margin: 0 auto;padding: 0;display: block;width:892px;background-image: url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/common/pdfbgoverlay.png);background-color:#000;background-repeat: no-repeat;background-position:center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;display:block;position: relative;padding-bottom: 40px;}
 .pdfheaderblock{margin: 0 auto;padding: 0;display: block;width:100%;background-image: url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/common/pdfheaderbg.png);background-repeat: no-repeat;background-position:left top;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;background-size: 100% auto;display:block;min-height: 106px;}
 .pdfheaderblockinner{padding:15px}
-.pdffooterblock{margin: 0 auto;padding: 0;display: block;width:100%;background-image: url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/common/pdffooterrbg.png);background-repeat: no-repeat;background-position:left bottom;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;background-size: 100% auto;display:block;min-height: 76px;position: absolute;bottom: 0;}
+.pdffooterblock{margin: 0 auto;padding: 0;display: block;width:100%;background-image: url(https://s3.amazonaws.com/dev.backoffice.betoparedes.com/assets/images/training/common/pdffooterrbg.png);background-repeat: no-repeat;background-position:left top;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;background-size: 100% auto;display:block;min-height: 87px;position: absolute;bottom: 0;}
 .pdfmaincontent{position: relative;z-index: 9;}
 .pdfmaincontentinner{width: 92%;margin: 0 auto;padding: 0;display: block;}
 .pdfheaderblock .pdflogowrapper{width: 302px;display: block;}
@@ -26,8 +27,6 @@
 .pdfmaincontent h3 span{display: initial !important;padding: 0 !important;}
 .pdfmaincontent h2 span{display: initial !important;padding: 0 !important;}
 .pdfmaincontent h1 span{display: initial !important;padding: 0 !important;}
-
-.training_center_wrapper .rowinner_block .markbtncls {margin-top: 10px;}
 
 /*-----------START SLIDE 14 CSS-----------*/
 .slide14 .pdfmaincontent p{padding-left: 38%;margin-top: -6%;font-size: 33px;font-weight: 600;line-height: 34px;}
@@ -195,173 +194,15 @@
 .slide29 .logolists .logoimg img{width:100%}
 /*-----------END SLIDE 29 CSS-----------*/
 
-/*-----------Start Koushik media CSS-----------*/
-@media (max-width: 1280px) {
-.slide14 .pdfmaincontent p,.slide15 .pdfmaincontent p,.slide16 .pdfmaincontent p,.slide17 .pdfmaincontent p {font-size: 31px;}
-.slide16 .pdfmaincontentinnerbottominner p {font-size: 16px !important;}
-.pdfslide17wrapperright p {font-size: 21px !important;line-height: 39px !important;}
-.slide18 .pdfmaincontent p {padding-left: 38%;font-size: 38px;}
-.slide18 .pdfmaincontenttop p {padding-left: 0;font-size: 17px;}
-.slide18machineimage {margin-top: -3%;}
-.slide19 .pdfmaincontent p {padding-left: 38%;font-size: 38px;}
-.slide19 .pdfmaincontenttop p {padding-left: 0;font-size: 17px;line-height: 24px;}
-.slide21 .pdfmaincontent p {font-size: 22px;}
-.slide21 .pdfmaincontentinnerbottominner p {font-size: 21px !important;}
-.slide22 .pdfmaincontent p {font-size: 22px;}
-.slide22 .pdfmaincontentinnerbottominner p {font-size: 16px !important;}
-.slide23 .pdfmaincontent p {font-size: 22px;}
-.slide23 .pdfmaincontentinnerbottominner p {font-size: 16px !important;line-height: 23px;}
-.slide24 .pdfmaincontent p {font-size: 22px;}
-.slide24 .pdfmaincontentinnerbottominner p {font-size: 17px !important;line-height: 28px;}
-.slide25 .pdfmaincontentinnerbottominner p {font-size: 21px !important;line-height: 34px;}
-.slide26 .pdfmaincontentinnerbottominner p {font-size: 16px !important;}
-.slide27 .pdfmaincontentinnerbottominner p {font-size: 16px !important;line-height: 26px;}
-.slide28 .pdfmaincontent p {font-size: 19px;}
-.slide29 .pdfmaincontent h2 {padding-left: 38%;font-size: 25px;}
-.slide29 .pdfmaincontent h1 {font-size: 24px;}
-.slide29 .pdfmaincontent h4 {font-size: 26px;}
-.slide29 .pdfmaincontent p {font-size: 22px;}
-.training_center_wrapper mat-card-title {font-size: 29px!important;}
-}
 
-@media (max-width:1199px) {
+@media (max-width: 767px) {
 .pdfheaderblock .pdflogowrapper {margin: 0 auto;}
 .slide14 .pdfmaincontent p {padding-left: 0;margin-top: 0;text-align: center;}
-.slide14 .pdfmaincontent .pdfmaincontentinnerbottom {justify-content: center;flex-wrap: wrap;margin-top: 20px;}
+.slide14 .pdfmaincontent .pdfmaincontentinnerbottom {justify-content: center;flex-wrap: wrap;}
 .slide14 .pdfmaincontentinnerbottominner p br{display: none;}
 .slide14 .pdfmaincontentinnerbottominner {width: 100%;}
 .slide14 .pdfmaincontentinnerbottom .pdfmainimgwrapper {width: 100%;margin-top: 20px;}
-
 .slide15 .pdfmaincontent p {padding-left: 0;margin-top: 0;text-align: center;}
-.slide15 .pdfmaincontent .pdfmaincontentinnerbottom {justify-content: center;flex-wrap: wrap;margin-top: 20px;}
-.slide15 .pdfmaincontentinnerbottominner {width: 100%;}
-.slide15 .pdfmaincontentinnerbottominner p br{display:none;}
-.slide15 .pdfmaincontentinnerbottom .pdfmainimgwrapper {width: 100%;margin-top: 20px;}
-
-.slide16 .pdfmaincontent p {padding-left: 0;margin-top: 0;text-align: center;}
-.slide16 .pdfmaincontent .pdfmaincontentinnerbottom {justify-content: center;flex-wrap: wrap;margin-top: 20px;}
-.slide16 .pdfmaincontentinnerbottominner {width: 100%;}
-.slide16 .pdfmaincontentinnerbottominner p br{display:none;}
-.slide16 .pdfmaincontentinnerbottom .pdfmainimgwrapper {width: 100%;margin-top: 20px;}
-
-.slide17 .pdfmaincontent p {padding-left: 0;margin-top: 0;text-align: center;}
-.slide17 .pdfmaincontent .pdfmaincontentinnerbottom {justify-content: center;flex-wrap: wrap;margin-top: 20px;}
-.slide17 .pdfmaincontent p {width: 100%;}
-.slide17 .pdfmaincontent p br{display:none;}
-.pdfslide17wrapper {flex-wrap: wrap;}
-.slide17machineimage {width: 46%;margin: 0 auto;position: inherit;bottom: 0;left: 0;margin-top: -3%;order: 2;}
-.pdfslide17wrapperright {width: 100%;padding-left: 0;order: 1;}
-.slide17 .pdfmaincontainer {padding-bottom: 0;}
-
-.slide18 .pdfmaincontent p {padding-left: 0;margin-top: 0;text-align: center;}
-.slide18 .pdfmaincontent .pdfmaincontentinnerbottom {justify-content: center;flex-wrap: wrap;margin-top: 20px;}
-.slide18 .pdfmaincontent p {width: 100%;}
-.slide18 .pdfmaincontent p br{display:none;}
-.pdfslide18wrapper {flex-wrap: wrap;}
-.slide18machineimage {width: 22%;margin: 0 auto;position: inherit;bottom: 0;left: 0;margin-top: 15px;}
-.pdfslide18wrapperright {width: 100%;padding-left: 0;}
-.slide18 .pdfmaincontent .pdfmaincontentslide18inner {flex-wrap: wrap;}
-.slide18 .pdfmaincontenttop h3 {text-align: center;}
-
-.slide19 .pdfmaincontent p {padding-left: 0;margin-top: 0;text-align: center;}
-.slide19 .pdfmaincontent .pdfmaincontentinnerbottom {justify-content: center;flex-wrap: wrap;margin-top: 20px;}
-.slide19 .pdfmaincontent p {width: 100%;}
-.slide19 .pdfmaincontent p br{display:none;}
-.slide19 .pdfmaincontenttop h3 {text-align: center;}
-.slide19 .pdfmaincontenttop p{font-size: 18px;}
-.slide19 .pdfmaincontent h2 {font-size: 22px;}
-.slide19 .pdfmaincontent .pdfmaincontentlists ul li {font-size: 16px !important;line-height: 22px;margin-bottom: 12px;}
-
-.slide20 .pdfmaincontent p {padding-left: 0;margin-top: 0;text-align: center;}
-.slide20 .pdfmaincontent p {width: 100%;}
-.slide20 .pdfmaincontent p br{display:none;}
-
-.slide21 .pdfmaincontent p {padding-left: 0;margin-top: 0;text-align: center;}
-.slide21 .pdfmaincontent p {width: 100%;}
-.slide21 .pdfmaincontent p br{display:none;}
-.slide21 .pdfmaincontent .pdfmaincontentinnerbottom {flex-wrap: wrap;margin-top: 20px;}
-.slide21 .pdfmaincontentinnerbottominner {width: 100%;}
-.slide21 .pdfmaincontentinnerbottom .pdfmainimgwrapper {width: 100%;margin-top: 20px;}
-
-.slide22 .pdfmaincontent p {padding-left: 0;margin-top: 0;text-align: center;}
-.slide22 .pdfmaincontent p {width: 100%;}
-.slide22 .pdfmaincontent p br{display:none;}
-.slide22 .pdfmaincontent .pdfmaincontentinnerbottom {flex-wrap: wrap;margin-top: 10px;}
-.slide22 .pdfmaincontentinnerbottominner {width: 100%;}
-.slide22 .pdfmaincontentinnerbottom .pdfmainimgwrapper {width: 100%;margin-top: 20px;}
-
-.slide23 .pdfmaincontent p {padding-left: 0;margin-top: 0;text-align: center;}
-.slide23 .pdfmaincontent p {width: 100%;}
-.slide23 .pdfmaincontent p br{display:none;}
-.slide23 .pdfmaincontent .pdfmaincontentinnerbottom {flex-wrap: wrap;margin-top: 10px;}
-.slide23 .pdfmaincontentinnerbottominner {width: 100%;}
-.slide23 .pdfmaincontentinnerbottom .pdfmainimgwrapper {width: 100%;margin-top: 20px;}
-
-.slide24 .pdfmaincontent p {padding-left: 0;margin-top: 0;text-align: center;}
-.slide24 .pdfmaincontent p {width: 100%;}
-.slide24 .pdfmaincontent p br{display:none;}
-.slide24 .pdfmaincontent .pdfmaincontentinnerbottom {flex-wrap: wrap;margin-top: 10px;}
-.slide24 .pdfmaincontentinnerbottominner {width: 100%;}
-.slide24 .pdfmaincontentinnerbottom .pdfmainimgwrapper {width: 100%;margin-top: 20px;}
-
-.slide25 .pdfmaincontent p {padding-left: 0;margin-top: 0;text-align: center;}
-.slide25 .pdfmaincontent p {width: 100%;}
-.slide25 .pdfmaincontent p br{display:none;}
-.slide25 .pdfmaincontent .pdfmaincontentinnerbottom {flex-wrap: wrap;margin-top: 10px;}
-.slide25 .pdfmaincontentinnerbottominner {width: 100%;}
-.slide25 .pdfmaincontentinnerbottom .pdfmainimgwrapper {width: 100%;margin-top: 20px;}
-
-.slide26 .pdfmaincontent p {padding-left: 0;margin-top: 0;text-align: center;}
-.slide26 .pdfmaincontent p {width: 100%;}
-.slide26 .pdfmaincontent p br{display:none;}
-.slide26 .pdfmaincontent .pdfmaincontentinnerbottom {flex-wrap: wrap;margin-top: 10px;}
-.slide26 .pdfmaincontentinnerbottominner {width: 100%;}
-.slide26 .pdfmaincontentinnerbottom .pdfmainimgwrapper {width: 100%;margin-top: 20px;}
-
-.slide27 .pdfmaincontent p {padding-left: 0;margin-top: 0;text-align: center;}
-.slide27 .pdfmaincontent p {width: 100%;}
-.slide27 .pdfmaincontent p br{display:none;}
-.slide27 .pdfmaincontent .pdfmaincontentinnerbottom {flex-wrap: wrap;margin-top: 10px;}
-.slide27 .pdfmaincontentinnerbottominner {width: 100%;}
-.slide27 .pdfmaincontentinnerbottom .pdfmainimgwrapper {width: 100%;margin-top: 20px;}
-
-.slide28 .pdfmaincontent p {padding-left: 0;margin-top: 0;text-align: center;}
-.slide28 .pdfmaincontent p {width: 100%;}
-.slide28 .pdfmaincontent p br{display:none;}
-.slide28 .pdfmaincontainer {background-position: center, bottom center!important;-webkit-background-size:cover, 100% !important;-moz-background-size: cover, 100% !important;-o-background-size: cover, 100% !important;background-size: cover, 100%!important;}
-.slide28 .pdfmaincontainer .pdfmaincontent{padding-top: 0%;padding-bottom: 77%;}
-.slide29 .pdfmaincontent h2 {padding-left: 0;margin-top: 0;text-align: center;}
-.slide29 .pdfmaincontent p {padding-left: 0;margin-top: 0;text-align: center;}
-.slide29 .pdfmaincontent p {width: 100%;}
-.slide29 .pdfmaincontent p br{display:none;}
-.slide29 .pdfmaincontent h1 {text-align: center;font-size: 19px;}
-.slide29 .pdfmaincontent h4 {text-align: center;font-size: 20px;}
 }
-
-@media (max-width:767px) {
-.slide19 .pdfmaincontent .pdfmaincontentlists {flex-wrap: wrap;}
-.slide19 .pdfmaincontenttop h3 {font-size: 21px;line-height: 32px;}
-.slide19 .pdfmaincontent p {font-size: 26px;line-height: normal;}
-.slide19 .pdfmaincontenttop p{font-size: 18px;}
-.slide20 .pdfmaincontent .pdfmaincontentlists ul li {width: 47%;}
-.slide29 .logolists{justify-content: center;flex-wrap: wrap;}
-.slide29 .logolists .logoimg {flex: 0 0 33.33%;}
-.slide14 .pdfmaincontent p, .slide15 .pdfmaincontent p, .slide16 .pdfmaincontent p, .slide17 .pdfmaincontent p {font-size: 26px;line-height: normal;}
-.slide14 .pdfmaincontentinnerbottominner p {font-size: 18px !important;line-height: 24px;}
-.slide16 .pdfmaincontent .pdfmaincontentinnerbottom {margin-top: 10px;}
-.slide28 .pdfmaincontainer .pdfmaincontent {padding-top: 0%;padding-bottom: 77%;}
-}
-
-@media (max-width:480px) {
-.slide29 .logolists .logoimg {flex: 0 0 100%;}
-.slide20 .pdfmaincontent .pdfmaincontentlists ul li {width: 98%;font-size: 16px !important;line-height: 22px;margin-bottom: 12px;}
-.slide25 .pdfmaincontentinnerbottominner p {font-size: 18px !important;line-height: 28px;}
-.pdfheaderblock .pdflogowrapper {width: 260px;}
-.slide14 .pdfmaincontentinnerbottominner p {font-size: 16px !important;line-height: 22px;}
-.slide14 .pdfmaincontent p, .slide15 .pdfmaincontent p, .slide16 .pdfmaincontent p, .slide17 .pdfmaincontent p,.slide18 .pdfmaincontent p {font-size: 26px;line-height: normal;}
-.pdfheaderblock {-webkit-background-size: 100% 106px;-moz-background-size: 100% 106px;-o-background-size: 100% 106px;background-size: 100% 106px;display: block;min-height: 106px;}
-}
-
-/*-----------END Koushik media CSS-----------*/
 
 /* End Lession -  Beto Paredes Family Opportunities Intro Deck */
