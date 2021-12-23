@@ -441,7 +441,10 @@ margin-bottom: 15px;
 .slide12 .flexboxwrapper li{
        color: #000;
        font-size: 13px;
-       line-height: 20px;
+       line-height: 18px;
+       /* margin-bottom: 8px; */
+       /* padding: 8px 0; */
+       margin-top: 8px;
 }
 .slide12 .flexboxwrapper li:nth-child(3n+1){width: 30%;margin-right: 5%;}
 .slide12 .flexboxwrapper li:nth-child(3n+2){  width: 30%;      }
@@ -473,12 +476,12 @@ margin-bottom: 15px;
 
        background-image: url("../../../../Beto_Paredes_Family_Opportunities_Intro_Deck/assets/images/slide12_listing1_img1.png");
        background-repeat: no-repeat;
-       background-position: left top -6px;
+       background-position: left center;
     width: 25px;
     height: 25px;
     position: absolute;
     content: '';
-    left: -32px;
+    left: -32px;top: -2px;
  }
 
 
@@ -500,9 +503,9 @@ margin-bottom: 15px;
        justify-content: center;
        align-items: center;
        margin-bottom: 15px;
-       margin-top: 20px;
+       /* margin-top: 80px; */
        position: relative;
-       padding-top: 10px;    
+       /* padding-top: 10px;     */
     
 }
 
@@ -519,7 +522,7 @@ margin-bottom: 15px;
 }
 
 .slide13 .pdfmaincontent .flexboxwrp ol li{
-       position: relative;
+       position: relative;margin-bottom: 40px;
 
        /* border-radius: 50%;
     font-size: 35px;
@@ -588,19 +591,53 @@ margin-bottom: 15px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 280px;
-}
-
-
-
-.slide13 .pdfmaincontent .flexboxwrp ol li:nth-child(1){
-       background-image: url("../../../../Beto_Paredes_Family_Opportunities_Intro_Deck/assets/images/slide13_neurology_img1.png");
-       background-repeat: no-repeat;
-       width: 200px;
-       height:200px
-
+    width: 220px;
 }
 
 
 
 
+.slide13 .pdfmaincontent .pdfrighttxtwrp .flexboxwrp .bgcolrbar img{
+       position: absolute;
+       right: -34px;
+       width: 111px;
+       height: 104px;
+       top: -17px;
+}
+
+
+
+
+
+.slide13 .middledesigncarecter img{    width: 100%;}
+.slide13 .pdfmaincontent .flexboxwrp ol li .bgcolrbar br{  display: none;}
+
+.slide13 .pdfmaincontent h1{  margin-bottom: 10%;}
+
+
+
+
+
+/* .slide13 .pdfmaincontent .flexboxwrp ol li:nth-child(5) img{
+       position: absolute;
+       left: -34px;
+       width: 111px;
+       height: 104px;
+       top: -17px;
+} */
+
+
+.slide13 .pdfmaincontent .flexboxwrp ol li:nth-child(5){
+
+}
+
+
+
+
+
+.slide13 .pdfmaincontent .linearrow{
+position: absolute;
+
+
+
+}
